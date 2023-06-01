@@ -1,4 +1,4 @@
-﻿namespace LMMProject.Demo
+﻿namespace LMMProject.HIHI
 {
     public class Class
     {

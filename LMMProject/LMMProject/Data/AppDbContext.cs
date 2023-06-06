@@ -8,9 +8,5 @@ namespace LMMProject.Data
         {
 
         }
-        public DbSet<Role> role { get; set; }
-        public DbSet<Account> account { get; set; }
-        
-
     }
 }

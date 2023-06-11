@@ -1,8 +1,32 @@
-﻿@{
+﻿@model IEnumerable<Account>
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table>
+        <thead>
+            <th>
+                Username
+            </th>
+        <th>
+            Role Name
+        </th>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.UserName
+                    </td>
+                    <td>
+                        @item.Role.RoleName
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>

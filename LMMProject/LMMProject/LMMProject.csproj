@@ -7,6 +7,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="wwwroot\js\site.js" />
+    <None Remove="wwwroot\css\site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\combo - Copy.css" />
+    <None Include="wwwroot\css\combo.css" />
+    <None Include="wwwroot\css\contact.css" />
+    <None Include="wwwroot\css\curri-details.css" />
+    <None Include="wwwroot\css\curri-listing.css" />
+    <None Include="wwwroot\css\curriculum.css" />
+    <None Include="wwwroot\css\home.css" />
+    <None Include="wwwroot\css\learning-part.css" />
+    <None Include="wwwroot\css\learning.css" />
+    <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\css\syllabus-details.css" />
+    <None Include="wwwroot\css\syllabus-management.css" />
+    <None Include="wwwroot\css\syllabus.css" />
+    <None Include="wwwroot\html\combo.html" />
+    <None Include="wwwroot\html\contact.html" />
+    <None Include="wwwroot\html\curri-details.html" />
+    <None Include="wwwroot\html\curri-listing.html" />
+    <None Include="wwwroot\html\curriculum.html" />
+    <None Include="wwwroot\html\home.html" />
+    <None Include="wwwroot\html\learning-part.html" />
+    <None Include="wwwroot\html\learning.html" />
+    <None Include="wwwroot\html\login.html" />
+    <None Include="wwwroot\html\syllabus-details.html" />
+    <None Include="wwwroot\html\syllabus-management.html" />
+    <None Include="wwwroot\html\syllabus.html" />
+    <None Include="wwwroot\image\background-cuc-dep_110341249.jpg" />
+    <None Include="wwwroot\image\Background-sach-mo-dep-nhat.jpg" />
+    <None Include="wwwroot\image\istockphoto-1138089745-170667a.jpg" />
+    <None Include="wwwroot\image\signin.svg" />
+    <None Include="wwwroot\image\signup.svg" />
+    <None Include="wwwroot\js\curriculum.js" />
+    <None Include="wwwroot\js\login.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>

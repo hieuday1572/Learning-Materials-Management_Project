@@ -20,7 +20,7 @@ namespace LMMProject.Controllers
 
         public IActionResult Index()
         {
-            var accounts= _context.Accounts.Include(p => p.Role).ToList();
+            var accounts= _context.Account.Include(p => p.Role).ToList();
             return View(accounts);
         }
 

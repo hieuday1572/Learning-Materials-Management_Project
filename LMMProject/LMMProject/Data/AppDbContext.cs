@@ -9,62 +9,24 @@ namespace LMMProject.Data
         {
 
         }
-        public virtual DbSet<Account> Accounts { get; set; }
+        public virtual DbSet<Account> Account { get; set; }
 
-        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<Role> Role { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Account>(entity =>
-            {
-                entity.HasKey(e => e.UserName).HasName("PRIMARY");
+        public virtual DbSet<Combo> Combo { get; set; }
 
-                entity.ToTable("account");
+        public virtual DbSet<Curriculum> Curriculum { get; set; }
 
-                entity.HasIndex(e => e.RoleId, "FK_Account_Role");
+        public virtual DbSet<CurriculumSubject> Curriculum_Subject { get; set; }
 
-                entity.Property(e => e.UserName)
-                    .HasMaxLength(150)
-                    .HasColumnName("userName");
-                entity.Property(e => e.Active).HasColumnName("active");
-                entity.Property(e => e.Address)
-                    .HasMaxLength(200)
-                    .HasColumnName("address");
-                entity.Property(e => e.Birthday)
-                    .HasColumnType("date")
-                    .HasColumnName("birthday");
-                entity.Property(e => e.Fullname)
-                    .HasMaxLength(50)
-                    .HasColumnName("fullname");
-                entity.Property(e => e.Gender).HasColumnName("gender");
-                entity.Property(e => e.Gmail)
-                    .HasMaxLength(150)
-                    .HasColumnName("gmail");
-                entity.Property(e => e.Image)
-                    .HasMaxLength(50)
-                    .HasColumnName("image");
-                entity.Property(e => e.Password)
-                    .HasMaxLength(150)
-                    .HasColumnName("password");
-                entity.Property(e => e.Phone).HasColumnName("phone");
-                entity.Property(e => e.RoleId).HasColumnName("roleId");
+        public virtual DbSet<Decision> Decision { get; set; }
 
-                entity.HasOne(d => d.Role).WithMany(p => p.Accounts)
-                    .HasForeignKey(d => d.RoleId)
-                    .HasConstraintName("FK_Account_Role");
-            });
+        public virtual DbSet<Status> Status { get; set; }
 
-            modelBuilder.Entity<Role>(entity =>
-            {
-                entity.HasKey(e => e.RoleId).HasName("PRIMARY");
+        public virtual DbSet<Subject> Subject { get; set; }
 
-                entity.ToTable("role");
+        public virtual DbSet<ComboSubject> Combo_Subject { get; set; }
 
-                entity.Property(e => e.RoleId).HasColumnName("roleId");
-                entity.Property(e => e.RoleName)
-                    .HasMaxLength(150)
-                    .HasColumnName("roleName");
-            });
-        }
+       
     }
 }

@@ -10,7 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options => {
-    options.IdleTimeout = TimeSpan.FromMinutes(120);//You can set Time   
+    options.IdleTimeout = TimeSpan.FromMinutes(1200);//You can set Time   
 });
 builder.Services.AddMvc();
 builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();

@@ -22,22 +22,28 @@ namespace LMMProject.Controllers
         public IActionResult Infor()
         {
             string userName=_Accessor.HttpContext.Session.GetString("Username");
-            var Account = _context.Accounts.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(userName));
+            var Account = _context.Account.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(userName));
             return View(Account);
         }
         [HttpPost]
         public async Task<IActionResult> Infor(Account account)
         {
-            var accountChange=_context.Accounts.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(account.UserName));
+            var accountChange=_context.Account.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(account.UserName));
             accountChange.UserName=account.UserName;
             accountChange.Fullname=account.Fullname;
             accountChange.Address=account.Address;
             accountChange.Phone=account.Phone;
             accountChange.Gender=account.Gender;
             accountChange.Birthday=account.Birthday;
-           _context.Accounts.Update(accountChange);
+           _context.Account.Update(accountChange);
            _context.SaveChanges();
             return RedirectToAction("Infor");
+        }
+
+        public IActionResult ListOfCurriculum()
+        {
+            var listCurriculum = _context.Curriculum.Include(p => p.Decision).ToList();
+            return View(listCurriculum);
         }
     }
 }

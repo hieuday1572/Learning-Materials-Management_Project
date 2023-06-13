@@ -26,7 +26,7 @@ namespace LMMProject.Controllers
             {
                 return View(account);
             }
-            Account user = await _context.Accounts.Include(p => p.Role).FirstOrDefaultAsync(pro => pro.UserName.Equals(account.UserName));
+            Account user = await _context.Account.Include(p => p.Role).FirstOrDefaultAsync(pro => pro.UserName.Equals(account.UserName));
             if (user != null)
             {
                 if (user.Password.Equals(account.Password))      

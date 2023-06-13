@@ -9,6 +9,7 @@ public partial class Account
 {
     [Display(Name = "Username")]
     [Required(ErrorMessage = "User is required!")]
+    [Key]
     public string UserName { get; set; } = null!;
 
     [Required(ErrorMessage = "Password is required!")]

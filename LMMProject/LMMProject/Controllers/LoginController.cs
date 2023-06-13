@@ -31,6 +31,7 @@ namespace LMMProject.Controllers
             {
                 if (user.Password.Equals(account.Password))      
                 {
+                    HttpContext.Session.SetString("Username", user.UserName);
                     return RedirectToAction("DashBoard", "ADMIN");
                 }
                 TempData["Error"] = "Wrong: please try again!";

@@ -26,7 +26,7 @@
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a href="~/html/home.html">Home</a></li>
-                <li><a>Contact</a></li>
+                <li><a asp-controller="ADMIN" asp-action="Infor">Information</a></li>
                 <li><a href="#">Feedback</a></li>
                 <li><a asp-controller="Login" asp-action="Index">Logout</a></li>
             </ul>
@@ -34,6 +34,7 @@
         <div class="content">
             <h1>Learning Materials Management</h1>
             <p>ADMIN's feature</p>
+            <p hidden>@Accessor.HttpContext.Session.GetString("Username")</p>
             <div>
                 <a href="~/html/curriculum.html"><button type="button"><span></span>View Curriculum</button></a>
                 <a href="~/html/syllabus.html"><button type="button"><span></span>View Syllabus</button></a>

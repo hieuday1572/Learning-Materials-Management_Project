@@ -10,6 +10,7 @@ public partial class Curriculum
     [Key]
     public int CurriculumId { get; set; }
 
+    [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the code")]
     public string? CurriculumCode { get; set; }
 
     public string? NameVn { get; set; }
@@ -25,6 +26,7 @@ public partial class Curriculum
 
     public int? TotalCredit { get; set; }
 
+    [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the active")]
     public sbyte? IsActive { get; set; }
  
 }

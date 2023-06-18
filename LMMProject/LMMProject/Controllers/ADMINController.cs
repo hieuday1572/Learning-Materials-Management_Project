@@ -45,5 +45,15 @@ namespace LMMProject.Controllers
             var listCurriculum = _context.Curriculum.Include(p => p.Decision).ToList();
             return View(listCurriculum);
         }
+        public IActionResult ListOfCombo()
+        {
+            var listCombo = _context.Combo.ToList();
+            return View(listCombo);
+        }
+        public IActionResult CurriculumDetail()
+        {
+            var curDetail = _context.Combo.ToList();
+            return View(curDetail);
+        }
     }
 }

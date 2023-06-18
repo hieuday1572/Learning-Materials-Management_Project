@@ -12,14 +12,16 @@ public partial class CurriculumSubject
 
     [ForeignKey("Curriculum")]
     public int CurriculumId { get; set; }
+    public virtual Curriculum Curriculum { get; set; }
 
-    
+
     [ForeignKey("Subject")]
     public string SubjectCode { get; set; }
+    public virtual Subject Subject { get; set; }
 
     public int? Semester { get; set; }
 
-    public virtual Curriculum Curriculum { get; set; }
+    
 
-    public virtual Subject SubjectCodeNavigation { get; set; }
+    
 }

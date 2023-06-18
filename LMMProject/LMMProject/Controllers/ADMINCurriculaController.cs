@@ -37,6 +37,8 @@ namespace LMMProject.Controllers
             var curriculum = await _context.Curriculum
                 .Include(c => c.Decision)
                 .FirstOrDefaultAsync(m => m.CurriculumId == id);
+            var curri_sub= _context.Curriculum_Subject.Include(p => p.Subject).Where(pro => pro.CurriculumId==id).ToList();
+            ViewBag.Curri_sub=curri_sub;
             if (curriculum == null)
             {
                 return NotFound();

@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCurricula/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

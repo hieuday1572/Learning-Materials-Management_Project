@@ -20,35 +20,27 @@ namespace LMMProject.Controllers
         }
 
         // GET: ADMINCombo
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id)
         {
-            var appDbContext = _context.Combo.Include(c => c.Curriculum);
-            return View(await appDbContext.ToListAsync());
+            Curriculum curri = _context.Curriculum.FirstOrDefault(p => p.CurriculumId == id);
+            ViewBag.Curriculum = curri;
+            var listCombo = _context.Combo.Include(p => p.Curriculum).Where(pro => pro.CurriculumId == id).ToList();
+            return View(listCombo);  
         }
 
         // GET: ADMINCombo/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Combo == null)
-            {
-                return NotFound();
-            }
-
-            var combo = await _context.Combo
-                .Include(c => c.Curriculum)
-                .FirstOrDefaultAsync(m => m.ComboId == id);
-            if (combo == null)
-            {
-                return NotFound();
-            }
-
-            return View(combo);
+            Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
+            ViewBag.Combosub = combsub;
+            var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.id == id).ToList();
+            return View(listSubject);
         }
 
         // GET: ADMINCombo/Create
         public IActionResult Create()
         {
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode");
+            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId");
             return View();
         }
 
@@ -61,9 +53,9 @@ namespace LMMProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(combo);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                    _context.Add(combo);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index)); 
             }
             ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
             return View(combo);
@@ -129,7 +121,8 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-
+            var curriculum = await _context.Curriculum
+                .FirstOrDefaultAsync(m => m.CurriculumId == id);
             var combo = await _context.Combo
                 .Include(c => c.Curriculum)
                 .FirstOrDefaultAsync(m => m.ComboId == id);
@@ -150,10 +143,12 @@ namespace LMMProject.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Combo'  is null.");
             }
+            ViewData["Combo"] = new SelectList(_context.Combo);
             var combo = await _context.Combo.FindAsync(id);
+            var comboS = await _context.Combo_Subject.FindAsync(id);
             if (combo != null)
             {
-                _context.Combo.Remove(combo);
+                _context.Combo.RemoveRange(combo);
             }
             
             await _context.SaveChangesAsync();

@@ -20,8 +20,7 @@
         <div class="navbar">
             <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
-                <li><a href="../html/home.html">Home</a></li>
-                <li><a href="../html/curri-details.html">Back</a></li>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
             </ul>
         </div>
         <div class="content">
@@ -36,16 +35,16 @@
             <thead>
                 <tr>
                     <th>CuriCulum ID</th>
-                    <td>#####</td>
+                    <td>@ViewBag.Curriculum.CurriculumId</td>
                 </tr>
             </thead>
             <tr>
                 <th>CurriCulum Code</th>
-                <td>####</td>
+                <td>@ViewBag.Curriculum.CurriculumCode</td>
             </tr>
             <tr>
                 <th>CurriCulum Name</th>
-                <td>####</td>
+                <td>@ViewBag.Curriculum.NameEn</td>
             </tr>
         </table>
         <div class="table-container">
@@ -54,6 +53,7 @@
                     <tr>
                         <th>Combo ID</th>
                         <th>Combo Name</th>
+                        <th><a asp-action="Create">Create new Combo</a> </th>
                     </tr>
                 </thead>
                 @foreach (var item in Model)

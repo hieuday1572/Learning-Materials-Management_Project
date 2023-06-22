@@ -67,6 +67,13 @@
             </tr>
         </table>
         <div class="table-container">
+            <form asp-controller="ADMINCurricula" asp-action="AddSubject">
+                <p>Enter Subject code you want to add: </p>
+                <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
+                <input type="text" name="add" />
+                <button type="submit">ADD SUBJECT</button>
+            </form>
+
             <table class="table-2">
                 <thead>
                     <tr>
@@ -75,6 +82,7 @@
                         <th>Semester</th>
                         <th>Status</th>
                         <th>PreRequisite </th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -86,6 +94,7 @@
                             <td>@item.Semester</td>
                             <td>@item.Subject.StatusId</td>
                             <td>@item.Subject.PreRequisite </td>
+                            <td><a asp-controller="ADMINCurricula" asp-action="DeleteSubject" asp-route-id="@Model?.CurriculumId" asp-route-cu_sub_ID="@item.id"><button type="button"><span></span> DELETE</button></a></td>
                 </tr>
                     }
                 </tbody>

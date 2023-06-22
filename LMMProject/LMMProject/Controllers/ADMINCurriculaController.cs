@@ -160,14 +160,81 @@ namespace LMMProject.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Curriculum'  is null.");
             }
+            //DA SUA THEM DELETE 
             var curriculum = await _context.Curriculum.FindAsync(id);
-            if (curriculum != null)
+            var check = _context.Curriculum_Subject.Where(p => p.CurriculumId == id).ToList();
+            var combo = _context.Combo.Where(p => p.CurriculumId == id).ToList();
+            foreach (var item in combo)
             {
-                _context.Curriculum.Remove(curriculum);
+                var com_sub = _context.Combo_Subject.Where(p => p.ComboId == item.ComboId).ToList();
+                _context.Combo_Subject.RemoveRange(com_sub);
             }
-            
+            _context.Combo.RemoveRange(combo);
+            _context.Curriculum_Subject.RemoveRange(check);
+            _context.Curriculum.Remove(curriculum);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        /// PHAN THEM
+        public async Task<IActionResult> AddSubject()
+        {
+            string add = Request.Form["add"];
+            int curriId = Convert.ToInt32(Request.Form["curriId"]);
+            if (add != null && !add.Trim().Equals(""))
+            {
+                Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
+                if (sj != null)
+                {
+
+                    var check = _context.Curriculum_Subject.Where(p => p.CurriculumId == curriId).ToList();
+                    CurriculumSubject check_element = (from element in check
+                                        where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())
+                                        select element).FirstOrDefault();
+                    if (check_element==null)
+                    {
+                        CurriculumSubject cu_sub = new CurriculumSubject();
+                        cu_sub.SubjectCode = sj.SubjectCode;
+                        cu_sub.CurriculumId = curriId;
+                        _context.Curriculum_Subject.Add(cu_sub);
+                        _context.SaveChanges();
+                    }
+                    else
+                    {
+                        return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
+                    }
+                }
+                else
+                {
+                    return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
+                }
+            }
+            return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
+        }
+
+        /// PHAN THEM
+        public async Task<IActionResult> DeleteSubject(int id, int cu_sub_ID)
+        {
+            //CurriculumSubject cu_sub = new CurriculumSubject();
+            //cu_sub.SubjectCode = subCode;
+            //cu_sub.CurriculumId = id;
+            CurriculumSubject cu_sub= _context.Curriculum_Subject.Find(cu_sub_ID);
+            var combo = _context.Combo.Where(p => p.CurriculumId==id).ToList();
+            foreach(var item in combo)
+            {
+                var com_sub = _context.Combo_Subject.Where(p => p.ComboId==item.ComboId).ToList();
+               foreach(var  com in com_sub)
+                {
+                   if(com.SubjectCode.Equals(cu_sub.SubjectCode))
+                    {
+                        _context.Combo_Subject.Remove(com);
+                        _context.SaveChanges();
+                    }
+                }
+            }
+            _context.Curriculum_Subject.Remove(cu_sub);
+            _context.SaveChanges();
+            return new RedirectResult(url: "/ADMINCurricula/Details/" + id, permanent: true, preserveMethod: true);
         }
 
         private bool CurriculumExists(int id)

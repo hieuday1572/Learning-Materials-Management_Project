@@ -157,8 +157,10 @@ namespace LMMProject.Controllers
             var comboS = _context.Combo_Subject.Where(p => p.ComboId == id).ToList();
             foreach (var item in comboS)
             {
+                //var com_sub = _context.Combo_Subject.Where(p => p.ComboId == item.ComboId).ToList();
                 _context.Combo_Subject.RemoveRange(comboS);
             }
+            //_context.Curriculum.RemoveRange(combo.Curriculum);
             if (combo != null)
             {
                 _context.Combo.Remove(combo);

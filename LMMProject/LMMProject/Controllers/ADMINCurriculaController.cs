@@ -22,8 +22,8 @@ namespace LMMProject.Controllers
         // GET: Curricula
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Curriculum.Include(c => c.Decision);
-            return View(await appDbContext.ToListAsync());
+            IEnumerable<Curriculum> appDbContext = _context.Curriculum.Include(c => c.Decision).ToList();
+            return View(appDbContext);
         }
 
         // GET: Curricula/Details/5
@@ -64,7 +64,7 @@ namespace LMMProject.Controllers
             
             if (ModelState.IsValid)
             {
-                Curriculum checkCode=_context.Curriculum.Include(p => p.Decision).FirstOrDefault(pro => pro.CurriculumCode.Equals(curriculum.CurriculumCode));
+                Curriculum checkCode= await _context.Curriculum.Include(p => p.Decision).FirstOrDefaultAsync(pro => pro.CurriculumCode.Equals(curriculum.CurriculumCode));
                 if (checkCode == null)
                 {
                     _context.Add(curriculum);

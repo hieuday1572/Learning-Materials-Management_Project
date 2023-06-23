@@ -53,6 +53,7 @@
                         <th>Subject Name</th>
                         <th>Semester</th>
                         <th>Note</th>
+                        <th><a asp-action="AddSubject">Add Subject</a></th>
                     </tr>
                 </thead>
                 @foreach (var item in Model)
@@ -64,8 +65,6 @@
                         <td>@item.Subject.Semester</td>
                         <td>@item.Combo.Note</td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.ComboId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.ComboId">Details</a> |
                             <a asp-action="Delete" asp-route-id="@item.ComboId">Delete</a>
                         </td>
                     </tr>

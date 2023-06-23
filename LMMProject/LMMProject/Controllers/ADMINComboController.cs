@@ -33,7 +33,7 @@ namespace LMMProject.Controllers
         {
             Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
             ViewBag.Combosub = combsub;
-            var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.id == id).ToList();
+            var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.ComboId == id).ToList();
             return View(listSubject);
         }
 
@@ -51,11 +51,22 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
         {
+            int curriId = Convert.ToInt32(Request.Form["curriId"]);
+
             if (ModelState.IsValid)
             {
+                Combo checkId = _context.Combo.Include(p => p.Curriculum).FirstOrDefault(pro => pro.CurriculumId.Equals(combo.CurriculumId));
+                if (checkId != null)
+                {
                     _context.Add(combo);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index)); 
+                    //return RedirectToAction(nameof(Index));
+                    return new RedirectResult(url: "/ADMINCurricula/Index/" + curriId, permanent: true, preserveMethod: true);
+                }
+                else
+                {
+                    TempData["Error"] = "Wrong: Curriculum is already exist !";
+                }
             }
             ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
             return View(combo);
@@ -121,8 +132,6 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-            var curriculum = await _context.Curriculum
-                .FirstOrDefaultAsync(m => m.CurriculumId == id);
             var combo = await _context.Combo
                 .Include(c => c.Curriculum)
                 .FirstOrDefaultAsync(m => m.ComboId == id);
@@ -139,22 +148,48 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            int comboId = Convert.ToInt32(Request.Form["curriId"]);
             if (_context.Combo == null)
             {
                 return Problem("Entity set 'AppDbContext.Combo'  is null.");
             }
-            ViewData["Combo"] = new SelectList(_context.Combo);
             var combo = await _context.Combo.FindAsync(id);
-            var comboS = await _context.Combo_Subject.FindAsync(id);
+            var comboS = _context.Combo_Subject.Where(p => p.ComboId == id).ToList();
+            foreach (var item in comboS)
+            {
+                _context.Combo_Subject.RemoveRange(comboS);
+            }
             if (combo != null)
             {
-                _context.Combo.RemoveRange(combo);
+                _context.Combo.Remove(combo);
+                await _context.SaveChangesAsync();
             }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return new RedirectResult(url: "/ADMINCombo/Index/" + comboId, permanent: true, preserveMethod: true);
+        }
+        public IActionResult AddSubject()
+        {
+            ViewData["ComboId"] = new SelectList(_context.Combo, "ComboId", "ComboId");
+            ViewData["SubjectCode"] = new SelectList(_context.Subject, "SubjectCode", "SubjectCode");
+            return View();
         }
 
+        // POST: ADMINComboSubjects/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(comboSubject);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            ViewData["ComboId"] = new SelectList(_context.Combo, "ComboId", "ComboId", comboSubject.ComboId);
+            ViewData["SubjectCode"] = new SelectList(_context.Subject, "SubjectCode", "SubjectCode", comboSubject.SubjectCode);
+            return View(comboSubject);
+        }
         private bool ComboExists(int id)
         {
           return (_context.Combo?.Any(e => e.ComboId == id)).GetValueOrDefault();

@@ -45,6 +45,13 @@
             </tr>
         </table>
         <div class="table-container">
+            <form asp-controller="ADMINCombo" asp-action="AddSubject">
+                <p>Enter Subject code you want to add: </p>
+                <input type="hidden" name="comboId" value="@ViewBag.Combosub.ComboId" />
+                <input type="text" name="add" />
+                <button type="submit">ADD SUBJECT</button>
+            </form>
+            &nbsp;
             <table class="table-2">
                 <thead>
                     <tr>
@@ -53,7 +60,6 @@
                         <th>Subject Name</th>
                         <th>Semester</th>
                         <th>Note</th>
-                        <th><a asp-action="AddSubject">Add Subject</a></th>
                     </tr>
                 </thead>
                 @foreach (var item in Model)

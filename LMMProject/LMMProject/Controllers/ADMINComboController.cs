@@ -157,10 +157,8 @@ namespace LMMProject.Controllers
             var comboS = _context.Combo_Subject.Where(p => p.ComboId == id).ToList();
             foreach (var item in comboS)
             {
-                //var com_sub = _context.Combo_Subject.Where(p => p.ComboId == item.ComboId).ToList();
                 _context.Combo_Subject.RemoveRange(comboS);
             }
-            //_context.Curriculum.RemoveRange(combo.Curriculum);
             if (combo != null)
             {
                 _context.Combo.Remove(combo);
@@ -182,15 +180,37 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject)
         {
-            if (ModelState.IsValid)
+            string add = Request.Form["add"];
+            int comboId = Convert.ToInt32(Request.Form["comboId"]);
+            if (add != null && !add.Trim().Equals(""))
             {
-                _context.Add(comboSubject);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
+                if (sj != null)
+                {
+
+                    var check = _context.Combo_Subject.Where(p => p.ComboId == comboId).ToList();
+                    ComboSubject check_element = (from element in check
+                                                       where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())
+                                                       select element).FirstOrDefault();
+                    if (check_element == null)
+                    {
+                        ComboSubject cu_sub = new ComboSubject();
+                        cu_sub.SubjectCode = sj.SubjectCode;
+                        cu_sub.ComboId = comboId;
+                        _context.Combo_Subject.Add(cu_sub);
+                        _context.SaveChanges();
+                    }
+                    else
+                    {
+                        return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
+                    }
+                }
+                else
+                {
+                    return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
+                }
             }
-            ViewData["ComboId"] = new SelectList(_context.Combo, "ComboId", "ComboId", comboSubject.ComboId);
-            ViewData["SubjectCode"] = new SelectList(_context.Subject, "SubjectCode", "SubjectCode", comboSubject.SubjectCode);
-            return View(comboSubject);
+            return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
         }
         private bool ComboExists(int id)
         {

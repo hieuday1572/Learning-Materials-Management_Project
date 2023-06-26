@@ -29,7 +29,6 @@ namespace TestProject
                {
                    ComboId = 24,
 
-
                    ComboNameVn = "abcdef",
 
                    ComboNameEn = "ghiklmn",
@@ -105,19 +104,18 @@ namespace TestProject
         [Test]
         public async Task Combo_DeleteAsync()
         {
-            var curriculum = await _context.Curriculum
-                .Include(c => c.Decision)
-                .FirstOrDefaultAsync(m => m.CurriculumId == 1);
-            var check = await _context.Curriculum_Subject.Where(p => p.CurriculumId == 1).ToListAsync();
-            var combo = await _context.Combo.Where(p => p.CurriculumId == 1).ToListAsync();
-            foreach (var item in combo)
+            var combo = await _context.Combo
+                .Include(c => c.Curriculum)
+                .FirstOrDefaultAsync(m => m.ComboId == 24);
+            var comboS = _context.Combo_Subject.Where(p => p.ComboId == 24).ToList();
+            foreach (var item in comboS)
             {
-                var com_sub = await _context.Combo_Subject.Where(p => p.ComboId == item.ComboId).ToListAsync();
-                _context.Combo_Subject.RemoveRange(com_sub);
+                _context.Combo_Subject.RemoveRange(comboS);
             }
-            _context.Combo.RemoveRange(combo);
-            _context.Curriculum_Subject.RemoveRange(check);
-            _context.Curriculum.Remove(curriculum);
+            if (combo != null)
+            {
+                _context.Combo.Remove(combo);
+            }
             var result = _context.SaveChanges();
             result.Should().BeGreaterThan(0);
 

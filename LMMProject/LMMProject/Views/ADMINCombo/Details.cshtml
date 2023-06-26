@@ -58,7 +58,6 @@
                         <th>ID</th>
                         <th>Subject Code</th>
                         <th>Subject Name</th>
-                        <th>Semester</th>
                         <th>Note</th>
                     </tr>
                 </thead>
@@ -68,7 +67,6 @@
                         <td>@item.id</td>
                         <td>@item.SubjectCode</td>
                         <td>@item.Subject.SubjectNameEn</td>
-                        <td>@item.Subject.Semester</td>
                         <td>@item.Combo.Note</td>
                         <td>
                             <a asp-action="Delete" asp-route-id="@item.ComboId">Delete</a>

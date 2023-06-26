@@ -11,12 +11,9 @@ public partial class Decision
 
     public string? DecisionName { get; set; }
 
-    public DateTime? ApprovedDate { get; set; }
-
     public string? Note { get; set; }
 
     public DateTime? CreateDate { get; set; }
 
-    public string? FileName { get; set; }
 
 }

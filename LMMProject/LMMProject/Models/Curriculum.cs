@@ -23,10 +23,5 @@ public partial class Curriculum
     public string? DecisionNo { get; set; }
 
     public virtual Decision? Decision { get; set; }
-
-    public int? TotalCredit { get; set; }
-
-    [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the active")]
-    public sbyte? IsActive { get; set; }
  
 }

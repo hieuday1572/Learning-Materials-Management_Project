@@ -27,6 +27,8 @@ namespace LMMProject.Data
 
         public virtual DbSet<ComboSubject> Combo_Subject { get; set; }
 
-       
+        public virtual DbSet<MaterialOfTeacher> MaterialOfTeacher { get; set; }
+
+
     }
 }

@@ -38,9 +38,9 @@ namespace LMMProject.Controllers
         }
 
         // GET: ADMINCombo/Create
-        public IActionResult Create()
+        public IActionResult Create(string id)
         {
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId");
+            ViewData["CurriculumId"] = id;
             return View();
         }
 
@@ -51,24 +51,22 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
         {
-            int curriId = Convert.ToInt32(Request.Form["curriId"]);
-
             if (ModelState.IsValid)
             {
-                Combo checkId = _context.Combo.Include(p => p.Curriculum).FirstOrDefault(pro => pro.CurriculumId.Equals(combo.CurriculumId));
-                if (checkId != null)
+                Combo checkId = _context.Combo.Include(p => p.Curriculum).FirstOrDefault(p => p.ComboNameEn.Equals(combo.ComboNameEn.Trim()));
+                if (checkId == null)
                 {
                     _context.Add(combo);
                     await _context.SaveChangesAsync();
                     //return RedirectToAction(nameof(Index));
-                    return new RedirectResult(url: "/ADMINCurricula/Index/" + curriId, permanent: true, preserveMethod: true);
+                    return new RedirectResult(url: "/ADMINCombo/Index/" + combo.CurriculumId, permanent: true, preserveMethod: true);
                 }
                 else
                 {
                     TempData["Error"] = "Wrong: Curriculum is already exist !";
                 }
             }
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
+            ViewData["CurriculumId"] = combo.CurriculumId;
             return View(combo);
         }
 
@@ -85,7 +83,7 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
+            ViewData["CurriculumId"] = combo.CurriculumId;
             return View(combo);
         }
 
@@ -94,12 +92,8 @@ namespace LMMProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
+        public async Task<IActionResult> Edit( [Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
         {
-            if (id != combo.ComboId)
-            {
-                return NotFound();
-            }
 
             if (ModelState.IsValid)
             {
@@ -119,7 +113,7 @@ namespace LMMProject.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return new RedirectResult(url: "/ADMINCombo/Index/" + combo.CurriculumId, permanent: true, preserveMethod: true);
             }
             ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
             return View(combo);
@@ -148,23 +142,19 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            int comboId = Convert.ToInt32(Request.Form["curriId"]);
             if (_context.Combo == null)
             {
                 return Problem("Entity set 'AppDbContext.Combo'  is null.");
             }
             var combo = await _context.Combo.FindAsync(id);
             var comboS = _context.Combo_Subject.Where(p => p.ComboId == id).ToList();
-            foreach (var item in comboS)
-            {
-                _context.Combo_Subject.RemoveRange(comboS);
-            }
+             _context.Combo_Subject.RemoveRange(comboS);
             if (combo != null)
             {
                 _context.Combo.Remove(combo);
                 await _context.SaveChangesAsync();
             }
-            return new RedirectResult(url: "/ADMINCombo/Index/" + comboId, permanent: true, preserveMethod: true);
+            return new RedirectResult(url: "/ADMINCombo/Index/" + combo.CurriculumId, permanent: true, preserveMethod: true);
         }
         public IActionResult AddSubject()
         {

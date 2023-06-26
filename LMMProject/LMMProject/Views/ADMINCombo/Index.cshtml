@@ -53,7 +53,7 @@
                     <tr>
                         <th>Combo ID</th>
                         <th>Combo Name</th>
-                        <th><a asp-action="Create">Create new Combo</a> </th>
+                        <th><a asp-action="Create" asp-route-id="@ViewBag.Curriculum.CurriculumId">Create new Combo</a> </th>
                     </tr>
                 </thead>
                 @foreach (var item in Model)

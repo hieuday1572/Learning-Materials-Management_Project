@@ -14,8 +14,6 @@ public partial class Subject
 
     public string? SubjectNameEn { get; set; }
 
-    public int Semester { get; set; }
-
     public string? PreRequisite { get; set; }
 
     [ForeignKey("Status")]

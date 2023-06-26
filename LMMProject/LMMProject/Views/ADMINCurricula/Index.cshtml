@@ -44,12 +44,6 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Decision)
                     </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.TotalCredit)
-                    </th>
-                    <th>
-                        @Html.DisplayNameFor(model => model.IsActive)
-                    </th>
                     <th></th>
                 </tr>
             </thead>
@@ -68,12 +62,6 @@
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.Decision.DecisionNo)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.TotalCredit)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.IsActive)
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.CurriculumId">Edit</a> |

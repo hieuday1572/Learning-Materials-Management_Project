@@ -35,12 +35,6 @@ namespace TestProject
 
 
                    DecisionNo = "1095/QÐ-ÐHFPT",
-
-
-                   TotalCredit = 1,
-
-
-                   IsActive = 1
                },
                new Curriculum
                {
@@ -57,12 +51,6 @@ namespace TestProject
 
 
                    DecisionNo = "1095/QÐ-ÐHFPT",
-
-
-                   TotalCredit = 2,
-
-
-                   IsActive = 1
                });
             _context.SaveChanges();
         }
@@ -86,11 +74,6 @@ namespace TestProject
 
                 DecisionNo = "1095/QÐ-ÐHFPT",
 
-
-                TotalCredit = 3,
-
-
-                IsActive = 1
             };
             _context.Add(curriculum);
             var result = _context.SaveChanges();

@@ -546,3 +546,4 @@ C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMP
 C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.pdb
 C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.genruntimeconfig.cache
 C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\ref\LMMProject.dll
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\CloudinaryDotNet.dll

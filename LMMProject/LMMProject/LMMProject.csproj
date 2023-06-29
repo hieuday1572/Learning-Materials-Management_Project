@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\feedback.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="wwwroot\js\site.js" />
     <None Remove="wwwroot\css\site.css" />
   </ItemGroup>
@@ -31,6 +35,7 @@
     <None Include="wwwroot\css\combo.css" />
     <None Include="wwwroot\css\contact.css" />
     <None Include="wwwroot\css\curri-details.css" />
+    <None Include="wwwroot\css\feedback.css" />
     <None Include="wwwroot\css\curri-listing.css" />
     <None Include="wwwroot\css\curriculum.css" />
     <None Include="wwwroot\css\home.css" />

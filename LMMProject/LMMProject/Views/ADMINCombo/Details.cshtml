@@ -68,9 +68,7 @@
                         <td>@item.SubjectCode</td>
                         <td>@item.Subject.SubjectNameEn</td>
                         <td>@item.Combo.Note</td>
-                        <td>
-                            <a asp-action="Delete" asp-route-id="@item.ComboId">Delete</a>
-                        </td>
+                        <td><a asp-action="DeleteSubject" asp-route-id="@item.id">Delete</a></td>
                     </tr>
                 }
             </table>

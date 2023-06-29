@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/DeleteSubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZWxldGVTdWJqZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINCombo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5Db21ib1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +64,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5DdXJyaWN1bGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINMaterialOfTeacher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINMaterialOfTeacher/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINMaterialOfTeacher/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINMaterialOfTeacher/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINMaterialOfTeacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5NYXRlcmlhbE9mVGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMIN/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,24 +96,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cTGlzdE9mQ29tYm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xDcmVhdGUuY3NodG1s
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ComboSubjects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9TdWJqZWN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xEZWxldGUuY3NodG1s
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ComboSubjects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9TdWJqZWN0c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ComboSubjects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9TdWJqZWN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xFZGl0LmNzaHRtbA==
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ComboSubjects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9TdWJqZWN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xJbmRleC5jc2h0bWw=
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hi/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Home/Index.cshtml]

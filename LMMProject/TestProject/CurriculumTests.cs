@@ -35,6 +35,7 @@ namespace TestProject
 
 
                    DecisionNo = "1095/QÐ-ÐHFPT",
+
                },
                new Curriculum
                {
@@ -51,6 +52,7 @@ namespace TestProject
 
 
                    DecisionNo = "1095/QÐ-ÐHFPT",
+
                });
             _context.SaveChanges();
         }

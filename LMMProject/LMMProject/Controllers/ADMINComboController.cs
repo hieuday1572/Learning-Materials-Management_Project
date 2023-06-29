@@ -202,6 +202,97 @@ namespace LMMProject.Controllers
             }
             return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
         }
+        //public async Task<IActionResult> DeleteSubject(int? id)
+        //{
+        //    if (id == null || _context.Combo_Subject == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var comboSubject = await _context.Combo_Subject
+        //        .Include(c => c.Combo)
+        //        .Include(c => c.Subject)
+        //        .FirstOrDefaultAsync(m => m.id == id);
+        //    if (comboSubject == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return View(comboSubject);
+        //}
+
+        //// POST: ADMINCombo/Delete/5
+        //[HttpPost, ActionName("DeleteSubject")]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> DeleteSubjectConfirmed(int id)
+        //{
+        //    if (_context.Combo_Subject == null)
+        //    {
+        //        return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
+        //    }
+        //    var comboS = await _context.Combo_Subject.FindAsync(id);
+        //    //var comboS = _context.Combo_Subject.Where(p => p.id == id).ToList();
+        //    //_context.Combo_Subject.RemoveRange(comboS);
+        //    if (comboS != null)
+        //    {
+        //        _context.Combo_Subject.Remove(comboS);
+        //    }
+        //    await _context.SaveChangesAsync();
+        //    return RedirectToAction(nameof(Details));
+        //}
+        //public async Task<IActionResult> DeleteSubject(int id)
+        //{
+        //    if (_context.Combo_Subject == null)
+        //    {
+        //        return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
+        //    }
+        //    var comboS = await _context.Combo_Subject.FindAsync(id);
+        //    //var comboS = _context.Combo_Subject.Where(p => p.id == id).ToList();
+        //    //_context.Combo_Subject.RemoveRange(comboS);
+        //    if (comboS != null)
+        //    {
+        //        _context.Combo_Subject.Remove(comboS);
+        //    }
+        //    await _context.SaveChangesAsync();
+        //    return new RedirectResult(url: "/ADMINCombo/Details/" + id, permanent: true, preserveMethod: true);
+        //}
+        public async Task<IActionResult> DeleteSubject(int? id)
+        {
+            if (id == null || _context.Combo_Subject == null)
+            {
+                return NotFound();
+            }
+
+            var comboSubject = await _context.Combo_Subject
+                .Include(c => c.Combo)
+                .Include(c => c.Subject)
+                .FirstOrDefaultAsync(m => m.id == id);
+            if (comboSubject == null)
+            {
+                return NotFound();
+            }
+
+            return View(comboSubject);
+        }
+
+        // POST: ComboSubjects/Delete/5
+        [HttpPost, ActionName("DeleteSubject")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteSubjectConfirmed(int id)
+        {
+            if (_context.Combo_Subject == null)
+            {
+                return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
+            }
+            var comboSubject = await _context.Combo_Subject.FindAsync(id);
+            if (comboSubject != null)
+            {
+                _context.Combo_Subject.Remove(comboSubject);
+            }
+
+            await _context.SaveChangesAsync();
+            return new RedirectResult(url: "/ADMINCombo/Details/" + comboSubject.id, permanent: true, preserveMethod: true);
+        }
         private bool ComboExists(int id)
         {
           return (_context.Combo?.Any(e => e.ComboId == id)).GetValueOrDefault();

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LMMProject",
+    "\\LMMProject\\LMMProject",
+    "\\LMMProject\\LMMProject\\Controllers",
+    "\\LMMProject\\LMMProject\\Properties",
+    "\\LMMProject\\LMMProject\\Views",
+    "\\LMMProject\\LMMProject\\wwwroot"
+  ],
+  "SelectedNode": "\\LMMProject\\LMMProject\\Controllers\\UserHomeController.cs",
+  "PreviewInSolutionExplorer": false
+}

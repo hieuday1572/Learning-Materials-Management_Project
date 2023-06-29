@@ -10,90 +10,87 @@ using LMMProject.Models;
 
 namespace LMMProject.Controllers
 {
-    public class ComboesController : Controller
+    public class FeedbacksController : Controller
     {
         private readonly AppDbContext _context;
 
-        public ComboesController(AppDbContext context)
+        public FeedbacksController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Comboes
+        // GET: Feedbacks
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Combo.Include(c => c.Curriculum);
-            return View(await appDbContext.ToListAsync());
+              return _context.feedback != null ? 
+                          View(await _context.feedback.ToListAsync()) :
+                          Problem("Entity set 'AppDbContext.feedback'  is null.");
         }
 
-        // GET: Comboes/Details/5
+        // GET: Feedbacks/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Combo == null)
+            if (id == null || _context.feedback == null)
             {
                 return NotFound();
             }
 
-            var combo = await _context.Combo
-                .Include(c => c.Curriculum)
-                .FirstOrDefaultAsync(m => m.ComboId == id);
-            if (combo == null)
+            var feedback = await _context.feedback
+                .FirstOrDefaultAsync(m => m.FeedbackId == id);
+            if (feedback == null)
             {
                 return NotFound();
             }
 
-            return View(combo);
+            return View(feedback);
         }
 
-        // GET: Comboes/Create
+        // GET: Feedbacks/Create
         public IActionResult Create()
         {
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode");
             return View();
         }
 
-        // POST: Comboes/Create
+        // POST: Feedbacks/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
+        public async Task<IActionResult> Create([Bind("FeedbackId,Content,UserNameTo,UserNameFrom,Title,CreateDate")] Feedback feedback)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(combo);
+                _context.Add(feedback);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
-            return View(combo);
+            return View(feedback);
         }
 
-        // GET: Comboes/Edit/5
+        // GET: Feedbacks/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Combo == null)
+            if (id == null || _context.feedback == null)
             {
                 return NotFound();
             }
 
-            var combo = await _context.Combo.FindAsync(id);
-            if (combo == null)
+            var feedback = await _context.feedback.FindAsync(id);
+            if (feedback == null)
             {
                 return NotFound();
             }
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
-            return View(combo);
+            return View(feedback);
         }
 
-        // POST: Comboes/Edit/5
+        // POST: Feedbacks/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ComboId,ComboNameVn,ComboNameEn,Note,Tag,CurriculumId")] Combo combo)
+        public async Task<IActionResult> Edit(int id, [Bind("FeedbackId,Content,UserNameTo,UserNameFrom,Title,CreateDate")] Feedback feedback)
         {
-            if (id != combo.ComboId)
+            if (id != feedback.FeedbackId)
             {
                 return NotFound();
             }
@@ -102,12 +99,12 @@ namespace LMMProject.Controllers
             {
                 try
                 {
-                    _context.Update(combo);
+                    _context.Update(feedback);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ComboExists(combo.ComboId))
+                    if (!FeedbackExists(feedback.FeedbackId))
                     {
                         return NotFound();
                     }
@@ -118,51 +115,49 @@ namespace LMMProject.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CurriculumId"] = new SelectList(_context.Curriculum, "CurriculumId", "CurriculumCode", combo.CurriculumId);
-            return View(combo);
+            return View(feedback);
         }
 
-        // GET: Comboes/Delete/5
+        // GET: Feedbacks/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Combo == null)
+            if (id == null || _context.feedback == null)
             {
                 return NotFound();
             }
 
-            var combo = await _context.Combo
-                .Include(c => c.Curriculum)
-                .FirstOrDefaultAsync(m => m.ComboId == id);
-            if (combo == null)
+            var feedback = await _context.feedback
+                .FirstOrDefaultAsync(m => m.FeedbackId == id);
+            if (feedback == null)
             {
                 return NotFound();
             }
 
-            return View(combo);
+            return View(feedback);
         }
 
-        // POST: Comboes/Delete/5
+        // POST: Feedbacks/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Combo == null)
+            if (_context.feedback == null)
             {
-                return Problem("Entity set 'AppDbContext.Combo'  is null.");
+                return Problem("Entity set 'AppDbContext.feedback'  is null.");
             }
-            var combo = await _context.Combo.FindAsync(id);
-            if (combo != null)
+            var feedback = await _context.feedback.FindAsync(id);
+            if (feedback != null)
             {
-                _context.Combo.Remove(combo);
+                _context.feedback.Remove(feedback);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ComboExists(int id)
+        private bool FeedbackExists(int id)
         {
-          return (_context.Combo?.Any(e => e.ComboId == id)).GetValueOrDefault();
+          return (_context.feedback?.Any(e => e.FeedbackId == id)).GetValueOrDefault();
         }
     }
 }

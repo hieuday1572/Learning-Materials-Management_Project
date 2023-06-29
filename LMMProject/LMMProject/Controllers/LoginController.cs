@@ -32,7 +32,15 @@ namespace LMMProject.Controllers
                 if (user.Password.Equals(account.Password))      
                 {
                     HttpContext.Session.SetString("Username", user.UserName);
-                    return RedirectToAction("Dashboard", "ADMIN");
+                    if (user.RoleId == 1)
+                    {
+                        return RedirectToAction("Dashboard", "ADMIN");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "UserHome");
+                    }
+                    
                 }
                 TempData["Error"] = "Wrong: please try again!";
                 return View(account);

@@ -822,3 +822,4 @@ D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net
 D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.pdb
 D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.genruntimeconfig.cache
 D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\ref\LMMProject.dll
+C:\Users\hi\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\CloudinaryDotNet.dll

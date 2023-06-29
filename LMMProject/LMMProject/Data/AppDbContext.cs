@@ -4,7 +4,8 @@ using Microsoft.EntityFrameworkCore;
 namespace LMMProject.Data
 {
     //Scaffold-DbContext "server=localhost;user=root;database=flm;password=12345;port=3306" MySql.EntityFrameworkCore -OutputDir flm -Tables thich them table nao thi tu them -f
-    public class AppDbContext : DbContext {
+    public class AppDbContext : DbContext
+    {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
@@ -29,8 +30,9 @@ namespace LMMProject.Data
 
         public virtual DbSet<MaterialOfTeacher> MaterialOfTeacher { get; set; }
 
+        public virtual DbSet<Syllabus> Syllabus { get; set; }
+        public virtual DbSet<Assessment> Assessment { get; set; }
+
         public virtual DbSet<Feedback> feedback { get; set; }
-
-
     }
 }

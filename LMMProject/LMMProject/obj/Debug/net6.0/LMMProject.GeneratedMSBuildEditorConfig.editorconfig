@@ -104,6 +104,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TdWJqZWN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINSyllabus/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINSyllabus/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINSyllabus/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINSyllabus/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMINSyllabus/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5TeWxsYWJ1c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMIN/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -114,6 +134,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/ADMIN/ListOfCombo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cTGlzdE9mQ29tYm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Feedbacks/Create.cshtml]

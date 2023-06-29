@@ -2489,6 +2489,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.4.0.72892": {
+        "type": "package"
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7513,6 +7516,26 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
+    "SonarAnalyzer.CSharp/9.4.0.72892": {
+      "sha512": "hSUQ8ddC56salRggZHY69hR51HU1HVSlmKuQ9+0kXGFa9NYUdJ3WI81LMbuXT4Ui0UCdGKeCEoJzZJlfBF8kqA==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.4.0.72892",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.4.0.72892.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.AppContext/4.3.0": {
       "sha512": "fKC+rmaLfeIzUhagxY17Q9siv/sPrjjKcfNg1Ic8IlQkZLipo8ljcaZQu4VtI4Jqbzjc2VTjzGLF6WmsRXAEgA==",
       "type": "package",
@@ -11411,7 +11434,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.14",
       "MySql.Data >= 8.0.33",
-      "MySql.EntityFrameworkCore >= 7.0.2"
+      "MySql.EntityFrameworkCore >= 7.0.2",
+      "SonarAnalyzer.CSharp >= 9.4.0.72892"
     ]
   },
   "packageFolders": {
@@ -11489,6 +11513,12 @@
           "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.2, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.4.0.72892, )"
           }
         },
         "imports": [

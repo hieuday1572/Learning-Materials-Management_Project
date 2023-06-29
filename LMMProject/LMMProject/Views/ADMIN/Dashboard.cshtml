@@ -36,7 +36,7 @@
             <p hidden>@Accessor.HttpContext.Session.GetString("Username")</p>
             <div>
                 <a asp-controller="ADMINCurricula" asp-action="Index"><button type="button"><span></span>List Of Curriculum</button></a>
-                <a href="~/html/syllabus.html"><button type="button"><span></span>View Syllabus</button></a>
+                <a asp-controller="ADMINSyllabus" asp-action="Index"><button type="button"<span></span>View Syllabus</button></a>
                 <a href="~/html/learning.html"><button type="button"><span></span>Show Learning Path of a Subject</button></a>
                 <a asp-controller="ADMINMaterialOfTeacher" asp-action="Index"><button type="button"><span></span>Additional Materials</button></a>
             </div>

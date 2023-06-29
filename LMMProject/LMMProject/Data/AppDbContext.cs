@@ -29,6 +29,7 @@ namespace LMMProject.Data
 
         public virtual DbSet<MaterialOfTeacher> MaterialOfTeacher { get; set; }
 
-
+        public virtual DbSet<Syllabus> Syllabus { get; set; }
+        public virtual DbSet<Assessment> Assessment { get; set; }
     }
 }

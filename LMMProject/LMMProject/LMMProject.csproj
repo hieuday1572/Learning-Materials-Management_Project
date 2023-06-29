@@ -17,6 +17,16 @@
     <None Include="Views\ADMINMaterialOfTeacher\Details.cshtml" />
     <None Include="Views\ADMINMaterialOfTeacher\Edit.cshtml" />
     <None Include="Views\ADMINMaterialOfTeacher\Index.cshtml" />
+    <None Include="Views\ADMINSyllabus\Create.cshtml" />
+    <None Include="Views\ADMINSyllabus\Delete.cshtml" />
+    <None Include="Views\ADMINSyllabus\Details.cshtml" />
+    <None Include="Views\ADMINSyllabus\Edit.cshtml" />
+    <None Include="Views\ADMINSyllabus\Index.cshtml" />
+    <None Include="Views\Assessments\Create.cshtml" />
+    <None Include="Views\Assessments\Delete.cshtml" />
+    <None Include="Views\Assessments\Details.cshtml" />
+    <None Include="Views\Assessments\Edit.cshtml" />
+    <None Include="Views\Assessments\Index.cshtml" />
     <None Include="wwwroot\css\combo - Copy.css" />
     <None Include="wwwroot\css\combo.css" />
     <None Include="wwwroot\css\contact.css" />

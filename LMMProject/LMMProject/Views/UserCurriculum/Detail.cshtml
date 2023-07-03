@@ -1,9 +1,10 @@
-﻿@model LMMProject.Models.Curriculum
-
+﻿@model Curriculum
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
 @{
     Layout = null;
 }
-
 <!DOCTYPE html>
 
 <html>
@@ -13,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="~/css/curri-details.css">
-    <title >Details</title>
+    <title>Details</title>
 </head>
 <body>
 
@@ -21,7 +22,7 @@
         <div class="navbar">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
-                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
             </ul>
         </div>
         <div class="content">
@@ -61,25 +62,12 @@
                 <th></th>
                 <td>
                     <div>
-                        <a asp-controller="ADMINCombo" asp-action="Index" asp-route-id="@Model?.CurriculumId"><button type="button"><span></span> View Combo</button></a>
+                        <a asp-controller="" asp-action="" asp-route-id="@Model?.CurriculumId"><button type="button"><span></span> View Combo</button></a>
                     </div>
                 </td>
             </tr>
         </table>
         <div class="table-container">
-            @if (TempData["error"] != null)
-            {
-                
-                    <p><b>@TempData["error"]</b></p>
-                
-            }
-            <form asp-controller="ADMINCurricula" asp-action="AddSubject">
-                <p>Enter Subject code you want to add: </p>
-                <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
-                <input type="text" name="add" />
-                <button type="submit">ADD SUBJECT</button>
-            </form>
-
             <table class="table-2">
                 <thead>
                     <tr>
@@ -88,27 +76,24 @@
                         <th>Semester</th>
                         <th>Status</th>
                         <th>PreRequisite </th>
-                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in ViewBag.Curri_sub)
                     {
-                <tr>
+                        <tr>
                             <td>@item.SubjectCode</td>
                             <td>@item.Subject.SubjectNameEn</td>
                             <td>@item.Semester</td>
                             <td>@item.Subject.StatusId</td>
                             <td>@item.Subject.PreRequisite </td>
-                            <td><a asp-controller="ADMINCurricula" asp-action="DeleteSubject" asp-route-id="@Model?.CurriculumId" asp-route-cu_sub_ID="@item.id"><button type="button"><span></span> DELETE</button></a></td>
-                </tr>
+                        </tr>
                     }
                 </tbody>
             </table>
         </div>
         <div>
-            <a asp-action="Edit" asp-route-id="@Model?.CurriculumId">Edit</a> |
-            <a asp-action="Index">Back to List</a>
+            <a asp-action="Index">Back</a>
         </div>
     </div>
 

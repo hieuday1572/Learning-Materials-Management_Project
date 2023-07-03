@@ -198,17 +198,21 @@ namespace LMMProject.Controllers
                         cu_sub.CurriculumId = curriId;
                         _context.Curriculum_Subject.Add(cu_sub);
                         _context.SaveChanges();
+                        return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
                     }
                     else
                     {
+                        TempData["error"] = "Sorry: This subject already exists, please add another subject !";
                         return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
                     }
                 }
                 else
                 {
+                    TempData["error"] = "Sorry: Subject not found, please enter valid subject code !";
                     return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
                 }
             }
+            TempData["error"] = "Sorry: Subject not found, please enter valid subject code !";
             return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);
         }
 

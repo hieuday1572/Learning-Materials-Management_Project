@@ -23,11 +23,11 @@ namespace LMMProject.Controllers
             List<Curriculum> curriculum;
             if (option.Equals("code"))
             {
-                curriculum=_context.Curriculum.Include(p=>p.Decision).Where(p=>p.CurriculumCode.Contains(search)).ToList();
+                curriculum=_context.Curriculum.Include(p=>p.Decision).Where(p=>p.CurriculumCode.Contains(search.Trim())).ToList();
             }
             else
             {
-                curriculum = _context.Curriculum.Include(p => p.Decision).Where(p => (p.NameEn.Contains(search)||p.NameVn.Equals(search))).ToList();
+                curriculum = _context.Curriculum.Include(p => p.Decision).Where(p => (p.NameEn.Contains(search)||p.NameVn.Equals(search.Trim()))).ToList();
             }
             if (curriculum.Count()==0)
             {
@@ -35,5 +35,18 @@ namespace LMMProject.Controllers
             }
             return View(curriculum);
         }
+
+        public IActionResult Detail(int id)
+        {
+            Curriculum curri = _context.Curriculum.Include(p => p.Decision).FirstOrDefault(p=>p.CurriculumId==id);
+            var curri_sub = _context.Curriculum_Subject.Include(p => p.Subject).Where(pro => pro.CurriculumId == id).ToList();
+            ViewBag.Curri_sub = curri_sub;
+            if (curri == null)
+            {
+                return NotFound();
+            }
+            return View(curri);
+        }
+
     }
 }

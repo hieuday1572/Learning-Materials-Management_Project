@@ -78,7 +78,7 @@
                             {
                                 <tr>
                                     <td>
-                                        @Html.DisplayFor(modelItem => item.CurriculumCode)
+                                        <a asp-action="Detail" asp-route-id="@item.CurriculumId"> @Html.DisplayFor(modelItem => item.CurriculumCode)</a>
                                     </td>
                                     <td>
                                         @Html.DisplayFor(modelItem => item.NameVn)

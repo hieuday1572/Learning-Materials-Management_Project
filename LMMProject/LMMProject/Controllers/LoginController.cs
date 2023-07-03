@@ -1,5 +1,6 @@
 ﻿using LMMProject.Data;
 using LMMProject.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MySqlX.XDevAPI;
@@ -32,6 +33,8 @@ namespace LMMProject.Controllers
                 if (user.Password.Equals(account.Password))      
                 {
                     HttpContext.Session.SetString("Username", user.UserName);
+                    HttpContext.Session.SetInt32("role", (int)user.RoleId);
+                    
                     if (user.RoleId == 1)
                     {
                         return RedirectToAction("Dashboard", "ADMIN");

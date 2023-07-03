@@ -29,9 +29,27 @@
                 <p>Subject List</p>
             </b>
         </div>
+        <div class="search-bar">
+            <form asp-action="Search" method="get">
+                <input type="text" name="searchText" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <tr>
+            <td>
+                <div>
+                    <a asp-controller="ADMINSession" asp-action="Index"><button type="button"><span></span> View Sessions</button></a>
+                </div>
+            </td>
+        </tr>
+
+
         <table class="table table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SubjectCode)
+                    </th>
                     <th>
                         @Html.DisplayNameFor(model => model.SubjectNameVn)
                     </th>
@@ -53,6 +71,9 @@
                 {
                     <tr>
                         <td>
+                            @Html.DisplayFor(modelItem => item.SubjectCode)
+                        </td>
+                        <td>
                             @Html.DisplayFor(modelItem => item.SubjectNameVn)
                         </td>
                         <td>
@@ -62,16 +83,18 @@
                             @Html.DisplayFor(modelItem => item.PreRequisite)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Status.StatusId)
+                            @Html.DisplayFor(modelItem => item.Status.StatusName)
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.SubjectCode">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.SubjectCode">Details</a> |
                             <a asp-action="Delete" asp-route-id="@item.SubjectCode">Delete</a>
                         </td>
                     </tr>
                 }
             </tbody>
         </table>
+
+        </div>
+
 </body>
 </html>

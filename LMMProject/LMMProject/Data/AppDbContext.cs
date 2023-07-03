@@ -34,5 +34,7 @@ namespace LMMProject.Data
         public virtual DbSet<Assessment> Assessment { get; set; }
 
         public virtual DbSet<Feedback> feedback { get; set; }
+
+        public DbSet<LMMProject.Models.Session>? Session { get; set; }
     }
 }

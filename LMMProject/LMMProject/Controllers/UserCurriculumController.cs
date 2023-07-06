@@ -20,6 +20,8 @@ namespace LMMProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(string option, string search)
         {
+            HttpContext.Session.SetString("option", option);
+            HttpContext.Session.SetString("search", search);
             List<Curriculum> curriculum;
             if (option.Equals("code"))
             {

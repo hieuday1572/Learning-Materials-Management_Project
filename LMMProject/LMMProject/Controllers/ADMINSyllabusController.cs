@@ -29,7 +29,7 @@ namespace LMMProject.Controllers
         // GET: Syllabus/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null )
+            if (id == null)
             {
                 return NotFound();
             }
@@ -62,14 +62,14 @@ namespace LMMProject.Controllers
         public async Task<IActionResult> Create([Bind("SyllabusId,SyllabusNameVn,SyllabusNameEn,SubjectCode,NoCredit,DegreeLevel,TimeAllocation,PreRequisite,Description,StudentTask,Tool,ScoringScale,DecisionNo,IsApproved,Note,MinAvgMarkToPass,IsActive")] Syllabus syllabus)
         {
 
-            
+
             try
             {
                 if (SyllabusExists(syllabus.SyllabusId))
                 {
                     return View(syllabus);
                 }
-                
+
                 Syllabus syl = new Syllabus();
                 syl.SyllabusNameVn = syllabus.SyllabusNameVn;
                 syl.SyllabusNameEn = syllabus.SyllabusNameEn;
@@ -102,7 +102,7 @@ namespace LMMProject.Controllers
             ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
             return RedirectToAction(nameof(Index));
 
-           
+
         }
 
         // GET: Syllabus/Edit/5
@@ -135,42 +135,42 @@ namespace LMMProject.Controllers
                 return NotFound();
             }
 
-            
-                try
-                {
-                    var syl = await _context.Syllabus.SingleOrDefaultAsync(s => s.SyllabusId == id);
-                    syl.SyllabusNameVn = syllabus.SyllabusNameVn;
-                    syl.SyllabusNameEn = syllabus.SyllabusNameEn;
-                    syl.SubjectCode = syllabus.SubjectCode;
-                    syl.NoCredit = syllabus.NoCredit;
 
-                    syl.DegreeLevel = syllabus.DegreeLevel;
-                    syl.TimeAllocation = syllabus.TimeAllocation;
-                    syl.PreRequisite = syllabus.PreRequisite;
-                    syl.Description = syllabus.Description;
-                    syl.StudentTask = syllabus.StudentTask;
-                    syl.Tool = syllabus.Tool;
-                    syl.ScoringScale = syllabus.ScoringScale;
-                    syl.DecisionNo = syllabus.DecisionNo;
-                    syl.IsApproved = syllabus.IsApproved;
-                    syl.Note = syllabus.Note;
-                    syl.MinAvgMarkToPass = syllabus.MinAvgMarkToPass;
-                    syl.IsActive = syllabus.IsActive;
-                    await _context.SaveChangesAsync();
-                }
-                catch (Exception ex)
+            try
+            {
+                var syl = await _context.Syllabus.SingleOrDefaultAsync(s => s.SyllabusId == id);
+                syl.SyllabusNameVn = syllabus.SyllabusNameVn;
+                syl.SyllabusNameEn = syllabus.SyllabusNameEn;
+                syl.SubjectCode = syllabus.SubjectCode;
+                syl.NoCredit = syllabus.NoCredit;
+
+                syl.DegreeLevel = syllabus.DegreeLevel;
+                syl.TimeAllocation = syllabus.TimeAllocation;
+                syl.PreRequisite = syllabus.PreRequisite;
+                syl.Description = syllabus.Description;
+                syl.StudentTask = syllabus.StudentTask;
+                syl.Tool = syllabus.Tool;
+                syl.ScoringScale = syllabus.ScoringScale;
+                syl.DecisionNo = syllabus.DecisionNo;
+                syl.IsApproved = syllabus.IsApproved;
+                syl.Note = syllabus.Note;
+                syl.MinAvgMarkToPass = syllabus.MinAvgMarkToPass;
+                syl.IsActive = syllabus.IsActive;
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                if (!SyllabusExists(syllabus.SyllabusId))
                 {
-                    if (!SyllabusExists(syllabus.SyllabusId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw ex;
-                    }
+                    return NotFound();
                 }
-                
-            
+                else
+                {
+                    throw ex;
+                }
+            }
+
+
             ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
             return RedirectToAction(nameof(Index));
         }

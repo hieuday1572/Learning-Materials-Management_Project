@@ -16,6 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\ADMINAssessments\Create.cshtml" />
+    <None Include="Views\ADMINAssessments\Delete.cshtml" />
+    <None Include="Views\ADMINAssessments\Details.cshtml" />
+    <None Include="Views\ADMINAssessments\Edit.cshtml" />
+    <None Include="Views\ADMINAssessments\Index.cshtml" />
     <None Include="Views\ADMINMaterialOfTeacher\Create.cshtml" />
     <None Include="Views\ADMINMaterialOfTeacher\Delete.cshtml" />
     <None Include="Views\ADMINMaterialOfTeacher\Details.cshtml" />
@@ -26,11 +31,6 @@
     <None Include="Views\ADMINSyllabus\Details.cshtml" />
     <None Include="Views\ADMINSyllabus\Edit.cshtml" />
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
-    <None Include="Views\Assessments\Create.cshtml" />
-    <None Include="Views\Assessments\Delete.cshtml" />
-    <None Include="Views\Assessments\Details.cshtml" />
-    <None Include="Views\Assessments\Edit.cshtml" />
-    <None Include="Views\Assessments\Index.cshtml" />
     <None Include="wwwroot\css\combo - Copy.css" />
     <None Include="wwwroot\css\combo.css" />
     <None Include="wwwroot\css\contact.css" />

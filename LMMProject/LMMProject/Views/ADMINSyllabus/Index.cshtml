@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="../css/syllabus-management.css">
+    <link rel="stylesheet" href="~/css/syllabus-management.css">
 
 </head>
 
@@ -53,7 +53,7 @@
                     <th>
                         @Html.DisplayNameFor(model => model.Decision)
                     </th>
-                   
+
                     <th>
                         @Html.DisplayNameFor(model => model.IsActive)
                     </th>
@@ -79,11 +79,11 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.Decision.DecisionNo)
                         </td>
-                       
+
                         <td>
                             @Html.DisplayFor(modelItem => item.IsActive)
                         </td>
-                        
+
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.SyllabusId">Edit</a> |
                             <a asp-action="Details" asp-route-id="@item.SyllabusId">Details</a> |
@@ -94,7 +94,7 @@
             </tbody>
         </table>
     </div>
-    
+
 
 </body>
 

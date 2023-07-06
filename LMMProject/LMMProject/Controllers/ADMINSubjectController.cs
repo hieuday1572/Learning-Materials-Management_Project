@@ -150,12 +150,20 @@ namespace LMMProject.Controllers
                 return NotFound();
             }
 
+            // Tìm các bản ghi trong bảng session có subjectCode trùng khớp với id
+            var sessions = await _context.Session.Where(s => s.SubjectCode == id).ToListAsync();
+
+            // Xóa các bản ghi trong bảng session
+            _context.Session.RemoveRange(sessions);
+
+            // Xóa bản ghi trong bảng subject
             _context.Subject.RemoveRange(subject);
 
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
         }
+
 
 
         private bool SubjectExists(string id)

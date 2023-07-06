@@ -37,7 +37,7 @@ namespace LMMProject.Controllers
             var curriculum = await _context.Curriculum
                 .Include(c => c.Decision)
                 .FirstOrDefaultAsync(m => m.CurriculumId == id);
-            var curri_sub= _context.Curriculum_Subject.Include(p => p.Subject).Where(pro => pro.CurriculumId==id).ToList();
+            var curri_sub= _context.Curriculum_Subject.Include(p => p.Subject).Where(pro => pro.CurriculumId==id).OrderBy(p=>p.Semester).ToList();
             ViewBag.Curri_sub=curri_sub;
             if (curriculum == null)
             {
@@ -177,10 +177,11 @@ namespace LMMProject.Controllers
         }
 
         /// PHAN THEM
-        public async Task<IActionResult> AddSubject()
+        public async Task<IActionResult> AddSubject(string semester)
         {
             string add = Request.Form["add"];
             int curriId = Convert.ToInt32(Request.Form["curriId"]);
+            
             if (add != null && !add.Trim().Equals(""))
             {
                 Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
@@ -193,9 +194,15 @@ namespace LMMProject.Controllers
                                         select element).FirstOrDefault();
                     if (check_element==null)
                     {
+                        
                         CurriculumSubject cu_sub = new CurriculumSubject();
                         cu_sub.SubjectCode = sj.SubjectCode;
                         cu_sub.CurriculumId = curriId;
+                        if (semester != null)
+                        {
+                            int semester_int = Convert.ToInt32(semester);
+                            cu_sub.Semester = semester_int;
+                        }
                         _context.Curriculum_Subject.Add(cu_sub);
                         _context.SaveChanges();
                         return new RedirectResult(url: "/ADMINCurricula/Details/" + curriId, permanent: true, preserveMethod: true);

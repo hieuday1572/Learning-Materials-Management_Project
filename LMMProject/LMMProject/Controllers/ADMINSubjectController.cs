@@ -24,7 +24,7 @@ namespace LMMProject.Controllers
         }
 
         // GET: Subjects
-        public async Task<IActionResult> Index(string searchText)
+        public async Task<IActionResult> Index()
         {
             IEnumerable<Subject> appDbContext = await _context.Subject.Include(s => s.Status).ToListAsync();
             return View(appDbContext);

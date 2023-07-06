@@ -16,10 +16,10 @@ public partial class Session
 
     public string? StudentMaterials { get; set; }
 
-    public string? ConstructiveQuestion { get; set; }
+    public string? Constructivequestion { get; set; }
 
     [ForeignKey("Subject")]
     public string? SubjectCode { get; set; }
 
-    public virtual Subject Subject { get; set; }
+    public virtual Subject? Subject { get; set; }
 }

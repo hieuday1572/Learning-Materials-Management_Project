@@ -7,7 +7,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LMMProject.Data;
 using LMMProject.Models;
-
+using MySqlX.XDevAPI;
+using CloudinaryDotNet.Actions;
+using static Microsoft.AspNetCore.Razor.Language.TagHelperMetadata;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 namespace LMMProject.Controllers
 {
     public class ADMINSessionController : Controller
@@ -20,10 +23,12 @@ namespace LMMProject.Controllers
         }
 
         // GET: Sessions
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? id)
         {
-            var appDbContext = _context.Session.Include(s => s.Subject);
-            return View(await appDbContext.ToListAsync());
+            Subject sub = _context.Subject.FirstOrDefault(s => s.SubjectCode == id);
+            ViewBag.SubjectCode = sub;
+            var listSession = _context.Session.Include(s => s.Subject).Where(sus => sus.SubjectCode == id).ToList();
+            return View(listSession);
         }
         // GET: Sessions/Create
         public IActionResult Create()
@@ -37,28 +42,30 @@ namespace LMMProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("SessionId,Topic,LearningTeachingType,StudentMaterials,ConstructiveQuestion,SubjectCode")] Session session)
+        public async Task<IActionResult> Create([Bind("SessionId,Topic,LearningTeachingType,StudentMaterials,Constructivequestion,SubjectCode")] LMMProject.Models.Session session)
         {
             try
             {
-                if (SessionExists(session.SessionId)){
+                if (SessionExists(session.SessionId))
+                {
                     return View(session);
                 }
-                Session ses = new Session();
+                Models.Session ses = new Models.Session();
                 ses.SessionId = session.SessionId;
                 ses.Topic = session.Topic;
                 ses.LearningTeachingType = session.LearningTeachingType;
                 ses.StudentMaterials = session.StudentMaterials;
-                ses.ConstructiveQuestion = session.ConstructiveQuestion;
+                ses.Constructivequestion = session.Constructivequestion;
                 ses.SubjectCode = session.SubjectCode;
+                _context.Session.AddAsync(ses);
+                await _context.SaveChangesAsync();
             }
             catch(Exception ex)
             {
                 throw ex;
             }
-
             ViewData["SubjectCode"] = new SelectList(_context.Subject, "SubjectCode", "SubjectCode", session.SubjectCode);
-            return RedirectToAction(nameof(Index));
+            return new RedirectResult(url: "/ADMINSession/Index/" + session.SubjectCode, permanent: true, preserveMethod: true);
         }
 
         // GET: Sessions/Edit/5
@@ -83,26 +90,17 @@ namespace LMMProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit( [Bind("SessionId,Topic,LearningTeachingType,StudentMaterials,ConstructiveQuestion,SubjectCode")] Session session)
+        public async Task<IActionResult> Edit( [Bind("SessionId,Topic,LearningTeachingType,StudentMaterials,Constructivequestion,SubjectCode")] Models.Session session)
         {
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var ses = await _context.Session.SingleOrDefaultAsync(s => s.SessionId.Equals(session.SessionId));
-                    if(ses == null)
-                    {
-                        return NotFound();
-                    }
-                    ses.Topic = session.Topic;
-                    ses.LearningTeachingType = ses.LearningTeachingType;
-                    ses.StudentMaterials = ses.StudentMaterials;
-                    ses.ConstructiveQuestion = ses.ConstructiveQuestion;
-                    ses.SubjectCode = ses.SubjectCode;
+                    _context.Update(session);
                     await _context.SaveChangesAsync();
                 }
-                catch (Exception ex)
+                catch (DbUpdateConcurrencyException)
                 {
                     if (!SessionExists(session.SessionId))
                     {
@@ -113,7 +111,7 @@ namespace LMMProject.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return new RedirectResult(url: "/ADMINSession/Index/" + session.SubjectCode, permanent: true, preserveMethod: true);
             }
             ViewData["SubjectCode"] = new SelectList(_context.Subject, "SubjectCode", "SubjectCode", session.SubjectCode);
             return View(session);
@@ -150,7 +148,7 @@ namespace LMMProject.Controllers
             }
             _context.Session.RemoveRange(session);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return new RedirectResult(url: "/ADMINSession/Index/" + session.SubjectCode, permanent: true, preserveMethod: true);
         }
 
         private bool SessionExists(int id)

@@ -29,21 +29,6 @@
                 <p>Subject List</p>
             </b>
         </div>
-        <div class="search-bar">
-            <form asp-action="Search" method="get">
-                <input type="text" name="searchText" placeholder="Search...">
-                <button type="submit">Search</button>
-            </form>
-        </div>
-        <tr>
-            <td>
-                <div>
-                    <a asp-controller="ADMINSession" asp-action="Index"><button type="button"><span></span> View Sessions</button></a>
-                </div>
-            </td>
-        </tr>
-
-
         <table class="table table-bordered table-hover">
             <thead class="thead-dark">
                 <tr>
@@ -88,6 +73,7 @@
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.SubjectCode">Edit</a> |
                             <a asp-action="Delete" asp-route-id="@item.SubjectCode">Delete</a>
+                            <a asp-controller="ADMINSession" asp-action = "Index" asp-route-id="@item.SubjectCode">Session</a>
                         </td>
                     </tr>
                 }

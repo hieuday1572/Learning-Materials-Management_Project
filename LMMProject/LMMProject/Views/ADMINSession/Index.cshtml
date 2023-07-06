@@ -29,12 +29,7 @@
                 <h1>Learning Materials Management</h1>
                 <p>Sessions List</p>
             </b>
-        </div>
-        <div class="search-bar">
-            <form asp-action="Search" method="get">
-                <input type="text" name="searchText" placeholder="Search...">
-                <button type="submit">Search</button>
-            </form>
+            <a asp-controller="ADMINSubject" asp-action="Index">back to subject</a>
         </div>
         <table class="table table-bordered table-hover">
     <thead>
@@ -49,7 +44,7 @@
                 @Html.DisplayNameFor(model => model.StudentMaterials)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ConstructiveQuestion)
+                @Html.DisplayNameFor(model => model.Constructivequestion)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Subject)
@@ -70,7 +65,7 @@
                 @Html.DisplayFor(modelItem => item.StudentMaterials)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ConstructiveQuestion)
+                @Html.DisplayFor(modelItem => item.Constructivequestion)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Subject.SubjectCode)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rF6igL8XEByR6I3khVMnxilUVWHME+4BI/Dm+PxWLNTvm7USlnObyEtasA2wCs/WfgozIeWyFH2bQDwwrzFGOA==",
+  "dgSpecHash": "EfuTS+ndyodaTyx3umgUhmM1XGaqgZ/vywruy6nqWBfqYV6jfvJ9ndVcMI9xf4JnO3uWjgzGeDeMSjIDsjdyDA==",
   "success": true,
   "projectFilePath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj",
   "expectedPackageFiles": [
@@ -152,6 +152,7 @@
     "C:\\Users\\rikak\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\sonaranalyzer.csharp\\9.4.0.72892\\sonaranalyzer.csharp.9.4.0.72892.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

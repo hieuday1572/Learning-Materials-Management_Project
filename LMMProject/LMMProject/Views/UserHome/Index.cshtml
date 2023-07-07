@@ -38,7 +38,7 @@
                 <a href="~/html/learning.html"><button type="button"><span></span>Show Learning Path of a Subject</button></a>
                 @if (Accessor.HttpContext.Session.GetInt32("role")==2)
                 {
-                    <a><button type="button"><span></span>View Your Additional Materials</button></a>
+                    <a asp-controller="UserMaterialOfTeachers" asp-action="Index"><button type="button"><span></span>View Your Additional Materials</button></a>
                 }
             </div>
         </div>

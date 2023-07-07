@@ -9850,23 +9850,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\khact\\.nuget\\packages\\": {},
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\khact\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\khact\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9882,8 +9882,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
-              "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
+            "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
             }
           }
         }

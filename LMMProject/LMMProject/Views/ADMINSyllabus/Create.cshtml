@@ -15,13 +15,7 @@
 
 <h4>Syllabus</h4>
 <hr />
-<div class="row">
-        @if (TempData["Error"] != null)
-        {
-            <div class="col-md-12 alert alert-danger">
-                <span style="color:red"><b>Sorry!</b> - @TempData["Error"]</span>
-            </div>
-        }
+<div class="row">       
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>

@@ -1,4 +1,5 @@
 ﻿@model LMMProject.Models.Syllabus
+
 @{
     Layout = null;
 }
@@ -103,66 +104,68 @@
                 <th>ApprovedDate:</th>
                 <td>@Model.IsApproved</td>
             </tr>
-           
-            <div>
-                <a asp-action="Edit" asp-route-id="@Model?.SyllabusId">Edit</a> |
-                <a asp-action="Index">Back to List</a>
-            </div>
+            <tr>
+                <td colspan="14">
+                    <a asp-action="Edit" asp-route-id="@Model?.SyllabusId" class="btn btn-primary">Edit</a> |
+                    <a asp-action="Index">Back to List</a>
+                </td>
+            </tr>
+
 
 
         </table>
-        @if (Model.Assessments != null && Model.Assessments.Count > 0)
-        {
-            <div class="table-container">
-                <table class="table-2">
-                    <thead>
-                        <tr>
-                            <th>Category</th>
-                            <th>Type</th>
-                            <th>Part</th>
-                            <th>Weight</th>
-                            <th>Completion Criteria</th>
-                            <th>Duration</th>
-                            <th>CLO</th>
-                            <th>Question Type</th>
-                            <th>No Question</th>
-                            <th>Knowledge and Skill</th>
-                            <th>Grading Guide</th>
-                            <th>Note</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var assessment in Model.Assessments)
-                        {
-                            <tr>
-                                <td>@assessment.Category</td>
-                                <td>@assessment.Type</td>
-                                <td>@assessment.Part</td>
-                                <td>@assessment.Weight</td>
-                                <td>@assessment.CompletionCriteria</td>
-                                <td>@assessment.Duration</td>
-                                <td>@assessment.Clo</td>
-                                <td>@assessment.QuestionType</td>
-                                <td>@assessment.NoQuestion</td>
-                                <td>@assessment.KnowledgeSkill</td>
-                                <td>@assessment.GradingGuide</td>
-                                <td>@assessment.Note</td>
-                                <td>
-                                    <a asp-action="EditAssessment" asp-route-id="@assessment.AssessmentId">Edit</a>
-                                    <a asp-action="Delete" asp-route-id="@assessment.AssessmentId">Delete</a>
-                                </td>
-                            </tr>
 
-                        }
-                    </tbody>
-                </table>
-            </div>
-        }
-        else
-        {
-            <p>No assessments found.</p>
-        }
+
+        <div class="table-container">
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <th>AssessmentID</th>
+                        <th>Category</th>
+                        <th>Type</th>
+                        <th>Part</th>
+                        <th>Weight</th>
+                        <th>Completion Criteria</th>
+                        <th>Duration</th>
+                        <th>CLO</th>
+                        <th>Question Type</th>
+                        <th>No Question</th>
+                        <th>Knowledge and Skill</th>
+                        <th>Grading Guide</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @foreach (var assessment in Model.Assessments)
+                    {
+                        <tr>
+                            <td>@assessment.AssessmentId</td>
+                            <td>@assessment.Category</td>
+                            <td>@assessment.Type</td>
+                            <td>@assessment.Part</td>
+                            <td>@assessment.Weight</td>
+                            <td>@assessment.CompletionCriteria</td>
+                            <td>@assessment.Duration</td>
+                            <td>@assessment.Clo</td>
+                            <td>@assessment.QuestionType</td>
+                            <td>@assessment.NoQuestion</td>
+                            <td>@assessment.KnowledgeSkill</td>
+                            <td>@assessment.GradingGuide</td>
+                            <td>@assessment.Note</td>
+
+                        </tr>
+
+                    }
+                </tbody>
+                <tr>
+                    <td colspan="14">
+                        <a asp-action="index" asp-controller="ADMINAssessments" class="btn btn-primary">AssessmentList</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
     </div>
 </body>

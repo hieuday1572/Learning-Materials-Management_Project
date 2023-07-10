@@ -7,14 +7,24 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/syllabus-management.css">
+
 </head>
 <body>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="curri-details">
+        <div class="navbar">
+            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Create">Create New</a></li>
+            </ul>
+        </div>
 <table class="table">
     <thead>
         <tr>
@@ -57,11 +67,18 @@
             <th>
                 @Html.DisplayNameFor(model => model.Syllabus)
             </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.SyllabusId)
+                    </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+                @{
+                    var sortedModel = Model.OrderBy(item => item.SyllabusId);
+                }
+                @foreach (var item in sortedModel)
+                {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Category)
@@ -102,14 +119,28 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Syllabus.SubjectCode)
             </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.SyllabusId)
+                        </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.AssessmentId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.AssessmentId">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.AssessmentId">Delete</a>
             </td>
+              
         </tr>
+               
 }
+            
+
     </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="15">
+                    <a asp-controller="ADMINSyllabus" asp-action="Index">Back to List</a>
+                </td>
+            </tr>
+        </tfoot>
 </table>
+  
 </body>
 </html>

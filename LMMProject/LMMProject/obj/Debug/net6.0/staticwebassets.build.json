@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XV+TuclR+89pH5U/T2bQQj78dHNxihpg6UXx5wOEA4w=",
+  "Hash": "q5cQVMTsDmuceIysLlhQNUAj5dreOmGsuE4wGdPTRq8=",
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LMMProject\\wwwroot",
       "Source": "LMMProject",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LMMProject.styles.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LMMProject.styles.css",
       "SourceId": "LMMProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "LMMProject.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LMMProject.styles.css"
+      "OriginalItemSpec": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\LMMProject.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
       "SourceId": "LMMProject",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "LMMProject.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css"
+      "OriginalItemSpec": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/combo - Copy.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\combo - Copy.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/combo.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\combo.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/contact.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curriculum.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curriculum.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/curriculum.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\curriculum.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/curri-details.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\curri-details.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/curri-listing.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\curri-listing.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/learning.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\learning.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/learning-part.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\learning-part.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/syllabus.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\syllabus.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-details.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-details.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/syllabus-details.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\syllabus-details.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "css/syllabus-management.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\syllabus-management.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\combo.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\combo.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/combo.html",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\html\\combo.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\contact.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\contact.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/contact.html",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\html\\contact.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curriculum.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curriculum.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/curriculum.html",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\html\\curriculum.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-details.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-details.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/curri-details.html",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\html\\curri-details.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-listing.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-listing.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/curri-listing.html",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\html\\curri-listing.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\home.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\home.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/home.html",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\html\\home.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/learning.html",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\html\\learning.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning-part.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning-part.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/learning-part.html",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\html\\learning-part.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\login.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\login.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/login.html",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\html\\login.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/syllabus.html",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\html\\syllabus.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-details.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-details.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/syllabus-details.html",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\html\\syllabus-details.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-management.html",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-management.html",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "html/syllabus-management.html",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\html\\syllabus-management.html"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "image/background-cuc-dep_110341249.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\image\\background-cuc-dep_110341249.jpg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "image/Background-sach-mo-dep-nhat.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Background-sach-mo-dep-nhat.jpg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "image/istockphoto-1138089745-170667a.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\image\\istockphoto-1138089745-170667a.jpg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signin.svg",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signin.svg",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "image/signin.svg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\image\\signin.svg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signup.svg",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signup.svg",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "image/signup.svg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\image\\signup.svg"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\curriculum.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\curriculum.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "js/curriculum.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\js\\curriculum.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\login.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\login.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "js/login.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\site.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\site.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "ContentRoot": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

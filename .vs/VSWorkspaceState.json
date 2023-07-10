@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\LMMProject",
-    "\\LMMProject\\LMMProject",
-    "\\LMMProject\\LMMProject\\Controllers",
-    "\\LMMProject\\LMMProject\\Models",
-    "\\LMMProject\\LMMProject\\Properties",
-    "\\LMMProject\\LMMProject\\Views",
-    "\\LMMProject\\LMMProject\\Views\\ADMINSubject",
-    "\\LMMProject\\LMMProject\\wwwroot"
+    ""
   ],
-  "SelectedNode": "\\LMMProject\\LMMProject\\Controllers\\ADMINSessionController.cs",
+  "SelectedNode": "\\LMMProject.sln",
   "PreviewInSolutionExplorer": false
 }

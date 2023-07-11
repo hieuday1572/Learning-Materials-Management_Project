@@ -15,6 +15,12 @@
 
 <h4>Decision</h4>
 <hr />
+    @if (TempData["error"] != null)
+    {
+        <div class="col-md-12 alert alert-danger">
+            <span style="color:red"><b>Sorry!</b> - @TempData["error"]</span>
+        </div>
+    }
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">

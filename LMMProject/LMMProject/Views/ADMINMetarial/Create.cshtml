@@ -1,0 +1,73 @@
+﻿@model IEnumerable<LMMProject.Models.Subject>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/learning-part.css">
+</head>
+<body>
+    <div class="subject">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Create Material</p>
+            </b>
+        </div>
+        
+        <div class="container">
+            <form method="POST" action="/ADMINMetarial/SubmitCreate">
+                <div class="form-group">
+                    <label>Select subject</label>
+                    <select class="form-control" name="SubjectCode">
+                        @foreach (var item in Model)
+                        {
+                            <option>@item.SubjectCode</option>
+                        }
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Author</label>
+                    <input class="form-control" type="text" name="Author" placeholder="Enter the Author" />
+                </div>
+                <div class="form-group">
+                    <label>Publisher</label>
+                    <input class="form-control" type="text" name="Publisher" placeholder="Enter the Publisher" />
+                </div>
+                <div class="form-group">
+                    <label>Published Date</label>
+                    <input class="form-control" type="date" name="PublishedDate" placeholder="Enter the Published Date" />
+                </div>
+                <div class="form-group">
+                    <label>URL</label>
+                    <input class="form-control" type="text" name="URL" placeholder="Enter the URL" />
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea class="form-control" placeholder="Enter the URL" name="MaterialDescription"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-success" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

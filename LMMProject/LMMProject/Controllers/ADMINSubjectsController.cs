@@ -155,14 +155,14 @@ namespace LMMProject.Controllers
             {
                 _context.Subject.Remove(subject);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool SubjectExists(string id)
         {
-          return (_context.Subject?.Any(e => e.SubjectCode == id)).GetValueOrDefault();
+            return (_context.Subject?.Any(e => e.SubjectCode == id)).GetValueOrDefault();
         }
     }
 }

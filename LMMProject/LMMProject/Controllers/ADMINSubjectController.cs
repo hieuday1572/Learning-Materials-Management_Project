@@ -87,34 +87,34 @@ namespace LMMProject.Controllers
         // POST: Subjects/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit( [Bind("SubjectCode,SubjectNameVn,SubjectNameEn,PreRequisite,StatusId")] Subject subject)
+        public async Task<IActionResult> Edit([Bind("SubjectCode,SubjectNameVn,SubjectNameEn,PreRequisite,StatusId")] Subject subject)
         {
-           
-            
-                try
-                {
+
+
+            try
+            {
                 var sub = await _context.Subject.SingleOrDefaultAsync(s => s.SubjectCode.Equals(subject.SubjectCode));
                 if (sub == null)
                 {
                     return NotFound();
                 }
-                    sub.SubjectNameVn = subject.SubjectNameVn;
-                    sub.SubjectNameEn = subject.SubjectNameEn;
-                    sub.PreRequisite = subject.PreRequisite;
-                    sub.StatusId = subject.StatusId;
-                    await _context.SaveChangesAsync();
-                }
-                catch (Exception ex)
+                sub.SubjectNameVn = subject.SubjectNameVn;
+                sub.SubjectNameEn = subject.SubjectNameEn;
+                sub.PreRequisite = subject.PreRequisite;
+                sub.StatusId = subject.StatusId;
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                if (!SubjectExists(subject.SubjectCode))
                 {
-                    if (!SubjectExists(subject.SubjectCode))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    return NotFound();
                 }
+                else
+                {
+                    throw;
+                }
+            }
             ViewData["StatusId"] = new SelectList(_context.Status, "StatusId", "StatusId", subject.StatusId);
             return RedirectToAction(nameof(Index));
         }

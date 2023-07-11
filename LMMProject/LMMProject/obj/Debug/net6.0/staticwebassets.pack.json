@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\LMMProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\.rescache",
+      "PackagePath": "staticwebassets\\.rescache"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\.rescache",
+      "PackagePath": "staticwebassets\\css\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
       "PackagePath": "staticwebassets\\css\\combo - Copy.css"
     },
@@ -65,6 +73,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",
+      "PackagePath": "staticwebassets\\html\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\combo.html",
       "PackagePath": "staticwebassets\\html\\combo.html"
     },
@@ -113,6 +125,10 @@
       "PackagePath": "staticwebassets\\html\\syllabus.html"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\.rescache",
+      "PackagePath": "staticwebassets\\image\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
       "PackagePath": "staticwebassets\\image\\Background-sach-mo-dep-nhat.jpg"
     },
@@ -133,6 +149,10 @@
       "PackagePath": "staticwebassets\\image\\signup.svg"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\.rescache",
+      "PackagePath": "staticwebassets\\js\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\curriculum.js",
       "PackagePath": "staticwebassets\\js\\curriculum.js"
     },
@@ -145,8 +165,24 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\.rescache"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\.rescache"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\.rescache"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -277,6 +313,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
@@ -325,6 +365,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
@@ -337,8 +381,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\.rescache"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
@@ -357,8 +409,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.rescache"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\.rescache",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\.rescache"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",

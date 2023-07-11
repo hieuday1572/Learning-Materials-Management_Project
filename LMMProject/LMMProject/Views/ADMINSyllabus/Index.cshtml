@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/syllabus-management.css">
 
 </head>
@@ -21,7 +22,7 @@
 
     <div class="curri-details">
         <div class="navbar">
-            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
                 <li><a asp-action="Create">Create New</a></li>
@@ -85,9 +86,9 @@
                         </td>
 
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.SyllabusId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.SyllabusId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.SyllabusId">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@item.SyllabusId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.SyllabusId" class="btn btn-primary">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.SyllabusId" class="btn btn-primary">Delete</a>
                         </td>
                     </tr>
                 }

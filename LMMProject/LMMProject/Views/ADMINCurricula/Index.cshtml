@@ -10,11 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/curri-listing.css">
 </head>
-
 <body>
-
     <div class="curri-details">
         <div class="navbar">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
@@ -64,15 +63,15 @@
                             @Html.DisplayFor(modelItem => item.Decision.DecisionNo)
                         </td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.CurriculumId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.CurriculumId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.CurriculumId">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@item.CurriculumId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.CurriculumId" class="btn btn-primary">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.CurriculumId" class="btn btn-primary">Delete</a>
                         </td>
                     </tr>
                 }
             </tbody>
         </table>
     </div>
-    </div>
 
 </body>
+</html>

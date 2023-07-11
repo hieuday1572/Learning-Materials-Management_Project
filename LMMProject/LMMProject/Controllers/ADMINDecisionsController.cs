@@ -58,12 +58,17 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("DecisionNo,DecisionName,Note,CreateDate")] Decision decision)
         {
-            if (ModelState.IsValid)
+            var check = _context.Decision.FirstOrDefault(p=>p.DecisionNo.Equals(decision.DecisionNo));
+            if (check == null)
             {
-                _context.Add(decision);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    _context.Add(decision);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
+            TempData["error"] = "Wrong: Decision is already exist !";
             return View(decision);
         }
 

@@ -3,14 +3,9 @@
     "",
     "\\LMMProject",
     "\\LMMProject\\LMMProject",
-    "\\LMMProject\\LMMProject\\Models",
-    "\\LMMProject\\LMMProject\\Properties",
     "\\LMMProject\\LMMProject\\Views",
-    "\\LMMProject\\LMMProject\\Views\\ADMINSubject",
-    "\\LMMProject\\LMMProject\\Views\\UserSubject",
-    "\\LMMProject\\LMMProject\\wwwroot",
-    "\\LMMProject\\LMMProject\\wwwroot\\html"
+    "\\LMMProject\\LMMProject\\Views\\ADMIN"
   ],
-  "SelectedNode": "\\LMMProject\\LMMProject\\Program.cs",
+  "SelectedNode": "\\LMMProject\\LMMProject\\Views\\ADMIN\\Dashboard.cshtml",
   "PreviewInSolutionExplorer": false
 }

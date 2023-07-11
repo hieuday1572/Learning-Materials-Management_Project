@@ -8,72 +8,66 @@
 
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="~/css/learning-part.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete.css">
 </head>
 <body>
-    <div class="subject">
-        <div class="navbar">
-            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
-            <ul>
-                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <b>
-                <h1>Learning Materials Management</h1>
-                <p>Edit Material</p>
-            </b>
-        </div>
-
-        <div class="container">
-            <form method="POST" action="/ADMINMetarial/SubmitUpdate">
-                <div class="form-group">
-                    <label>Select subject</label>
-                    <select class="form-control" name="SubjectCode">
-                        @foreach (var item in Model.Subjects)
-                        {
-                            if (item.SubjectCode.Equals(Model.Material.SubjectCode))
+    <div class="color">
+        <h1> Edit Material</h1>
+    </div>
+    <
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form method="POST" action="/ADMINMetarial/SubmitUpdate">
+                    <div tclass="form-group mb-3">
+                        <label>Select subject</label>
+                        <select class="form-control" name="SubjectCode">
+                            @foreach (var item in Model.Subjects)
                             {
-                                <option selected>@item.SubjectCode</option>
-                            }else{
-                                <option>@item.SubjectCode</option>
-                            }
-                            
-                        }
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Author</label>
-                    <input class="form-control" type="text" name="Author" value="@Model.Material.Author" placeholder="Enter the Author" />
-                </div>
-                <div class="form-group">
-                    <label>Publisher</label>
-                    <input class="form-control" type="text" name="Publisher" value="@Model.Material.Publisher" placeholder="Enter the Publisher" />
-                </div>
-                <div class="form-group">
-                    <label>Published Date</label>
-                    <input class="form-control" type="date" value="@Model.Material.PublishedDate" name="PublishedDate" placeholder="Enter the Published Date" />
-                </div>
-                <div class="form-group">
-                    <label>URL</label>
-                    <input class="form-control" type="text" name="URL" value="@Model.Material.Url" placeholder="Enter the URL" />
-                </div>
-                <div class="form-group">
-                    <label>Description</label>
-                    <textarea class="form-control" placeholder="Enter the Description" name="MaterialDescription">@Model.Material.MaterialDescription</textarea>
-                </div>
-                <input type="hidden" name="MaterialId" value="@Model.Material.MaterialId" />
-                <div class="form-group">
-                    <input type="submit" value="Update" class="btn btn-success" />
-                </div>
-            </form>
-        </div>
+                                if (item.SubjectCode.Equals(Model.Material.SubjectCode))
+                                {
+                                    <option selected>@item.SubjectCode</option>
+                                }
+                                else
+                                {
+                                    <option>@item.SubjectCode</option>
+                                }
 
+                            }
+                        </select>
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Author</label>
+                        <input class="form-control" type="text" name="Author" value="@Model.Material.Author" placeholder="Enter the Author" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Publisher</label>
+                        <input class="form-control" type="text" name="Publisher" value="@Model.Material.Publisher" placeholder="Enter the Publisher" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Published Date</label>
+                        <input class="form-control" type="date" value="@Model.Material.PublishedDate" name="PublishedDate" placeholder="Enter the Published Date" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>URL</label>
+                        <input class="form-control" type="text" name="URL" value="@Model.Material.Url" placeholder="Enter the URL" />
+                    </div>
+                    <div tclass="form-group mb-3">
+                        <label>Description</label>
+                        <textarea class="form-control" placeholder="Enter the Description" name="MaterialDescription">@Model.Material.MaterialDescription</textarea>
+                    </div>
+                    <input type="hidden" name="MaterialId" value="@Model.Material.MaterialId" />
+                    <div tclass="form-group mb-3">
+                        <input type="submit" value="Update" class="btn btn-success" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
 </body>

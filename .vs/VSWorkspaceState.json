@@ -3,14 +3,14 @@
     "",
     "\\LMMProject",
     "\\LMMProject\\LMMProject",
-    "\\LMMProject\\LMMProject\\Controllers",
     "\\LMMProject\\LMMProject\\Models",
     "\\LMMProject\\LMMProject\\Properties",
     "\\LMMProject\\LMMProject\\Views",
     "\\LMMProject\\LMMProject\\Views\\ADMINSubject",
     "\\LMMProject\\LMMProject\\Views\\UserSubject",
-    "\\LMMProject\\LMMProject\\wwwroot"
+    "\\LMMProject\\LMMProject\\wwwroot",
+    "\\LMMProject\\LMMProject\\wwwroot\\html"
   ],
-  "SelectedNode": "\\LMMProject\\LMMProject\\Views\\UserSubject\\Index.cshtml",
+  "SelectedNode": "\\LMMProject\\LMMProject\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

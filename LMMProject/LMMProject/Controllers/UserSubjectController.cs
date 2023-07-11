@@ -25,5 +25,7 @@ namespace LMMProject.Controllers
             var appDbContext = _context.Subject.Include(s => s.Status);
             return View(await appDbContext.ToListAsync());
         }
+    }
+}
 
       

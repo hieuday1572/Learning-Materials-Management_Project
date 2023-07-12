@@ -142,25 +142,28 @@ namespace LMMProject.Controllers
         // POST: Subjects/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(String? id)
         {
-            var subject = await _context.Subject.Include(s => s.Status).FirstOrDefaultAsync(s => s.SubjectCode == id);
-            if (subject == null)
+            if(_context.Subject == null)
             {
-                return NotFound();
+                return Problem("Entity set 'AppDbContext.Subject' is null.");
             }
-
-            // Tìm các bản ghi trong bảng session có subjectCode trùng khớp với id
-            var sessions = await _context.Session.Where(s => s.SubjectCode == id).ToListAsync();
-
-            // Xóa các bản ghi trong bảng session
-            _context.Session.RemoveRange(sessions);
-
-            // Xóa bản ghi trong bảng subject
+            var subject = await _context.Subject.FindAsync(id);
+            var sys = _context.Syllabus.Where(s => s.SubjectCode == id).ToList();
+            var ses = _context.Session.Where(s =>s.SubjectCode == id).ToList();
+            var ma = _context.Material.Where(s => s.SubjectCode != id).ToList();
+            var mot = _context.MaterialOfTeacher.Where(s => s.SubjectCode == id).ToList();
+            foreach (var syllabus in sys)
+            {
+                var assessment = await _context.Assessment.Where(a => a.SyllabusId == syllabus.SyllabusId).ToListAsync();
+                _context.Assessment.RemoveRange(assessment);
+            }
+            _context.Syllabus.RemoveRange(sys);
+            _context.Session.RemoveRange(ses);
+            _context.Material.RemoveRange(ma);
             _context.Subject.RemoveRange(subject);
-
+            _context.MaterialOfTeacher.RemoveRange(mot);
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
 

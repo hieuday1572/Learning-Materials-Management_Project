@@ -3,9 +3,10 @@
     "",
     "\\LMMProject",
     "\\LMMProject\\LMMProject",
+    "\\LMMProject\\LMMProject\\Controllers",
     "\\LMMProject\\LMMProject\\Views",
     "\\LMMProject\\LMMProject\\Views\\ADMIN"
   ],
-  "SelectedNode": "\\LMMProject\\LMMProject\\Views\\ADMIN\\Dashboard.cshtml",
+  "SelectedNode": "\\LMMProject\\LMMProject\\Controllers\\ADMINSubjectController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LilX3DwgTIdz7BroFH7grUFESJ4F9SYsxloIUu2upJo=",
+  "Hash": "f0iz5jftlESOagICeBz38QV4hOR+FqdnuQBxJF/VVRk=",
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -321,23 +321,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\syllabus-management.css"
-    },
-    {
-      "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
-      "SourceId": "LMMProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
-      "BasePath": "_content/LMMProject",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",

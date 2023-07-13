@@ -69,10 +69,6 @@
       "PackagePath": "staticwebassets\\css\\syllabus.css"
     },
     {
-      "Id": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
-    },
-    {
       "Id": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",
       "PackagePath": "staticwebassets\\html\\.rescache"
     },

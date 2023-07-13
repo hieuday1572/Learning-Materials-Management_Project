@@ -1,4 +1,5 @@
 ﻿C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\ComboTest.cs
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\Controller\ADMINCurriculaControllerTests.cs
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\CurriculumTests.cs
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\SyllabusTests.cs
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\Usings.cs
@@ -12,3 +13,5 @@ C:\Users\ADMIN\.nuget\packages\nunit3testadapter\4.2.1\build\netcoreapp2.1\nunit
 C:\Users\ADMIN\.nuget\packages\nunit3testadapter\4.2.1\build\netcoreapp2.1\nunit.engine.api.dll
 C:\Users\ADMIN\.nuget\packages\nunit3testadapter\4.2.1\build\netcoreapp2.1\nunit.engine.core.dll
 C:\Users\ADMIN\.nuget\packages\nunit3testadapter\4.2.1\build\netcoreapp2.1\testcentric.engine.metadata.dll
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\.rescache
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\Controller\.rescache

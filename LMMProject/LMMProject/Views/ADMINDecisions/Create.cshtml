@@ -19,6 +19,12 @@
     </div>
     <div class="container-center">
         <div class="col-md-4">
+            @if (TempData["Error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span style="color:red"><b>Sorry!</b> - @TempData["Error"]</span>
+                </div>
+            }
             <div class="square-container">
                 <form asp-action="Create">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>

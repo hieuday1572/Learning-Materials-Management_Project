@@ -12,424 +12,72 @@
       },
       "results": [
         {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Dereference of a possibly null reference.",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'FakeItEasy' could not be found (are you missing a using directive or an assembly reference?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/CurriculumTests.cs",
+                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
-                  "startLine": 102,
-                  "startColumn": 13,
-                  "endLine": 102,
-                  "endColumn": 23
+                  "startLine": 1,
+                  "startColumn": 7,
+                  "endLine": 1,
+                  "endColumn": 17
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          ]
         },
         {
-          "ruleId": "CS8602",
-          "level": "warning",
-          "message": "Dereference of a possibly null reference.",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'FactAttribute' could not be found (are you missing a using directive or an assembly reference?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/ComboTest.cs",
+                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
-                  "startLine": 99,
-                  "startColumn": 13,
-                  "endLine": 99,
-                  "endColumn": 18
+                  "startLine": 27,
+                  "startColumn": 10,
+                  "endLine": 27,
+                  "endColumn": 14
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          ]
         },
         {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'entity' in 'EntityEntry<Syllabus> DbSet<Syllabus>.Remove(Syllabus entity)'.",
+          "ruleId": "CS0246",
+          "level": "error",
+          "message": "The type or namespace name 'Fact' could not be found (are you missing a using directive or an assembly reference?)",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
+                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
-                  "startLine": 145,
-                  "startColumn": 38,
-                  "endLine": 145,
-                  "endColumn": 46
+                  "startLine": 27,
+                  "startColumn": 10,
+                  "endLine": 27,
+                  "endColumn": 14
                 }
               }
             }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable field '_context' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 30,
-                  "endLine": 13,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 30,
-                  "endLine": 13,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable field '_controller' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 33,
-                  "endLine": 15,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 33,
-                  "endLine": 15,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable field '_context' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/ComboTest.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 30,
-                  "endLine": 16,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/ComboTest.cs",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 30,
-                  "endLine": 16,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8604",
-          "level": "warning",
-          "message": "Possible null reference argument for parameter 'entity' in 'EntityEntry<Curriculum> DbSet<Curriculum>.Remove(Curriculum entity)'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/CurriculumTests.cs",
-                "region": {
-                  "startLine": 124,
-                  "startColumn": 40,
-                  "endLine": 124,
-                  "endColumn": 50
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS8618",
-          "level": "warning",
-          "message": "Non-nullable field '_context' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
-          "suppressionStates": [
-            "suppressedInSource"
-          ],
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/CurriculumTests.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 30,
-                  "endLine": 12,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/CurriculumTests.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 30,
-                  "endLine": 12,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CS0649",
-          "level": "warning",
-          "message": "Field 'SyllabusTests.id' is never assigned to, and will always have its default value 0",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 21,
-                  "endLine": 14,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 4
-          }
-        },
-        {
-          "ruleId": "CS0169",
-          "level": "warning",
-          "message": "The field 'SyllabusTests._controller' is never used",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 15,
-                  "startColumn": 33,
-                  "endLine": 15,
-                  "endColumn": 44
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 3
-          }
-        },
-        {
-          "ruleId": "S2699",
-          "level": "warning",
-          "message": "Add at least one assertion to this test case.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 115,
-                  "startColumn": 27,
-                  "endLine": 115,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2699",
-          "level": "warning",
-          "message": "Add at least one assertion to this test case.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 125,
-                  "startColumn": 27,
-                  "endLine": 125,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2699",
-          "level": "warning",
-          "message": "Add at least one assertion to this test case.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/SyllabusTests.cs",
-                "region": {
-                  "startLine": 134,
-                  "startColumn": 27,
-                  "endLine": 134,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
+          ]
         }
       ],
       "rules": {
-        "CS0169": {
-          "id": "CS0169",
-          "shortDescription": "Field is never used",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0169)",
+        "CS0246": {
+          "id": "CS0246",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0246)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
             "tags": [
               "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS0649": {
-          "id": "CS0649",
-          "shortDescription": "Field is never assigned to, and will always have its default value",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0649)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8602": {
-          "id": "CS8602",
-          "shortDescription": "Dereference of a possibly null reference.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8604": {
-          "id": "CS8604",
-          "shortDescription": "Possible null reference argument.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "CS8618": {
-          "id": "CS8618",
-          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
-          "defaultLevel": "warning",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry"
-            ]
-          }
-        },
-        "S2699": {
-          "id": "S2699",
-          "shortDescription": "Tests should include assertions",
-          "fullDescription": "A test case without assertions ensures only that no exceptions are thrown. Beyond basic runnability, it ensures nothing about the behavior of the code under test.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
-          "properties": {
-            "category": "Blocker Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "TestSourceScope",
-              "SonarWay"
+              "Telemetry",
+              "NotConfigurable"
             ]
           }
         }

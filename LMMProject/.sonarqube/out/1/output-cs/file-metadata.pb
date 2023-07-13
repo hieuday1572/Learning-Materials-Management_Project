@@ -1,9 +1,0 @@
-r
-iC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\ComboTest.csutf-8
-oC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\CurriculumTests.cswindows-1252v
-mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\SyllabusTests.csutf-8o
-fC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\Usings.csutf-8}
-rC:\Users\ADMIN\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8—
-‹C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\TestProject.GlobalUsings.g.csutf-8¨
-œC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8•
-‰C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\TestProject.AssemblyInfo.csutf-8

@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/curri-details.css">
     <title >Details</title>
 </head>
@@ -22,6 +23,7 @@
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index">Back to List</a></li>
             </ul>
         </div>
         <div class="content">
@@ -29,7 +31,6 @@
                 <h1>Learning Materials Management</h1>
                 <p>Curriculum Details</p>
             </b>
-
         </div>
         <table class="table">
             <tr>
@@ -61,37 +62,45 @@
                 <th></th>
                 <td>
                     <div>
-                        <a asp-controller="ADMINCombo" asp-action="Index" asp-route-id="@Model?.CurriculumId"><button type="button"><span></span> View Combo</button></a>
+                        <a asp-action="Edit" asp-route-id="@Model?.CurriculumId" class="btn btn-primary">Edit</a> |
+                        <a asp-controller="ADMINCombo" asp-action="Index" asp-route-id="@Model?.CurriculumId" class="btn btn-primary"> View Combo</a>                        
                     </div>
                 </td>
             </tr>
         </table>
         <div class="table-container">
             @if (TempData["error"] != null)
-            {
-                
-                    <p><b>@TempData["error"]</b></p>
-                
+            {              
+                    <p><b>@TempData["error"]</b></p>               
             }
-            <form asp-controller="ADMINCurricula" asp-action="AddSubject">
-                <p>Enter Subject code you want to add: </p>
-                <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
-                <input type="text" name="add" />
-                <br />
-                <p>Enter semseter: </p>
-                <input type="number" name="semester" />
-                <button type="submit">ADD SUBJECT</button>
-            </form>
-
-            <table class="table-2">
+                       
+            <table class="table-2">   
+                
                 <thead>
+                    <tr>
+                        <td colspan="5">
+                            <div class="form-container">
+                                <form asp-controller="ADMINCurricula" asp-action="AddSubject">
+                                    <div class="form-group mb-3">
+                                        <label for="subject-code">Enter Subject code:</label>
+                                        <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
+                                        <input type="text" id="subject-code" name="add" />
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="semester">Enter semester:</label>
+                                        <input type="number" id="semester" name="semester" />
+                                    </div>                                  
+                                        <button type="submit" class="btn btn-primary">ADD SUBJECT</button>                             
+                            </form>
+                        </td>
+                    </tr>
                     <tr>
                         <th>Subject Code</th>
                         <th>Subject Name</th>
                         <th>Semester</th>
                         <th>Status</th>
                         <th>PreRequisite </th>
-                        <th></th>
+                        
                     </tr>
                 </thead>
                 <tbody>
@@ -109,10 +118,7 @@
                 </tbody>
             </table>
         </div>
-        <div>
-            <a asp-action="Edit" asp-route-id="@Model?.CurriculumId">Edit</a> |
-            <a asp-action="Index">Back to List</a>
-        </div>
+        
     </div>
 
 

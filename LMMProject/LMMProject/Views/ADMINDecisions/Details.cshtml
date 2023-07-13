@@ -8,38 +8,62 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/decision.css">
     <title>Details</title>
 </head>
 <body>
+        <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Decision Details</p>
+            </b>
 
-<div>
-    <h4>Decision</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DecisionName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DecisionName)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Note)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Note)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreateDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreateDate)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.DecisionNo">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        </div>
+    <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DecisionName)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.DecisionName)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Note)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Note)
+                </td>            
+            </tr>   
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CreateDate)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.CreateDate)
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td colspan="14">
+                    <a asp-action="Edit" asp-route-id="@Model?.DecisionNo" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+    </table>
 </div>
 </body>
 </html>

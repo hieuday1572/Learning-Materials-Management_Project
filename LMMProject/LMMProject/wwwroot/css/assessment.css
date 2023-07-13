@@ -58,7 +58,6 @@
     .navbar ul li:hover::after {
         width: 100%;
     }
-
 .content h1 {
     width: 1000px;
     font-size: 50px;
@@ -68,16 +67,6 @@
     transform: translateY(-250%);
     color: white;
 }
-
-.content p {
-    margin: 60px auto;
-    margin-top: 30px;
-    font-weight: 100;
-    font-size: 40px;
-    text-align: center;
-    transform: translateY(-200%);
-}
-
 button {
     width: 200px;
     padding: 15px 0;
@@ -114,9 +103,9 @@ button:hover {
 }
 
 .table {
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: 30px;
 }
 
     .table th, .table td {
@@ -136,37 +125,11 @@ button:hover {
         background-color: white;
     }
 
-        .table th:nth-child(1),
-        .table td:nth-child(1) {
-            width: 7%;
-        }
 
-        .table th:nth-child(2),
-        .table td:nth-child(2) {
-            width: 15%;
-        }
 
-        .table th:nth-child(3),
-        .table td:nth-child(3) {
-            width: 20%;
-        }
+        
 
-        .table th:nth-child(4),
-        .table td:nth-child(4) {
-            width: 10%;
-        }
 
-        .table th:nth-child(5),
-        .table td:nth-child(5) {
-            width: 10%;
-        }
 
-        .table th:nth-child(6),
-        .table td:nth-child(6) {
-            width: 5%;
-        }
 
-        .table th:nth-child(7),
-        .table td:nth-child(7) {
-            width: 15%;
-        }
+

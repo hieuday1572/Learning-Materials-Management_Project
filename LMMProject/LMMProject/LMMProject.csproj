@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\assessment.css" />
+    <Content Remove="wwwroot\css\crud-syllabus.css" />
+    <Content Remove="wwwroot\css\decision.css" />
+    <Content Remove="wwwroot\css\delete-detail.css" />
+    <Content Remove="wwwroot\css\delete.css" />
     <Content Remove="wwwroot\css\feedback.css" />
   </ItemGroup>
 
@@ -31,6 +36,9 @@
     <None Include="Views\ADMINSyllabus\Details.cshtml" />
     <None Include="Views\ADMINSyllabus\Edit.cshtml" />
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
+    <None Include="wwwroot\css\decision.css" />
+    <None Include="wwwroot\css\crud-syllabus.css" />
+    <None Include="wwwroot\css\delete.css" />
     <None Include="wwwroot\css\combo - Copy.css" />
     <None Include="wwwroot\css\combo.css" />
     <None Include="wwwroot\css\contact.css" />
@@ -42,7 +50,9 @@
     <None Include="wwwroot\css\learning-part.css" />
     <None Include="wwwroot\css\learning.css" />
     <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\css\delete-detail.css" />
     <None Include="wwwroot\css\syllabus-details.css" />
+    <None Include="wwwroot\css\assessment.css" />
     <None Include="wwwroot\css\syllabus-management.css" />
     <None Include="wwwroot\css\syllabus.css" />
     <None Include="wwwroot\html\combo.html" />

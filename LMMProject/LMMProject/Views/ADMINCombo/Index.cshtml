@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/combo.css">
     <title>ListCombo</title>
 </head>
@@ -18,9 +19,11 @@
 
     <div class="curri-details">
         <div class="navbar">
-            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Create" asp-route-id="@ViewBag.Curriculum.CurriculumId">Create</a></li>
+                <li><a asp-controller="ADMINCurricula" asp-action="Index">Back</a></li>
             </ul>
         </div>
         <div class="content">
@@ -53,7 +56,7 @@
                     <tr>
                         <th>Combo ID</th>
                         <th>Combo Name</th>
-                        <th><a asp-action="Create" asp-route-id="@ViewBag.Curriculum.CurriculumId">Create new Combo</a> </th>
+                        <th></th>
                     </tr>
                 </thead>
                 @foreach (var item in Model)
@@ -62,9 +65,9 @@
                         <td>@item.ComboId</td>
                         <td>@item.ComboNameEn</td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.ComboId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.ComboId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.ComboId">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@item.ComboId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.ComboId" class="btn btn-primary">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.ComboId" class="btn btn-primary">Delete</a>
                         </td>
                     </tr>
                 }

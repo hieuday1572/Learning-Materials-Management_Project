@@ -12,10 +12,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/learning-part.css">
 </head>
 <body>
-    <div class="subject">
+    <div class="curri-details">
         <div class="navbar">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
@@ -85,8 +86,8 @@
                             @item.PublishedDate
                         </td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.MaterialId">Edit</a> |
-                            <a asp-action="Delete" asp-route-id="@item.MaterialId">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@item.MaterialId" class="btn btn-primary">Edit</a> |
+                            <a asp-action="Delete" asp-route-id="@item.MaterialId" class="btn btn-primary">Delete</a>
                             @*<a asp-controller="ADMINSession" asp-action = "Index" asp-route-id="@item.SubjectCode">Session</a>*@
                         </td>
                     </tr>

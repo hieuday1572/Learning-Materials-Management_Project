@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gp/NpIkTI1BVqhxWxLQvwzGvr8a/8tnpo5HUIFD7wJI58zL2/TKGQLBLgpHLGDMoZ8tRjYjXKWn4JO7Oa7twgg==",
+  "dgSpecHash": "6R48iNUM8Kf1kzKH1jrtDIeWtJc32ZMROajeCzaooLfdyjpo4BANHsxsITFGwR1fGU3EK74was+wwC4Zifq8FA==",
   "success": true,
   "projectFilePath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
@@ -86,13 +86,13 @@
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\6.0.14\\microsoft.dotnet.scaffolding.shared.6.0.14.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\6.0.15\\microsoft.dotnet.scaffolding.shared.6.0.15.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.7\\microsoft.entityframeworkcore.7.0.7.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.7\\microsoft.entityframeworkcore.abstractions.7.0.7.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.7\\microsoft.entityframeworkcore.analyzers.7.0.7.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.7\\microsoft.entityframeworkcore.inmemory.7.0.7.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.18\\microsoft.entityframeworkcore.sqlserver.6.0.18.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.20\\microsoft.entityframeworkcore.sqlserver.6.0.20.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -115,13 +115,13 @@
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.14\\microsoft.visualstudio.web.codegeneration.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.14\\microsoft.visualstudio.web.codegeneration.core.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.14\\microsoft.visualstudio.web.codegeneration.design.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\6.0.14\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\6.0.14\\microsoft.visualstudio.web.codegeneration.templating.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\6.0.14\\microsoft.visualstudio.web.codegeneration.utils.6.0.14.nupkg.sha512",
-    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\6.0.14\\microsoft.visualstudio.web.codegenerators.mvc.6.0.14.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.15\\microsoft.visualstudio.web.codegeneration.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.15\\microsoft.visualstudio.web.codegeneration.core.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\6.0.15\\microsoft.visualstudio.web.codegeneration.design.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\6.0.15\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\6.0.15\\microsoft.visualstudio.web.codegeneration.templating.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\6.0.15\\microsoft.visualstudio.web.codegeneration.utils.6.0.15.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\6.0.15\\microsoft.visualstudio.web.codegenerators.mvc.6.0.15.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\mysql.data\\8.0.33\\mysql.data.8.0.33.nupkg.sha512",
@@ -195,12 +195,5 @@
     "C:\\Users\\rikak\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

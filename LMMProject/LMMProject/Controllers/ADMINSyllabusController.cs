@@ -69,6 +69,34 @@ namespace LMMProject.Controllers
                 {
                     return View(syllabus);
                 }
+                if (string.IsNullOrWhiteSpace(syllabus.SyllabusNameVn))
+                {
+                    ModelState.AddModelError("SyllabusNameVn", "The SyllabusNameVn field is required.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                    return View(syllabus);
+                }
+                if (syllabus.NoCredit < 0)
+                {
+                    ModelState.AddModelError("NoCredit", "The NoCredit field must be a non-negative number.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                    return View(syllabus);
+                }
+                if (syllabus.MinAvgMarkToPass < 0)
+                {
+                    ModelState.AddModelError("MinAvgMarkToPass", "The MinAvgMarkToPass field must be a non-negative number.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                    return View(syllabus);
+                }
+                if (syllabus.ScoringScale < 0)
+                {
+                    ModelState.AddModelError("ScoringScale", "The MinAvgMarkToPass field must be a non-negative number.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                    return View(syllabus);
+                }
 
                 Syllabus syl = new Syllabus();
                 syl.SyllabusNameVn = syllabus.SyllabusNameVn;
@@ -134,16 +162,43 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-
+            if (string.IsNullOrWhiteSpace(syllabus.SyllabusNameVn))
+            {
+                ModelState.AddModelError("SyllabusNameVn", "The SyllabusNameVn field is required.");
+                ViewBag.Sub = _context.Subject.ToList();
+                ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                return View(syllabus);
+            }
+            if (syllabus.NoCredit < 0)
+            {
+                ModelState.AddModelError("NoCredit", "The NoCredit field must be a non-negative number.");
+                ViewBag.Sub = _context.Subject.ToList();
+                ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                return View(syllabus);
+            }
+            if (syllabus.MinAvgMarkToPass < 0)
+            {
+                ModelState.AddModelError("MinAvgMarkToPass", "The MinAvgMarkToPass field must be a non-negative number.");
+                ViewBag.Sub = _context.Subject.ToList();
+                ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                return View(syllabus);
+            }
+            if (syllabus.ScoringScale < 0)
+            {
+                ModelState.AddModelError("ScoringScale", "The MinAvgMarkToPass field must be a non-negative number.");
+                ViewBag.Sub = _context.Subject.ToList();
+                ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                return View(syllabus);
+            }
 
             try
             {
                 var syl = await _context.Syllabus.SingleOrDefaultAsync(s => s.SyllabusId == id);
+
                 syl.SyllabusNameVn = syllabus.SyllabusNameVn;
                 syl.SyllabusNameEn = syllabus.SyllabusNameEn;
                 syl.SubjectCode = syllabus.SubjectCode;
                 syl.NoCredit = syllabus.NoCredit;
-
                 syl.DegreeLevel = syllabus.DegreeLevel;
                 syl.TimeAllocation = syllabus.TimeAllocation;
                 syl.PreRequisite = syllabus.PreRequisite;

@@ -32,7 +32,7 @@ public partial class Syllabus
 
     public string? Tool { get; set; }
 
-    public string? ScoringScale { get; set; }
+    public int? ScoringScale { get; set; }
     [ForeignKey("Decision")]
     public string? DecisionNo { get; set; }
 

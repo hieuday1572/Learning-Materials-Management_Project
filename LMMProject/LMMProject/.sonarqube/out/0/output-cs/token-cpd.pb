@@ -1,5 +1,5 @@
-Úa
-lD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINAssessmentsController.cs
+åb
+ÖC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINAssessmentsController.cs
 	namespace 	
 
 LMMProject
@@ -922,8 +922,8 @@ Assessment
 ¶¶ 	
 }
 ßß 
-}®® Ææ
-fD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboController.cs
+}®® «æ
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboController.cs
 	namespace 	
 
 LMMProject
@@ -2979,8 +2979,8 @@ ActionName
 ´´ 	
 }
 ¨¨ 
-}≠≠ ‚p
-nD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboSubjectsController.cs
+}≠≠ ¸p
+áC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboSubjectsController.cs
 	namespace 	
 
 LMMProject
@@ -3988,8 +3988,8 @@ ActionName
 ¨¨ 	
 }
 ≠≠ 
-}ÆÆ ƒ0
-aD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINController.cs
+}ÆÆ ◊1
+zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINController.cs
 	namespace 	
 
 LMMProject
@@ -4130,220 +4130,226 @@ Controller# -
 { 	
 var 
 accountChange 
-= 
-_context &
-.& '
-Account' .
-.. /
-Include/ 6
-(6 7
-p7 8
-=>9 ;
-p< =
-.= >
-Role> B
-)B C
-.C D
-FirstOrDefaultD R
-(R S
-proS V
-=>W Y
-proZ ]
-.] ^
-UserName^ f
-.f g
-Equalsg m
-(m n
-accountn u
-.u v
-UserNamev ~
-)~ 
-)	 Ä
-;
-Ä Å
+= 
+new  #
+Account$ +
+(+ ,
+), -
+;- .
 accountChange   
-.   
-UserName   "
-=  " #
-account  # *
-.  * +
-UserName  + 3
-;  3 4
+=   
+_context   $
+.  $ %
+Account  % ,
+.  , -
+Include  - 4
+(  4 5
+p  5 6
+=>  7 9
+p  : ;
+.  ; <
+Role  < @
+)  @ A
+.  A B
+FirstOrDefault  B P
+(  P Q
+pro  Q T
+=>  U W
+pro  X [
+.  [ \
+UserName  \ d
+.  d e
+Equals  e k
+(  k l
+account  l s
+.  s t
+UserName  t |
+)  | }
+)  } ~
+;  ~ 
 accountChange!! 
 .!! 
-Fullname!! "
+UserName!! "
 =!!" #
 account!!# *
 .!!* +
-Fullname!!+ 3
+UserName!!+ 3
 ;!!3 4
 accountChange"" 
-."" 
-Address"" !
-=""! "
-account""" )
-."") *
-Address""* 1
-;""1 2
+."" 
+Fullname"" "
+=""" #
+account""# *
+.""* +
+Fullname""+ 3
+;""3 4
 accountChange## 
-.## 
-Phone## 
-=##  
-account##  '
-.##' (
-Phone##( -
-;##- .
+.## 
+Address## !
+=##! "
+account##" )
+.##) *
+Address##* 1
+;##1 2
 accountChange$$ 
-.$$ 
-Gender$$  
-=$$  !
-account$$! (
-.$$( )
-Gender$$) /
-;$$/ 0
+.$$ 
+Phone$$ 
+=$$  
+account$$  '
+.$$' (
+Phone$$( -
+;$$- .
 accountChange%% 
-.%% 
-Birthday%% "
-=%%" #
-account%%# *
-.%%* +
-Birthday%%+ 3
-;%%3 4
-_context&& 
-.&& 
-Account&& 
-.&& 
-Update&& "
-(&&" #
-accountChange&&# 0
-)&&0 1
-;&&1 2
+.%% 
+Gender%%  
+=%%  !
+account%%! (
+.%%( )
+Gender%%) /
+;%%/ 0
+accountChange&& 
+.&& 
+Birthday&& "
+=&&" #
+account&&# *
+.&&* +
+Birthday&&+ 3
+;&&3 4
 _context'' 
-.'' 
-SaveChanges'' 
-(''  
-)''  !
-;''! "
-return(( 
-RedirectToAction(( #
-(((# $
-$str(($ +
-)((+ ,
-;((, -
-})) 	
-public++ 
-IActionResult++ 
-ListOfCurriculum++ -
-(++- .
-)++. /
-{,, 	
-var-- 
-listCurriculum-- 
-=--  
-_context--! )
-.--) *
+.'' 
+Account'' 
+.'' 
+Update'' "
+(''" #
+accountChange''# 0
+)''0 1
+;''1 2
+_context(( 
+.(( 
+SaveChanges(( 
+(((  
+)((  !
+;((! "
+return)) 
+RedirectToAction)) #
+())# $
+$str))$ +
+)))+ ,
+;)), -
+}** 	
+public,, 
+IActionResult,, 
+ListOfCurriculum,, -
+(,,- .
+),,. /
+{-- 	
+var.. 
+listCurriculum.. 
+=..  
+_context..! )
+...) *
 
-Curriculum--* 4
-.--4 5
-Include--5 <
-(--< =
-p--= >
-=>--? A
-p--B C
-.--C D
-Decision--D L
-)--L M
-.--M N
-ToList--N T
-(--T U
-)--U V
-;--V W
-return.. 
-View.. 
-(.. 
-listCurriculum.. &
-)..& '
-;..' (
-}// 	
-public00 
-IActionResult00 
-ListOfCombo00 (
-(00( )
-)00) *
-{11 	
-var22 
-	listCombo22 
-=22 
-_context22 $
-.22$ %
-Combo22% *
-.22* +
-Include22+ 2
-(222 3
-a223 4
-=>225 7
-a228 9
-.229 :
+Curriculum..* 4
+...4 5
+Include..5 <
+(..< =
+p..= >
+=>..? A
+p..B C
+...C D
+Decision..D L
+)..L M
+...M N
+ToList..N T
+(..T U
+)..U V
+;..V W
+return// 
+View// 
+(// 
+listCurriculum// &
+)//& '
+;//' (
+}00 	
+public11 
+IActionResult11 
+ListOfCombo11 (
+(11( )
+)11) *
+{22 	
+var33 
+	listCombo33 
+=33 
+_context33 $
+.33$ %
+Combo33% *
+.33* +
+Include33+ 2
+(332 3
+a333 4
+=>335 7
+a338 9
+.339 :
 
-Curriculum22: D
-)22D E
-.22E F
-ToList22F L
-(22L M
-)22M N
-;22N O
-return33 
-View33 
-(33 
-	listCombo33 !
-)33! "
-;33" #
-}44 	
-public55 
-IActionResult55 
-ComboSubject55 )
-(55) *
-)55* +
-{66 	
-var77 
-ComboSubject77 
-=77 
-_context77 '
-.77' (
-Combo_Subject77( 5
-.775 6
-Include776 =
-(77= >
-a77> ?
-=>77@ B
-a77C D
-.77D E
-Subject77E L
-)77L M
-.77M N
-Include77N U
-(77U V
-p77V W
-=>77W Y
-p77Z [
-.77[ \
-Combo77\ a
-)77a b
-.77b c
-ToList77c i
-(77i j
-)77j k
-;77k l
-return88 
-View88 
-(88 
-ComboSubject88 $
-)88$ %
-;88% &
-}99 	
-};; 
-}<< –…
-jD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINCurriculaController.cs
+Curriculum33: D
+)33D E
+.33E F
+ToList33F L
+(33L M
+)33M N
+;33N O
+return44 
+View44 
+(44 
+	listCombo44 !
+)44! "
+;44" #
+}55 	
+public66 
+IActionResult66 
+ComboSubject66 )
+(66) *
+)66* +
+{77 	
+var88 
+ComboSubject88 
+=88 
+_context88 '
+.88' (
+Combo_Subject88( 5
+.885 6
+Include886 =
+(88= >
+a88> ?
+=>88@ B
+a88C D
+.88D E
+Subject88E L
+)88L M
+.88M N
+Include88N U
+(88U V
+p88V W
+=>88W Y
+p88Z [
+.88[ \
+Combo88\ a
+)88a b
+.88b c
+ToList88c i
+(88i j
+)88j k
+;88k l
+return99 
+View99 
+(99 
+ComboSubject99 $
+)99$ %
+;99% &
+}:: 	
+}<< 
+}== Í…
+ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINCurriculaController.cs
 	namespace 	
 
 LMMProject
@@ -6592,8 +6598,8 @@ Curriculum
 ˛˛ 	
 }
 ˇˇ 
-}ÄÄ ±g
-jD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINDecisionsController.cs
+}ÄÄ Àg
+ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINDecisionsController.cs
 	namespace 	
 
 LMMProject
@@ -7607,8 +7613,8 @@ DecisionNo
 ≤≤ 	
 }
 ≥≥ 
-}¥¥ ¶[
-rD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMaterialOfTeacherController.cs
+}¥¥ ¿[
+ãC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMaterialOfTeacherController.cs
 	namespace 	
 
 LMMProject
@@ -8322,8 +8328,8 @@ ActionNamedd 
 ;xxW X
 }yy 	
 }zz 
-}{{ ì>
-iD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMetarialController.cs
+}{{ ≠>
+ÇC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMetarialController.cs
 	namespace 	
 
 LMMProject
@@ -8770,8 +8776,8 @@ MaterialIdKKb l
 ;\\2 3
 }]] 	
 }^^ 
-}__ √j
-hD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSessionController.cs
+}__ ›j
+ÅC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSessionController.cs
 	namespace 	
 
 LMMProject
@@ -9722,8 +9728,8 @@ ActionName
 ùù 	
 }
 ûû 
-}üü é}
-hD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSubjectController.cs
+}üü ≈j
+ÅC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSubjectController.cs
 	namespace 	
 
 LMMProject
@@ -10404,544 +10410,1169 @@ ActionName
 ëë) 8
 (
 ëë8 9
-String
-ëë9 ?
-?
-ëë? @
+string
+ëë9 ?
 id
-ëëA C
+ëë@ B
 )
-ëëC D
+ëëB C
 {
-íí 	
-if
-ìì 
-(
-ìì 
-_context
-ìì 
-.
-ìì 
-Subject
-ìì 
-==
-ìì  "
-null
-ìì# '
-)
-ìì' (
-{
-îî 
-return
-ïï 
-Problem
-ïï 
-(
-ïï 
-$str
-ïï K
-)
-ïïK L
-;
-ïïL M
-}
-ññ 
+íí 	
 var
-óó 
+ìì 
 subject
-óó 
+ìì 
 =
-óó 
+ìì 
 await
-óó 
+ìì 
 _context
-óó  (
+ìì  (
 .
-óó( )
+ìì( )
 Subject
-óó) 0
+ìì) 0
 .
-óó0 1
-	FindAsync
-óó1 :
+ìì0 1
+Include
+ìì1 8
 (
-óó: ;
-id
-óó; =
-)
-óó= >
-;
-óó> ?
-var
-òò 
-sys
-òò 
-=
-òò 
-_context
-òò 
-.
-òò 
-Syllabus
-òò '
-.
-òò' (
-Where
-òò( -
-(
-òò- .
+ìì8 9
 s
-òò. /
+ìì9 :
 =>
-òò0 2
+ìì; =
 s
-òò3 4
+ìì> ?
 .
-òò4 5
+ìì? @
+Status
+ìì@ F
+)
+ììF G
+.
+ììG H!
+FirstOrDefaultAsync
+ììH [
+(
+ìì[ \
+s
+ìì\ ]
+=>
+ìì^ `
+s
+ììa b
+.
+ììb c
 SubjectCode
-òò5 @
+ììc n
 ==
-òòA C
+ììo q
 id
-òòD F
+ììr t
 )
-òòF G
-.
-òòG H
-ToList
-òòH N
-(
-òòN O
-)
-òòO P
+ììt u
 ;
-òòP Q
-var
-ôô 
-ses
-ôô 
-=
-ôô 
-_context
-ôô 
-.
-ôô 
-Session
-ôô &
-.
-ôô& '
-Where
-ôô' ,
+ììu v
+if
+îî 
 (
-ôô, -
-s
-ôô- .
-=>
-ôô/ 1
-s
-ôô1 2
-.
-ôô2 3
-SubjectCode
-ôô3 >
+îî 
+subject
+îî 
 ==
-ôô? A
-id
-ôôB D
+îî 
+null
+îî 
 )
-ôôD E
-.
-ôôE F
-ToList
-ôôF L
-(
-ôôL M
-)
-ôôM N
-;
-ôôN O
-var
-öö 
-ma
-öö 
-=
-öö 
-_context
-öö 
-.
-öö 
-Material
-öö &
-.
-öö& '
-Where
-öö' ,
-(
-öö, -
-s
-öö- .
-=>
-öö/ 1
-s
-öö2 3
-.
-öö3 4
-SubjectCode
-öö4 ?
-!=
-öö@ B
-id
-ööC E
-)
-ööE F
-.
-ööF G
-ToList
-ööG M
-(
-ööM N
-)
-ööN O
-;
-ööO P
-var
-õõ 
-mot
-õõ 
-=
-õõ 
-_context
-õõ 
-.
-õõ 
-MaterialOfTeacher
-õõ 0
-.
-õõ0 1
-Where
-õõ1 6
-(
-õõ6 7
-s
-õõ7 8
-=>
-õõ9 ;
-s
-õõ< =
-.
-õõ= >
-SubjectCode
-õõ> I
-==
-õõJ L
-id
-õõM O
-)
-õõO P
-.
-õõP Q
-ToList
-õõQ W
-(
-õõW X
-)
-õõX Y
-;
-õõY Z
-foreach
-úú 
-(
-úú 
-var
-úú 
-syllabus
-úú !
-in
-úú" $
-sys
-úú% (
-)
-úú( )
+îî  
 {
-ùù 
-var
-ûû 
-
-assessment
-ûû 
-=
-ûû  
-await
-ûû! &
-_context
-ûû' /
-.
-ûû/ 0
-
-Assessment
-ûû0 :
-.
-ûû: ;
-Where
-ûû; @
+ïï 
+return
+ññ 
+NotFound
+ññ 
 (
-ûû@ A
-a
-ûûA B
-=>
-ûûC E
-a
-ûûF G
-.
-ûûG H
-
-SyllabusId
-ûûH R
-==
-ûûS U
-syllabus
-ûûV ^
-.
-ûû^ _
-
-SyllabusId
-ûû_ i
+ññ  
 )
-ûûi j
-.
-ûûj k
-ToListAsync
-ûûk v
-(
-ûûv w
-)
-ûûw x
+ññ  !
 ;
-ûûx y
-_context
-üü 
-.
-üü 
-
-Assessment
-üü #
-.
-üü# $
-RemoveRange
-üü$ /
-(
-üü/ 0
-
-assessment
-üü0 :
-)
-üü: ;
-;
-üü; <
+ññ! "
 }
-†† 
+óó 
+var
+öö 
+sessions
+öö 
+=
+öö 
+await
+öö  
 _context
-°° 
+öö! )
 .
-°° 
-Syllabus
-°° 
-.
-°° 
-RemoveRange
-°° )
-(
-°°) *
-sys
-°°* -
-)
-°°- .
-;
-°°. /
-_context
-¢¢ 
-.
-¢¢ 
+öö) *
 Session
-¢¢ 
+öö* 1
 .
-¢¢ 
-RemoveRange
-¢¢ (
+öö1 2
+Where
+öö2 7
 (
-¢¢( )
-ses
-¢¢) ,
+öö7 8
+s
+öö8 9
+=>
+öö: <
+s
+öö= >
+.
+öö> ?
+SubjectCode
+öö? J
+==
+ööK M
+id
+ööN P
+)
+ööP Q
+.
+ööQ R
+ToListAsync
+ööR ]
+(
+öö] ^
+)
+öö^ _
+;
+öö_ `
+_context
+ùù 
+.
+ùù 
+Session
+ùù 
+.
+ùù 
+RemoveRange
+ùù (
+(
+ùù( )
+sessions
+ùù) 1
+)
+ùù1 2
+;
+ùù2 3
+_context
+†† 
+.
+†† 
+Subject
+†† 
+.
+†† 
+RemoveRange
+†† (
+(
+††( )
+subject
+††) 0
+)
+††0 1
+;
+††1 2
+await
+¢¢ 
+_context
+¢¢ 
+.
+¢¢ 
+SaveChangesAsync
+¢¢ +
+(
+¢¢+ ,
 )
 ¢¢, -
 ;
-¢¢- .
-_context
-££ 
-.
-££ 
-Material
-££ 
-.
-££ 
-RemoveRange
-££ )
+¢¢- .
+return
+§§ 
+RedirectToAction
+§§ #
 (
-££) *
-ma
+§§# $
+nameof
+§§$ *
+(
+§§* +
+Index
+§§+ 0
+)
+§§0 1
+)
+§§1 2
+;
+§§2 3
+}
+•• 	
+private
+©© 
+bool
+©© 
+SubjectExists
+©© "
+(
+©©" #
+string
+©©# )
+id
+©©* ,
+)
+©©, -
+{
+™™ 	
+bool
+´´ 
+isExist
+´´ 
+=
+´´ 
+(
+´´ 
+_context
+´´ $
+.
+´´$ %
+Subject
+´´% ,
+?
+´´, -
+.
+´´- .
+Any
+´´. 1
+(
+´´1 2
+e
+´´2 3
+=>
+´´4 6
+e
+´´7 8
+.
+´´8 9
+SubjectCode
+´´9 D
+==
+´´E G
+id
+´´H J
+)
+´´J K
+)
+´´K L
+.
+´´L M
+GetValueOrDefault
+´´M ^
+(
+´´^ _
+)
+´´_ `
+;
+´´` a
+return
+¨¨ 
+isExist
+¨¨ 
+;
+¨¨ 
+}
+≠≠ 	
+}
+∞∞ 
+}±± Ÿ`
+ÇC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSubjectsController.cs
+	namespace 	
+
+LMMProject
+ 
+. 
+Controllers  
+{ 
+public 
+
+class #
+ADMINSubjectsController (
+:) *
+
+Controller+ 5
+{ 
+private 
+readonly 
+AppDbContext %
+_context& .
+;. /
+public #
+ADMINSubjectsController &
+(& '
+AppDbContext' 3
+context4 ;
+); <
+{ 	
+_context 
+= 
+context 
+; 
+} 	
+public 
+async 
+Task 
+< 
+IActionResult '
+>' (
+Index) .
+(. /
+)/ 0
+{ 	
+var 
+appDbContext 
+= 
+_context '
+.' (
+Subject( /
+./ 0
+Include0 7
+(7 8
+s8 9
+=>: <
+s= >
+.> ?
+Status? E
+)E F
+;F G
+return 
+View 
+( 
+await 
+appDbContext *
+.* +
+ToListAsync+ 6
+(6 7
+)7 8
+)8 9
+;9 :
+} 	
+public 
+async 
+Task 
+< 
+IActionResult '
+>' (
+Details) 0
+(0 1
+string1 7
+id8 :
+): ;
+{ 	
+if   
+(   
+id   
+==   
+null   
+||   
+_context   &
+.  & '
+Subject  ' .
+==  / 1
+null  2 6
+)  6 7
+{!! 
+return"" 
+NotFound"" 
+(""  
+)""  !
+;""! "
+}## 
+var%% 
+subject%% 
+=%% 
+await%% 
+_context%%  (
+.%%( )
+Subject%%) 0
+.&& 
+Include&& 
+(&& 
+s&& 
+=>&& 
+s&& 
+.&&  
+Status&&  &
+)&&& '
+.'' 
+FirstOrDefaultAsync'' $
+(''$ %
+m''% &
+=>''' )
+m''* +
+.''+ ,
+SubjectCode'', 7
+==''8 :
+id''; =
+)''= >
+;''> ?
+if(( 
+((( 
+subject(( 
+==(( 
+null(( 
+)((  
+{)) 
+return** 
+NotFound** 
+(**  
+)**  !
+;**! "
+}++ 
+return-- 
+View-- 
+(-- 
+subject-- 
+)--  
+;--  !
+}.. 	
+public11 
+IActionResult11 
+Create11 #
+(11# $
+)11$ %
+{22 	
+ViewData33 
+[33 
+$str33 
+]33  
+=33! "
+new33# &
+
+SelectList33' 1
+(331 2
+_context332 :
+.33: ;
+Status33; A
+,33A B
+$str33C M
+,33M N
+$str33O Y
+)33Y Z
+;33Z [
+return44 
+View44 
+(44 
+)44 
+;44 
+}55 	
+[:: 	
+HttpPost::	 
+]:: 
+[;; 	$
+ValidateAntiForgeryToken;;	 !
+];;! "
+public<< 
+async<< 
+Task<< 
+<<< 
+IActionResult<< '
+><<' (
+Create<<) /
+(<</ 0
+[<<0 1
+Bind<<1 5
+(<<5 6
+$str<<6 ~
+)<<~ 
+]	<< Ä
+Subject
+<<Å à
+subject
+<<â ê
+)
+<<ê ë
+{== 	
+if>> 
+(>> 
+
+ModelState>> 
+.>> 
+IsValid>> "
+)>>" #
+{?? 
+_context@@ 
+.@@ 
+Add@@ 
+(@@ 
+subject@@ $
+)@@$ %
+;@@% &
+awaitAA 
+_contextAA 
+.AA 
+SaveChangesAsyncAA /
+(AA/ 0
+)AA0 1
+;AA1 2
+returnBB 
+RedirectToActionBB '
+(BB' (
+nameofBB( .
+(BB. /
+IndexBB/ 4
+)BB4 5
+)BB5 6
+;BB6 7
+}CC 
+ViewDataDD 
+[DD 
+$strDD 
+]DD  
+=DD! "
+newDD# &
+
+SelectListDD' 1
+(DD1 2
+_contextDD2 :
+.DD: ;
+StatusDD; A
+,DDA B
+$strDDC M
+,DDM N
+$strDDO Y
+,DDY Z
+subjectDD[ b
+.DDb c
+StatusIdDDc k
+)DDk l
+;DDl m
+returnEE 
+ViewEE 
+(EE 
+subjectEE 
+)EE  
+;EE  !
+}FF 	
+publicII 
+asyncII 
+TaskII 
+<II 
+IActionResultII '
+>II' (
+EditII) -
+(II- .
+stringII. 4
+idII5 7
+)II7 8
+{JJ 	
+ifKK 
+(KK 
+idKK 
+==KK 
+nullKK 
+||KK 
+_contextKK &
+.KK& '
+SubjectKK' .
+==KK/ 1
+nullKK2 6
+)KK6 7
+{LL 
+returnMM 
+NotFoundMM 
+(MM  
+)MM  !
+;MM! "
+}NN 
+varPP 
+subjectPP 
+=PP 
+awaitPP 
+_contextPP  (
+.PP( )
+SubjectPP) 0
+.PP0 1
+	FindAsyncPP1 :
+(PP: ;
+idPP; =
+)PP= >
+;PP> ?
+ifQQ 
+(QQ 
+subjectQQ 
+==QQ 
+nullQQ 
+)QQ  
+{RR 
+returnSS 
+NotFoundSS 
+(SS  
+)SS  !
+;SS! "
+}TT 
+ViewDataUU 
+[UU 
+$strUU 
+]UU  
+=UU! "
+newUU# &
+
+SelectListUU' 1
+(UU1 2
+_contextUU2 :
+.UU: ;
+StatusUU; A
+,UUA B
+$strUUC M
+,UUM N
+$strUUO Y
+,UUY Z
+subjectUU[ b
+.UUb c
+StatusIdUUc k
+)UUk l
+;UUl m
+returnVV 
+ViewVV 
+(VV 
+subjectVV 
+)VV  
+;VV  !
+}WW 	
+[\\ 	
+HttpPost\\	 
+]\\ 
+[]] 	$
+ValidateAntiForgeryToken]]	 !
+]]]! "
+public^^ 
+async^^ 
+Task^^ 
+<^^ 
+IActionResult^^ '
+>^^' (
+Edit^^) -
+(^^- .
+string^^. 4
+id^^5 7
+,^^7 8
+[^^9 :
+Bind^^: >
+(^^> ?
+$str	^^? á
+)
+^^á à
+]
+^^à â
+Subject
+^^ä ë
+subject
+^^í ô
+)
+^^ô ö
+{__ 	
+if`` 
+(`` 
+id`` 
+!=`` 
+subject`` 
+.`` 
+SubjectCode`` )
+)``) *
+{aa 
+returnbb 
+NotFoundbb 
+(bb  
+)bb  !
+;bb! "
+}cc 
+ifee 
+(ee 
+
+ModelStateee 
+.ee 
+IsValidee "
+)ee" #
+{ff 
+trygg 
+{hh 
+_contextii 
+.ii 
+Updateii #
+(ii# $
+subjectii$ +
+)ii+ ,
+;ii, -
+awaitjj 
+_contextjj "
+.jj" #
+SaveChangesAsyncjj# 3
+(jj3 4
+)jj4 5
+;jj5 6
+}kk 
+catchll 
+(ll (
+DbUpdateConcurrencyExceptionll 3
+)ll3 4
+{mm 
+ifnn 
+(nn 
+!nn 
+SubjectExistsnn &
+(nn& '
+subjectnn' .
+.nn. /
+SubjectCodenn/ :
+)nn: ;
+)nn; <
+{oo 
+returnpp 
+NotFoundpp '
+(pp' (
+)pp( )
+;pp) *
+}qq 
+elserr 
+{ss 
+throwtt 
+;tt 
+}uu 
+}vv 
+returnww 
+RedirectToActionww '
+(ww' (
+nameofww( .
+(ww. /
+Indexww/ 4
+)ww4 5
+)ww5 6
+;ww6 7
+}xx 
+ViewDatayy 
+[yy 
+$stryy 
+]yy  
+=yy! "
+newyy# &
+
+SelectListyy' 1
+(yy1 2
+_contextyy2 :
+.yy: ;
+Statusyy; A
+,yyA B
+$stryyC M
+,yyM N
+$stryyO Y
+,yyY Z
+subjectyy[ b
+.yyb c
+StatusIdyyc k
+)yyk l
+;yyl m
+returnzz 
+Viewzz 
+(zz 
+subjectzz 
+)zz  
+;zz  !
+}{{ 	
+public~~ 
+async~~ 
+Task~~ 
+<~~ 
+IActionResult~~ '
+>~~' (
+Delete~~) /
+(~~/ 0
+string~~0 6
+id~~7 9
+)~~9 :
+{ 	
+if
+ÄÄ 
+(
+ÄÄ 
+id
+ÄÄ 
+==
+ÄÄ 
+null
+ÄÄ 
+||
+ÄÄ 
+_context
+ÄÄ &
+.
+ÄÄ& '
+Subject
+ÄÄ' .
+==
+ÄÄ/ 1
+null
+ÄÄ2 6
+)
+ÄÄ6 7
+{
+ÅÅ 
+return
+ÇÇ 
+NotFound
+ÇÇ 
+(
+ÇÇ  
+)
+ÇÇ  !
+;
+ÇÇ! "
+}
+ÉÉ 
+var
+ÖÖ 
+subject
+ÖÖ 
+=
+ÖÖ 
+await
+ÖÖ 
+_context
+ÖÖ  (
+.
+ÖÖ( )
+Subject
+ÖÖ) 0
+.
+ÜÜ 
+Include
+ÜÜ 
+(
+ÜÜ 
+s
+ÜÜ 
+=>
+ÜÜ 
+s
+ÜÜ 
+.
+ÜÜ  
+Status
+ÜÜ  &
+)
+ÜÜ& '
+.
+áá !
+FirstOrDefaultAsync
+áá $
+(
+áá$ %
+m
+áá% &
+=>
+áá' )
+m
+áá* +
+.
+áá+ ,
+SubjectCode
+áá, 7
+==
+áá8 :
+id
+áá; =
+)
+áá= >
+;
+áá> ?
+if
+àà 
+(
+àà 
+subject
+àà 
+==
+àà 
+null
+àà 
+)
+àà  
+{
+ââ 
+return
+ää 
+NotFound
+ää 
+(
+ää  
+)
+ää  !
+;
+ää! "
+}
+ãã 
+return
+çç 
+View
+çç 
+(
+çç 
+subject
+çç 
+)
+çç  
+;
+çç  !
+}
+éé 	
+[
+ëë 	
+HttpPost
+ëë	 
+,
+ëë 
+
+ActionName
+ëë 
+(
+ëë 
+$str
+ëë &
+)
+ëë& '
+]
+ëë' (
+[
+íí 	&
+ValidateAntiForgeryToken
+íí	 !
+]
+íí! "
+public
+ìì 
+async
+ìì 
+Task
+ìì 
+<
+ìì 
+IActionResult
+ìì '
+>
+ìì' (
+DeleteConfirmed
+ìì) 8
+(
+ìì8 9
+string
+ìì9 ?
+id
+ìì@ B
+)
+ììB C
+{
+îî 	
+if
+ïï 
+(
+ïï 
+_context
+ïï 
+.
+ïï 
+Subject
+ïï  
+==
+ïï! #
+null
+ïï$ (
+)
+ïï( )
+{
+ññ 
+return
+óó 
+Problem
+óó 
+(
+óó 
+$str
+óó L
+)
+óóL M
+;
+óóM N
+}
+òò 
+var
+ôô 
+subject
+ôô 
+=
+ôô 
+await
+ôô 
+_context
+ôô  (
+.
+ôô( )
+Subject
+ôô) 0
+.
+ôô0 1
+	FindAsync
+ôô1 :
+(
+ôô: ;
+id
+ôô; =
+)
+ôô= >
+;
+ôô> ?
+if
+öö 
+(
+öö 
+subject
+öö 
+!=
+öö 
+null
+öö 
+)
+öö  
+{
+õõ 
+_context
+úú 
+.
+úú 
+Subject
+úú  
+.
+úú  !
+Remove
+úú! '
+(
+úú' (
+subject
+úú( /
+)
+úú/ 0
+;
+úú0 1
+}
+ùù 
+await
+üü 
+_context
+üü 
+.
+üü 
+SaveChangesAsync
+üü +
+(
+üü+ ,
+)
+üü, -
+;
+üü- .
+return
+†† 
+RedirectToAction
+†† #
+(
+††# $
+nameof
+††$ *
+(
+††* +
+Index
+††+ 0
+)
+††0 1
+)
+††1 2
+;
+††2 3
+}
+°° 	
+private
+££ 
+bool
+££ 
+SubjectExists
+££ "
+(
+££" #
+string
+££# )
+id
 ££* ,
 )
 ££, -
-;
-££- .
-_context
-§§ 
-.
-§§ 
-Subject
-§§ 
-.
-§§ 
-RemoveRange
-§§ (
-(
-§§( )
-subject
-§§) 0
-)
-§§0 1
-;
-§§1 2
-_context
-•• 
-.
-•• 
-MaterialOfTeacher
-•• &
-.
-••& '
-RemoveRange
-••' 2
-(
-••2 3
-mot
-••3 6
-)
-••6 7
-;
-••7 8
-await
-¶¶ 
-_context
-¶¶ 
-.
-¶¶ 
-SaveChangesAsync
-¶¶ +
-(
-¶¶+ ,
-)
-¶¶, -
-;
-¶¶- .
-return
-ßß 
-RedirectToAction
-ßß #
-(
-ßß# $
-nameof
-ßß$ *
-(
-ßß* +
-Index
-ßß+ 0
-)
-ßß0 1
-)
-ßß1 2
-;
-ßß2 3
-}
-®® 	
-private
-¨¨ 
-bool
-¨¨ 
-SubjectExists
-¨¨ "
-(
-¨¨" #
-string
-¨¨# )
-id
-¨¨* ,
-)
-¨¨, -
 {
-≠≠ 	
-bool
-ÆÆ 
-isExist
-ÆÆ 
-=
-ÆÆ 
-(
-ÆÆ 
-_context
-ÆÆ $
-.
-ÆÆ$ %
-Subject
-ÆÆ% ,
-?
-ÆÆ, -
-.
-ÆÆ- .
-Any
-ÆÆ. 1
-(
-ÆÆ1 2
-e
-ÆÆ2 3
-=>
-ÆÆ4 6
-e
-ÆÆ7 8
-.
-ÆÆ8 9
-SubjectCode
-ÆÆ9 D
-==
-ÆÆE G
-id
-ÆÆH J
-)
-ÆÆJ K
-)
-ÆÆK L
-.
-ÆÆL M
-GetValueOrDefault
-ÆÆM ^
-(
-ÆÆ^ _
-)
-ÆÆ_ `
-;
-ÆÆ` a
+§§ 	
 return
-ØØ 
-isExist
-ØØ 
+•• 
+(
+•• 
+_context
+•• 
+.
+•• 
+Subject
+•• $
+?
+••$ %
+.
+••% &
+Any
+••& )
+(
+••) *
+e
+••* +
+=>
+••, .
+e
+••/ 0
+.
+••0 1
+SubjectCode
+••1 <
+==
+••= ?
+id
+••@ B
+)
+••B C
+)
+••C D
+.
+••D E
+GetValueOrDefault
+••E V
+(
+••V W
+)
+••W X
 ;
-ØØ 
+••X Y
 }
-∞∞ 	
+¶¶ 	
 }
-≥≥ 
-}¥¥ ÷î
-iD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSyllabusController.cs
+ßß 
+}®® î
+ÇC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSyllabusController.cs
 	namespace 	
 
 LMMProject
@@ -12453,8 +13084,8 @@ SyllabusId
 ‡‡ 	
 }
 ‚‚ 
-}„„ ä`
-cD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ComboesController.cs
+}„„ £`
+|C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ComboesController.cs
 	namespace 	
 
 LMMProject
@@ -13339,8 +13970,8 @@ ActionName
 ¶¶ 	
 }
 ßß 
-}®® €R
-eD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\FeedbacksController.cs
+}®® ÙR
+~C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\FeedbacksController.cs
 	namespace 	
 
 LMMProject
@@ -14089,8 +14720,8 @@ FeedbackId
 °° 	
 }
 ¢¢ 
-}££ ≠
-aD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\LoginController.cs
+}££ ∆
+zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\LoginController.cs
 	namespace 	
 
 LMMProject
@@ -14330,8 +14961,8 @@ ModelState 
 ;44  !
 }66 	
 }77 
-}88 ΩR
-dD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SessionsController.cs
+}88 ÷R
+}C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SessionsController.cs
 	namespace 	
 
 LMMProject
@@ -15082,8 +15713,8 @@ ActionName
 °° 	
 }
 ¢¢ 
-}££ ≠`
-cD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SubjectController.cs
+}££ ∆`
+|C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SubjectController.cs
 	namespace 	
 
 LMMProject
@@ -15962,8 +16593,8 @@ ActionName
 ¶¶ 	
 }
 ßß 
-}®® *
-jD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserCurriculumController.cs
+}®® ä+
+ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserCurriculumController.cs
 	namespace 	
 
 LMMProject
@@ -16308,9 +16939,8 @@ Curriculum++( 2
 ;22 
 }33 	
 }55 
-}66 ˘
-
-hD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserDecisionController.cs
+}66 ì
+ÅC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserDecisionController.cs
 	namespace 	
 
 LMMProject
@@ -16387,8 +17017,8 @@ DecisionNo8 B
 ;! "
 } 	
 } 
-} ≥8
-dD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserHomeController.cs
+} Ã8
+}C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserHomeController.cs
 	namespace 	
 
 LMMProject
@@ -16785,8 +17415,8 @@ Controller		& 0
 ;OOo p
 }PP 	
 }QQ 
-}RR îå
-rD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserMaterialOfTeachersController.cs
+}RR Æå
+ãC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserMaterialOfTeachersController.cs
 	namespace 	
 
 LMMProject
@@ -18085,8 +18715,8 @@ ActionName
 ¥¥ 	
 }
 µµ 
-}∂∂ ≠ 
-WD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\AppDbContext.cs
+}∂∂ ∆ 
+pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\AppDbContext.cs
 	namespace 	
 
 LMMProject
@@ -18324,8 +18954,8 @@ LMMProject'' 
 ;''C D
 }''E F
 }(( 
-})) Å
-]D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\CloudinarySettings.cs
+})) ö
+vC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\CloudinarySettings.cs
 	namespace 	
 
 LMMProject
@@ -18367,8 +18997,8 @@ CloundName  
 ;* +
 }, -
 } 
-}		 ™
-VD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\EditAccount.cs
+}		 √
+oC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\EditAccount.cs
 	namespace 	
 
 LMMProject
@@ -18504,8 +19134,8 @@ LMMProject
 ;$ %
 }& '
 }   
-}!! ß
-XD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\IPhotoService.cs
+}!! ¿
+qC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\IPhotoService.cs
 	namespace 	
 
 LMMProject
@@ -18541,8 +19171,8 @@ LMMProject
 }
 
  
-} Ä
-WD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\PhotoService.cs
+} ô
+pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\PhotoService.cs
 	namespace 	
 
 LMMProject
@@ -18764,8 +19394,8 @@ Cloudinary (
 ;(( 
 })) 	
 }** 
-}++ ˝
-TD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\FlmContext.cs
+}++ ñ
+mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\FlmContext.cs
 	namespace 	
 
 LMMProject
@@ -18851,9 +19481,9 @@ FlmContext' 1
 modelBuilder5 A
 )A B
 ;B C
-} Ÿ
+} Ú
 
-QD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\Session.cs
+jC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\Session.cs
 	namespace 	
 
 LMMProject
@@ -18954,8 +19584,8 @@ LMMProject
 null. 2
 !2 3
 ;3 4
-} ‘
-TD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Account.cs
+} Ì
+mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Account.cs
 	namespace 	
 
 LMMProject
@@ -19158,8 +19788,8 @@ LMMProject
 set%%% (
 ;%%( )
 }%%* +
-}'' ˙
-WD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Assessment.cs
+}'' ì
+pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Assessment.cs
 	namespace 	
 
 LMMProject
@@ -19359,8 +19989,8 @@ SyllabusId%% 
 set&&- 0
 ;&&0 1
 }&&2 3
-}'' ‚
-RD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Combo.cs
+}'' ˚
+kC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Combo.cs
 	namespace 	
 
 LMMProject
@@ -19468,9 +20098,9 @@ Curriculum )
 set1 4
 ;4 5
 }6 7
-} °
+} ∫
 
-YD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ComboSubject.cs
+rC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ComboSubject.cs
 	namespace 	
 
 LMMProject
@@ -19556,8 +20186,8 @@ ForeignKey 
 set" %
 ;% &
 }' (
-} “
-WD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Curriculum.cs
+} Î
+pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Curriculum.cs
 	namespace 	
 
 LMMProject
@@ -19678,8 +20308,8 @@ DecisionNo 
 set- 0
 ;0 1
 }2 3
-} å
-^D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\CurriculumSubject.cs
+} •
+wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\CurriculumSubject.cs
 	namespace 	
 
 LMMProject
@@ -19780,8 +20410,8 @@ ForeignKey 
 set  #
 ;# $
 }% &
-} Ú
-UD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Decision.cs
+} ã
+nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Decision.cs
 	namespace 	
 
 LMMProject
@@ -19860,8 +20490,8 @@ CreateDate 
 set' *
 ;* +
 }, -
-} ∂
-[D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ErrorViewModel.cs
+} œ
+tC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ErrorViewModel.cs
 	namespace 	
 
 LMMProject
@@ -19897,8 +20527,8 @@ LMMProject
 )D E
 ;E F
 } 
-}		 ﬁ
-UD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Feedback.cs
+}		 ˜
+nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Feedback.cs
 	namespace 	
 
 LMMProject
@@ -20008,8 +20638,8 @@ CreateDate #
 ;. /
 }0 1
 } 
-} É
-UD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Material.cs
+} ú
+nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Material.cs
 	namespace 	
 
 LMMProject
@@ -20122,8 +20752,8 @@ ForeignKey	 
 ;1 2
 }3 4
 } 
-} ù
-`D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialFilterModel.cs
+} ∂
+yC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialFilterModel.cs
 	namespace 	
 
 LMMProject
@@ -20158,8 +20788,8 @@ LMMProject
 ;0 1
 }2 3
 } 
-} ≈
-^D:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialOfTeacher.cs
+} ﬁ
+wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialOfTeacher.cs
 	namespace 	
 
 LMMProject
@@ -20313,8 +20943,8 @@ ForeignKey 
 set  #
 ;# $
 }% &
-} Ñ
-QD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Role.cs
+} ù
+jC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Role.cs
 	namespace 	
 
 LMMProject
@@ -20392,8 +21022,8 @@ LMMProject
 (R S
 )S T
 ;T U
-} ı
-TD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Session.cs
+} é
+mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Session.cs
 	namespace 	
 
 LMMProject
@@ -20498,8 +21128,8 @@ ForeignKey 
 set+ .
 ;. /
 }0 1
-} ì
-SD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Status.cs
+} ¨
+lC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Status.cs
 	namespace 	
 
 LMMProject
@@ -20555,8 +21185,8 @@ StatusName 
 set% (
 ;( )
 }* +
-} ´
-TD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Subject.cs
+} ƒ
+mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Subject.cs
 	namespace 	
 
 LMMProject
@@ -20649,8 +21279,8 @@ ForeignKey 
 set( +
 ;+ ,
 }- .
-} ÷!
-UD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Syllabus.cs
+} Ô!
+nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Syllabus.cs
 	namespace 	
 
 LMMProject
@@ -20926,8 +21556,8 @@ Assessment22 )
 set22> A
 ;22A B
 }22C D
-}55 ù
-MD:\SWP\Learning-Materials-Management_Project\LMMProject\LMMProject\Program.cs
+}55 ∂
+fC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Program.cs
 var 
 builder 
 = 

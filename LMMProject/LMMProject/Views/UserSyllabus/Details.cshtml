@@ -107,7 +107,42 @@
                 <td>@Model.IsApproved</td>
             </tr>
         </table>
+        <div class="table-container">
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Subject Code</th>
+                        <th>Material URL</th>
+                        <th>Description</th>
+                        <th>Author</th>
+                        <th>Publisher</th>
+                        <th>Published Date</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                    @{
+                        var index = 1;
+                    }
+                    @foreach (var item in ViewBag.matte)
+                    {
+                        <tr>
+                            <td>@index</td>
+                            <td>
+                                @item.SubjectCode
+                            </td>
+                            <td><a target="_blank" href="@item.Url">@item.Url</a></td>
+                            <td>@item.MaterialDescription</td>
+                            <td>@item.Author</td>
+                            <td>@item.Publisher</td>
+                            <td>@item.PublishedDate</td>
+                        </tr>
+                        index++;
+                    }
+                </tbody>
+            </table>
+        </div>
         <div class="table-container">
             <table class="table-2">
                 <thead>
@@ -151,11 +186,6 @@
 
                     }
                 </tbody>
-                <tr>
-                    <td colspan="14">
-                        <a asp-action="index" asp-controller="ADMINAssessments" class="btn btn-primary">AssessmentList</a>
-                    </td>
-                </tr>
             </table>
         </div>
 

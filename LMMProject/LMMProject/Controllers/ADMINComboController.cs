@@ -29,9 +29,10 @@ namespace LMMProject.Controllers
         }
 
         // GET: ADMINCombo/Details/5
-        public async Task<IActionResult> Details(int? id)
+        //public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
-            Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
+            Combo? combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
             ViewBag.Combosub = combsub;
             var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.ComboId == id).ToList();
             return View(listSubject);
@@ -53,17 +54,17 @@ namespace LMMProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                Combo checkId = _context.Combo.Include(p => p.Curriculum).FirstOrDefault(p => p.ComboNameEn.Equals(combo.ComboNameEn.Trim()));
+                Combo checkId = _context.Combo.Include(p => p.Curriculum).FirstOrDefault(p => p.ComboNameEn != null && p.ComboNameEn.Equals(combo.ComboNameEn.Trim()));
                 if (checkId == null)
                 {
                     _context.Add(combo);
                     await _context.SaveChangesAsync();
-                    //return RedirectToAction(nameof(Index));
                     return new RedirectResult(url: "/ADMINCombo/Index/" + combo.CurriculumId, permanent: true, preserveMethod: true);
                 }
                 else
                 {
-                    TempData["Error"] = "Wrong: Curriculum is already exist !";
+                    //TempData["Error"] = "Wrong: Curriculum is already exist !";
+                    ModelState.AddModelError("ComboNameEn", "Combo name already exists.");
                 }
             }
             ViewData["CurriculumId"] = combo.CurriculumId;
@@ -153,8 +154,9 @@ namespace LMMProject.Controllers
             {
                 _context.Combo.Remove(combo);
                 await _context.SaveChangesAsync();
-            }
             return new RedirectResult(url: "/ADMINCombo/Index/" + combo.CurriculumId, permanent: true, preserveMethod: true);
+            }
+            return RedirectToAction("Error");
         }
         public IActionResult AddSubject()
         {
@@ -202,60 +204,6 @@ namespace LMMProject.Controllers
             }
             return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
         }
-        //public async Task<IActionResult> DeleteSubject(int? id)
-        //{
-        //    if (id == null || _context.Combo_Subject == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    var comboSubject = await _context.Combo_Subject
-        //        .Include(c => c.Combo)
-        //        .Include(c => c.Subject)
-        //        .FirstOrDefaultAsync(m => m.id == id);
-        //    if (comboSubject == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(comboSubject);
-        //}
-
-        //// POST: ADMINCombo/Delete/5
-        //[HttpPost, ActionName("DeleteSubject")]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> DeleteSubjectConfirmed(int id)
-        //{
-        //    if (_context.Combo_Subject == null)
-        //    {
-        //        return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
-        //    }
-        //    var comboS = await _context.Combo_Subject.FindAsync(id);
-        //    //var comboS = _context.Combo_Subject.Where(p => p.id == id).ToList();
-        //    //_context.Combo_Subject.RemoveRange(comboS);
-        //    if (comboS != null)
-        //    {
-        //        _context.Combo_Subject.Remove(comboS);
-        //    }
-        //    await _context.SaveChangesAsync();
-        //    return RedirectToAction(nameof(Details));
-        //}
-        //public async Task<IActionResult> DeleteSubject(int id)
-        //{
-        //    if (_context.Combo_Subject == null)
-        //    {
-        //        return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
-        //    }
-        //    var comboS = await _context.Combo_Subject.FindAsync(id);
-        //    //var comboS = _context.Combo_Subject.Where(p => p.id == id).ToList();
-        //    //_context.Combo_Subject.RemoveRange(comboS);
-        //    if (comboS != null)
-        //    {
-        //        _context.Combo_Subject.Remove(comboS);
-        //    }
-        //    await _context.SaveChangesAsync();
-        //    return new RedirectResult(url: "/ADMINCombo/Details/" + id, permanent: true, preserveMethod: true);
-        //}
         public async Task<IActionResult> DeleteSubject(int? id)
         {
             if (id == null || _context.Combo_Subject == null)
@@ -288,10 +236,15 @@ namespace LMMProject.Controllers
             if (comboSubject != null)
             {
                 _context.Combo_Subject.Remove(comboSubject);
+                await _context.SaveChangesAsync();
+                return new RedirectResult(url: "/ADMINCombo/Details/" + comboSubject.id, permanent: true, preserveMethod: true);
+            }
+            else
+            {
+                return RedirectToAction("Error");
             }
 
-            await _context.SaveChangesAsync();
-            return new RedirectResult(url: "/ADMINCombo/Details/" + comboSubject.id, permanent: true, preserveMethod: true);
+            
         }
         private bool ComboExists(int id)
         {

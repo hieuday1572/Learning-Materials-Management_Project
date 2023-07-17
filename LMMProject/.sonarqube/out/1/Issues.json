@@ -6,9 +6,9 @@
       "tool": {
         "name": "Microsoft (R) Visual C# Compiler",
         "version": "4.6.0.0",
-        "fileVersion": "4.6.0-3.23212.2 (d78a163b)",
+        "fileVersion": "4.6.0-3.23259.8 (c3cc1d0c)",
         "semanticVersion": "4.6.0",
-        "language": "vi-VN"
+        "language": "en-US"
       },
       "results": [
         {
@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
+                "uri": "file:///C:/Users/bangc/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 7,
@@ -36,7 +36,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
+                "uri": "file:///C:/Users/bangc/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
                   "startLine": 27,
                   "startColumn": 10,
@@ -54,7 +54,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/ADMIN/OneDrive/Desktop/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
+                "uri": "file:///C:/Users/bangc/OneDrive/Documents/GitHub/Learning-Materials-Management_Project/LMMProject/TestProject/Controller/ADMINCurriculaControllerTests.cs",
                 "region": {
                   "startLine": 27,
                   "startColumn": 10,

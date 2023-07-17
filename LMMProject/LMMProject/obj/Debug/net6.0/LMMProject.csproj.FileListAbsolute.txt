@@ -38,22 +38,12 @@ C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\MySql.Data.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\BouncyCastle.Crypto.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.IO.Pipelines.dll
@@ -1372,3 +1362,4 @@ D:\GITHUB\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\
 D:\GITHUB\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.pdb
 D:\GITHUB\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.genruntimeconfig.cache
 D:\GITHUB\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\ref\LMMProject.dll
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

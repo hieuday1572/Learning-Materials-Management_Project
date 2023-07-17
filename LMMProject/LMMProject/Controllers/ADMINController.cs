@@ -28,7 +28,8 @@ namespace LMMProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Infor(Account account)
         {
-            var accountChange=_context.Account.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(account.UserName));
+            var accountChange = new Account();
+            accountChange = _context.Account.Include(p => p.Role).FirstOrDefault(pro => pro.UserName.Equals(account.UserName));
             accountChange.UserName=account.UserName;
             accountChange.Fullname=account.Fullname;
             accountChange.Address=account.Address;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JpAvdYDsdubBI6jA/me5jLD1kgF3jmyJ+8FpY+9AWqs=",
+  "Hash": "RpFAvkB1dO89NLZY5mTpB920g3KBclzYu1Ufc14Xa6Y=",
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -321,6 +321,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\syllabus-management.css"
+    },
+    {
+      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
+      "SourceId": "LMMProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "BasePath": "_content/LMMProject",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",

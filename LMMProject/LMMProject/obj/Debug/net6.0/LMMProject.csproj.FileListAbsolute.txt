@@ -1409,16 +1409,8 @@ C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\L
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
@@ -1435,7 +1427,6 @@ C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\L
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\MySql.Data.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Newtonsoft.Json.dll
@@ -1449,7 +1440,6 @@ C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\L
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\NuGet.Versioning.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\BouncyCastle.Crypto.dll
-C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -1647,3 +1637,4 @@ C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\L
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.pdb
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\LMMProject.genruntimeconfig.cache
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\obj\Debug\net6.0\ref\LMMProject.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

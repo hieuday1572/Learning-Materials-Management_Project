@@ -61,6 +61,49 @@ namespace LMMProject.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (string.IsNullOrEmpty(assessment.Category))
+                {
+                    ModelState.AddModelError("Category", "The Category field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (string.IsNullOrEmpty(assessment.Type))
+                {
+                    ModelState.AddModelError("Type", "The Type field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (assessment.Part < 0)
+                {
+                    ModelState.AddModelError("Part", "The Part field must be a non-negative number.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (string.IsNullOrEmpty(assessment.Weight))
+                {
+                    ModelState.AddModelError("Weight", "The Weight field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (string.IsNullOrEmpty(assessment.CompletionCriteria))
+                {
+                    ModelState.AddModelError("CompletionCriteria", "The CompletionCriteria field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (string.IsNullOrEmpty(assessment.Duration))
+                {
+                    ModelState.AddModelError("Duration", "The Duration field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
+                if (string.IsNullOrEmpty(assessment.Clo))
+                {
+                    ModelState.AddModelError("Clo", "The Clo field is required.");
+                    ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                    return View(assessment);
+                }
                 _context.Add(assessment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,7 +140,49 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-
+            if (string.IsNullOrEmpty(assessment.Category))
+            {
+                ModelState.AddModelError("Category", "The Category field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (string.IsNullOrEmpty(assessment.Type))
+            {
+                ModelState.AddModelError("Type", "The Type field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (assessment.Part < 0)
+                {
+                ModelState.AddModelError("Part", "The Part field must be a non-negative number.");
+                ViewBag.Sub = _context.Subject.ToList();
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (string.IsNullOrEmpty(assessment.Weight))
+            {
+                ModelState.AddModelError("Weight", "The Weight field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (string.IsNullOrEmpty(assessment.CompletionCriteria))
+            {
+                ModelState.AddModelError("CompletionCriteria", "The CompletionCriteria field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (string.IsNullOrEmpty(assessment.Duration))
+            {
+                ModelState.AddModelError("Duration", "The Duration field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
+            if (string.IsNullOrEmpty(assessment.Clo))
+            {
+                ModelState.AddModelError("Clo", "The Clo field is required.");
+                ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
+                return View(assessment);
+            }
             if (ModelState.IsValid)
             {
                 try

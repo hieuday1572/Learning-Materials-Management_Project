@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Syllabus>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/curriculum.css">
+</head>
+<body>
+    <div class="syllabus">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Learning Materials Management</h1>
+            <h1>Syllabus Listing</h1>
+            @if (TempData["error"] != null)
+            {
+                <div class="col-md-12 alert alert-danger">
+                    <span><b>@TempData["error"]</b></span>
+                </div>
+            }
+            <div class="search-box">
+                <form asp-action="Index">
+                    <b>Enter Syllabus: </b>
+                    <select name="option" class="select">
+                        <option selected value="code">Code</option>
+                        <option value="name">Name</option>
+                    </select>
+                    <input class="input-box" type="text" name="search" placeholder="Search" />
+                    <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button>
+                </form>
+            </div>
+            @if (Model != null)
+            {
+                if (Model.Count() > 0)
+                {
+                    <table class="table table-bordered table-hover">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SyllabusId)
+                                    </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SyllabusNameVn)
+                                    </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SyllabusNameEn)
+                                    </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.SubjectCode)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Decision)
+                                    </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IsActive)
+                                    </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.SyllabusId)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SyllabusNameVn)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SyllabusNameEn)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.SubjectCode)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Decision.DecisionNo)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
+                                    <td>
+                                        <a asp-action="Details" asp-route-id="@item.SyllabusId" class="btn btn-primary">Details</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                </table>
+                }
+            }
+        </div>
+    </div>
+</body>

@@ -53,11 +53,7 @@
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Decision)
-                    </th>
-
-                    <th>
-                        @Html.DisplayNameFor(model => model.IsActive)
-                    </th>
+                    </th>                 
                     <th></th>
                 </tr>
             </thead>
@@ -80,12 +76,7 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.Decision.DecisionNo)
                         </td>
-
-                        <td>
-                            @Html.DisplayFor(modelItem => item.IsActive)
-                        </td>
-
-                        <td>
+                       <td>
                             <a asp-action="Edit" asp-route-id="@item.SyllabusId" class="btn btn-primary">Edit</a> |
                             <a asp-action="Details" asp-route-id="@item.SyllabusId" class="btn btn-primary">Details</a> |
                             <a asp-action="Delete" asp-route-id="@item.SyllabusId" class="btn btn-primary">Delete</a>

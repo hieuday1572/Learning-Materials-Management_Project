@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
   <ProjectGuid>78c4ef0e-e190-4260-9c3d-b3635d2a5cd5</ProjectGuid>
-  <FullPath>C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\LMMProject.csproj</FullPath>
+  <FullPath>C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\LMMProject.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\.sonarqube\conf\0\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\.sonarqube\conf\0\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\.sonarqube\out\0\Issues.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\.sonarqube\out\0</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\.sonarqube\out\0\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\.sonarqube\out\0</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

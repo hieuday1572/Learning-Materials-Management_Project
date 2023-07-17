@@ -1,5 +1,5 @@
-Á
-ÖC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINAssessmentsController.cs
+
+éC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINAssessmentsController.cs
 
  +Í
 & .  '   &%%# +334 <@@ AA DD4 <KK &PP# +UU4 <ii jj "yy4 <
@@ -67,31 +67,31 @@
 ••B D
 
 ••+ ,
-••0 1¡
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboController.cs
+••0 1◊
+àC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINComboController.cs
 
  %Ü
-& .  ' $"" $$$ &88  (;; << "LL &QQ &ff gg "vv6 >}} &
-ÅÅ &
-ëë 
-ïï &
-ññ !
-óó 
-öö 
-õõ 
-°°1 9
-¢¢5 =
-±± %
-µµ  (
-ææ  
-øø  
-ÖÖ &
-ää% -
-õõ 
-üü% -
-¢¢ 
-•• 
-™™ 
+& .  ' $## %%% &99  (<< == "MM &RR &gg hh "ww6 >~~ &
+ÇÇ &
+íí 
+ññ &
+óó !
+òò 
+õõ 
+úú 
+££1 9
+§§5 =
+≥≥ %
+∑∑  (
+¿¿  
+¡¡  
+—— &
+÷÷% -
+ÁÁ 
+ÎÎ% -
+ÓÓ 
+ÔÔ 
+˚˚ 
 1 8 
 
 ) .
@@ -102,142 +102,143 @@
 3 48 9
 L OS V
 
-  ) 0
-  6 8""L N	$$ Å
-"" ## &
-"": ;""? @
-$$ %% #
-$$= >$$B C
-$$U V$$Z [
-$$i l$$p s
+!! $
+!!* ,##M O	%% Å
+## $$ &
+##; <##@ A
+%% && #
+%%= >%%B C
+%%U V%%Z [
+%%i l%%p s
 
-)) #
-))+ -++' )
+** #
+**+ -,,' )
 
-44) /<
-44v {88s x;;! &>>J OEE' ,FF 
-88 99 
-887 888< =
-88Y Z88^ _
+55) />
+55v {
+99å ë<<! &>>J OFF' ,GG 
+99 :: 
+997 899< =
+99Y Z99^ _99w x
 
-JJ) -
-JJ3 5LL QQ7 9(
-QQ RR VV' ,WW 
+KK) -
+KK3 5MM RR7 9(
+RR SS WW' ,XX 
 
-__) -<
-__u zff$ )kk% *ttF Kvvm rww 
+``) -<
+``u zgg$ )ll% *uuF Kwwm rxx 
 
-{{) / 
-{{5 7}} 
-ÉÉ7 9$
+||) / 
+||5 7~~ 
+ÑÑ7 9$
 
-ÅÅ 
-ÑÑ 
-ââ 
+ÇÇ 
+ÖÖ 
+ää 
 
-ÇÇ 
-ÇÇ 
+ÉÉ 
+ÉÉ 
 
-ÉÉ% &
-ÉÉ* +
+ÑÑ% &
+ÑÑ* +
 
-èè) 8$
+êê) 8$
 
-èè= ?
-ïï7 9
-ññH J0
+êê= ?
+ññ7 9
+óóH J0
 
-ïï 
-òò 
-öö& +
+ññ 
+ôô 
+õõ& +
 ùùB G
 
-ññ 
-óó0 6
+óó 
+òò0 6
 
-ññ6 7
-ññ; <
+óó6 7
+óó; <
 
-üü '
+°° '
 
-´´) 3
+≠≠) 3
 
-´´b n0
+≠≠b n0
 
-≠≠ 
-ØØ 
-ØØ  #
-±±r uH
+ØØ 
+±± 
+±±  #
+≥≥r uH
 
-ÆÆ 
-µµO V
-ΩΩ) 0
-√√P W
-»»L S
-ÀÀD K0
+∞∞ 
+∑∑O V
+øø) 0
+≈≈P W
+  L S
+ÕÕD K0
 
-±± 
-≤≤ 
-∑∑_ a
-ºº- /
+≥≥ 
+¥¥ 
+ππ_ a
+ææ- /
 
-±±6 7
-±±; <
+≥≥6 7
+≥≥; <
 
-±±T W
-±±[ ^
+≥≥T W
+≥≥[ ^
 
-µµ 
-∂∂B G
+∑∑ 
+∏∏B G
 
-µµ= >
-µµB C
+∑∑= >
+∑∑B C
 
-∂∂! .
-ππ %0
+∏∏! .
+ªª %0
 
-ªª% +
-ºº 
-ΩΩ 
-ææ3 9
+ΩΩ% +
+ææ 
+øø 
+¿¿3 9
 
-ÉÉ) 6$
+œœ) 6$
 
-ÉÉ< >
-ÖÖ 
-çç2 4$
+œœ< >
+—— 
+ŸŸ2 4$
 
-ää 
-éé 
-ìì $
+÷÷ 
+⁄⁄ 
+ﬂﬂ $
 
-ãã 
-ãã 
+◊◊ 
+◊◊ 
 
-åå 
-åå 
+ÿÿ 
+ÿÿ 
 
-çç% &
-çç* +
+ŸŸ% &
+ŸŸ* +
 
-ôô) ?
+ÂÂ) ?
 
-ôôD F
-üüF H0
+ÂÂD F
+ÎÎF H0
 
-üü 
-†† 
-¢¢. :
-¶¶D P
+ÎÎ 
+ÏÏ 
+ÓÓ. :
+H T
 
-®®  kk $
+˘˘  ll $
 
-®®% '
-™™8 :
+˘˘% '
+˚˚8 :
 
-™™& '
-™™+ ,∫
-zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINController.cs
+˚˚& '
+˚˚+ ,ƒ
+ÉC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINController.cs
 
   Z
 
@@ -272,8 +273,8 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 55 )
 77 88 $
 77> ?77C D
-77V W77Z [ı
-ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINCurriculaController.cs
+77V W77Z [‡
+åC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINCurriculaController.cs
 
  )Ã
 & . 3 ;   &%%# +(( #554 <CC, 4FF GG "OO4 <VV &[[# +``4 <tt uu "
@@ -290,18 +291,18 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ≠≠ 
 ÆÆ 
 ØØ 
-∫∫ %
-ææ  (
-««  
-»»  
-··& .
-‚‚  
-ÂÂ &
-ÍÍ  
-ÎÎ  
-ÔÔ 
- 
-ˆˆ 
+ªª %
+øø  (
+ŒŒ  
+œœ  
+ËË& .
+ÈÈ  
+ÏÏ &
+ÒÒ  
+ÚÚ  
+ˆˆ 
+˜˜ 
+˝˝ 
 5 < 
 
 ) .
@@ -315,7 +316,8 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ''% &''* +
 (( )) '
 ((? @((D E
-((U X((\ _
+((U X((\ _
+((z {((} ~
 
 33 #
 
@@ -383,92 +385,101 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ©©; <
 ©©@ A
 
-¥¥) 30
+¥¥) 3$
+
+¥¥; C
+…… $
+ÀÀ? G0
 
 ∂∂ 
-∏∏ 
-∏∏  #
-∫∫r uT
+ππ 
+ππ  #
+ªªr uT
 
 ∑∑ 
-ææY `
-∆∆. 5
-……T [
-ŒŒT [
-‘‘P W
-ÿÿH O0
+øøY `
+»». 5
+––T [
+’’T [
+€€P W
+ﬂﬂH O0
 
-∫∫ 
-ªª 
-¿¿P R
-≈≈- /
+ªª 
+ºº 
+¡¡P R
+««- /
 
-∫∫6 7
-∫∫; <
+ªª6 7
+ªª; <
 
-∫∫T W
-∫∫[ ^
+ªªT W
+ªª[ ^
 
-ææ 
-øøG L
+øø 
+¿¿G L
 
-ææB C
-ææG H
+øøB C
+øøG H
 
-øø& 3
-¬¬ %0
+¿¿& 3
+√√ %<
 
-ƒƒ* 0
-≈≈ 
-∆∆ 
-««8 >
+∆∆* 0
+«« 
+»» 
+ÃÃ "
+ŒŒ8 >
 
-‹‹) 6$
+ÀÀ  ,
+ÃÃ. :
 
-‹‹; =
-‚‚B D
-ÒÒH J
+„„) 6$
 
-‹‹C L
-··G P$
+„„; =
+ÈÈB D
+¯¯H J
 
-·· $
-ËË- 3
-ÔÔ/ 5
+„„C L
+ËËG P$
 
-‚‚ 
-„„  %
+ËË $
+ÔÔ- 3
+ˆˆ/ 5
 
-‚‚- .
-‚‚2 3
+ÈÈ 
+ÍÍ  %
 
-ÂÂ 
-ÊÊ# *
+ÈÈ- .
+ÈÈ2 3
 
-ÂÂ; <
-ÂÂ@ A
+ÏÏ 
+ÌÌ# *
 
-ÙÙ %yy )
+ÏÏ; <
+ÏÏ@ A
 
-ÙÙ* ,
-ˆˆB D
+˚˚ %yy )
 
-ˆˆ+ ,
-ˆˆ0 1ı
-ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINDecisionsController.cs
+˚˚* ,
+˝˝B D
 
- )˙
-& .  % -!! &&&! )?? @@ II &NN! )ff gg "|| &
-ÅÅ! )
-êê 
-îî! )
-óó $
-òò '
-úú 
+˝˝+ ,
+˝˝0 1¬	
+åC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINDecisionsController.cs
+
+ )Ü
+& .  % -!! &&&! )==  BB CC "NN &SS! )kk ll "
+ÅÅ &
+ÜÜ! )
+ïï 
+ôô! )
+úú $
+ùù '
 °° 
-££ 
-¶¶ 
-¨¨ 
+¶¶ 
+®® 
+´´ 
+±± 
 5 < 
 
 ) .
@@ -480,59 +491,63 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 11 #
 
-;;) /
-;;k s?? %CC  
+;;) /(
+;;k s==P XBB! )HH  
+== >> 
+==9 :==< =
 
-GG) -
-GG5 7II NN= ?
-NN OO SS  
+LL) -
+LL5 7NN SS= ?
+SS TT XX  
 
-[[) -
-[[5 7]] 2
-[[t |]] ff$ ,kk( 0vv  
+``) -
+``5 7bb 2
+``t |bb kk$ ,pp( 0{{  
 
-zz) / 
-zz7 9|| 
-ÇÇ> @$
+) /"
+7 9
+ÅÅ 
+áá> @$
 
-ÅÅ 
-ÉÉ 
-àà  
+ÜÜ 
+àà 
+çç  
 
-ÇÇ% &
-ÇÇ* +
+áá% &
+áá* +
 
-éé) 80
+ìì) 80
 
-éé@ B
-îî= ?
-óóM O
-òòP R$
+ìì@ B
+ôô= ?
+úúM O
+ùùP R$
 
-îî 
-ïï 
-££) 1
+ôô 
+öö 
+®®) 1
 
-óó 
-ôô# (
+úú 
+ûû# (
 
-óó6 7
-óó9 :
+úú6 7
+úú9 :
 
-òò 
-ûû$ ,
+ùù 
+££$ ,
 
-òò7 8
-òò< =
+ùù7 8
+ùù< =
 
-™™ #kk '
+ØØ #pp '
 
-™™+ -
-¨¨> @
+ØØ+ -
+±±> @
 
-¨¨) *
-¨¨. /˘	
-ãC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMaterialOfTeacherController.cs
+±±) *
+±±. /Ç
+
+îC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMaterialOfTeacherController.cs
 
  1
 
@@ -584,77 +599,228 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 vv ,
 vv1 3xx? A
-xx2 3xx7 8®
-ÅC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSubjectController.cs
+xx2 3xx7 8ì
+ãC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINMetarialController.cs
 
- 'æ
-& . 6 >%%  (332 :>> ?? BB2 :NN  (SS2 :ee ff "uu2 :
-ÅÅ  (
-ëë  (
-íí 
-ìì 
-ôô 
-3 : 
+		 (å
+& . " *! )   !! ''! )..! )::! )AA CC KK! )YY ZZ 
+4 ; 
 
-) .
-! - $
-O PT U
+) .
+  !
+< =A B
+^ _c d
 
-) 0
-9 ;   ''; =
-%% (( -- 
-&& && 
-''% &''* +
+) /
+   
+: ;? @
 
-11 #
+) 5
+? D  " '
 
-::) /)
-	::y Ä>> $BB] dCC 
+%%) -
+%%2 4''\ ^
+'' )) 22 #
+''G H''L M
+.. 33 #
+..: ;..? @
+
+88) /
+884 6::\ ^
+:: << AA% -
+::G H::L M
+
+II) 5P
+II? DKK\ aRR+ 0SS #TT! &UU% *VV  WW# (Z
+KK MM RR SS TT UU VV WW YY% -
+KKG HKKL Mà
+
+äC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSessionController.cs
+
+ '“
+& .  " &$$5 =<< == CC5 =JJ &OO  (TT5 =dd ee "tt5 ={{ &
+ÄÄ  (
+êê  (
+ïï 
+ññ 
+úú 
+3 : 
+
+) .
+7 9P Rg i
+ " %
+: ;? @
+  #
+7 8< =
+M PT W
+
+"" #
+
+--) /p
+
+--´ ≤11" )33  '66  '77 #88+ 299' .::+ 2;;" )CCe lDDD KP
+55 "66 77 88 99 :: ;; <<* -
+
+HH) -
+HH3 5JJ OO; =(
+OO PP TTe lUU 
+
+]]) ->
+
+]]ü ¶dd$ +ii' .rrH Otte luu 
+
+yy) / 
+yy5 7{{ 
+ÇÇ9 ;$
+
+ÄÄ 
+ÉÉ 
+àà 
+
+ÅÅ 
+ÅÅ 
+
+ÇÇ% &
+ÇÇ* +
+
+éé) 8
+
+éé= ?
+êêq s0
+
+êê 
+ëë 
+ïï) 0
+óóD K
+
+êê9 :
+êê> ?
+
+êê] ^
+êêb c 
+
+öö "11 !ii &
+
+öö' )
+úú< >
+
+úú( )
+úú- .˜
+äC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSubjectController.cs
+
+ 'Ã
+& . 6 >$$5 =88 99 AA2 :II &NN  (SS2 :``  (ii vv2 :~~ &
+ÉÉ  (
+ìì 
+óó  (
+òò 
+ôô 
+öö 
+õõ 
+ûû' /
+üü 
+°° 
+¢¢ 
+££ 
+§§ 
+•• 
+¶¶ 
+ÆÆ $
+3 : 
+
+) .
+! - $
+O PT U
+
+"" #
+
+**) /\
+
+**Ä á.." )00  '33" )44$ +55$ +66# *77 &AA[ bF
+22 33 44 55 66 77 88* -
 
 GG) -
 GG6 8II NN; =(
 NN OO SS] dTT 
 
-ZZ) -
-ZZ5 7\\ >
+ZZ) -Q
+	ZZ~ Ö``` gee$ +ff$ +gg# *hh &mm# *vv[ b<
+`` aa ee ff gg hh 
+``F G``K L
 
-ZZÇ â\\ ee$ +jj' .uu] dvv 
+||) / 
+||8 :~~ 
+ÖÖ; =$
 
-zz) / 
-zz8 :|| 
-ÉÉ; =$
+ÉÉ 
+ÜÜ 
+ãã 
 
-ÅÅ 
-ÑÑ 
-ââ 
+ÑÑ 
+ÑÑ 
 
-ÇÇ 
-ÇÇ 
+ÖÖ% &
+ÖÖ* +
 
-ÉÉ% &
-ÉÉ* +
+ëë) 8H
 
-èè) 8
+ëëA C
+óó; =
+òòD F
+ôôB D
+ööC E
+õõM O
 
-èè@ B
-ëë; =
+óó 
+§§) 0$
 
-ëë 
-íí$ +
+òò 
+úú% (
+°°* -
 
-óó "jj &
+òò. /
+òò3 4
 
-óó* ,
-ôô> @
+ôô 
+¢¢) ,
 
-ôô( )
-ôô- .¸
-ÇC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSyllabusController.cs
+ôô- .
+ôô1 2
+
+öö 
+££* ,
+
+öö- .
+öö2 3
+
+õõ 
+••3 6
+
+õõ7 8
+õõ< =
+
+ûû 
+üü0 :
+
+ûûA B
+ûûF G 
+
+¨¨ ".. !mm "
+
+¨¨* ,
+ÆÆH J
+
+ÆÆ 
+ØØ 
+
+ÆÆ2 3
+ÆÆ7 8Ö
+ãC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\ADMINSyllabusController.cs
 
  (˙
 & .  '%%! )44 "554 <[[ \\ ff4 <oo &tt! )yy "zz4 <
-çç$ ,
-üü "
+çç  (
+üü 
 ÆÆ4 <
 µµ &
 ∫∫! )
@@ -691,48 +857,48 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 ÉÉ2 4
 ÖÖ 
-çç` bÚ
+çç\ ^Ú
 ÉÉé ñ
 ÖÖ 
-éé) 1
-èè) 1
-êê& .
-ëë# +
-ìì& .
-îî) 1
-ïï' /
-ññ& .
-óó& .
-òò '
-ôô' /
-öö% -
-õõ% -
-úú '
-ùù+ 3
-ûû# +
-££( 0
+éé% -
+èè% -
+êê" *
+ëë '
+ìì" *
+îî% -
+ïï# +
+ññ" *
+óó" *
+òò #
+ôô# +
+öö! )
+õõ! )
+úú #
+ùù' /
+ûû '
+££$ ,
 ÆÆc kÃ
 
-çç 
-éé 
-èè 
-êê 
-ëë 
-ìì 
-îî 
-ïï 
-ññ 
-óó 
-òò 
-ôô 
-öö 
-õõ 
-úú 
-ùù 
-ûû 
+çç 
+éé 
+èè 
+êê 
+ëë 
+ìì 
+îî 
+ïï 
+ññ 
+óó 
+òò 
+ôô 
+öö 
+õõ 
+úú 
+ùù 
+ûû 
 
-ççK L
-ççP Q
+ççG H
+ççL M
 
 ≥≥) /$
 
@@ -767,7 +933,7 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
   h i"
 
 ‹‹ #DD "
-££ '
+££ #
 
 ‹‹( *
 ﬁﬁH J
@@ -776,8 +942,8 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ﬂﬂ 
 
 ﬁﬁ3 4
-ﬁﬁ8 9¬
-~C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\FeedbacksController.cs
+ﬁﬁ8 9Ã
+áC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\FeedbacksController.cs
 
  $ 
 & .  % -!! &&&! )?? @@ II &NN! )ff gg "|| &
@@ -836,8 +1002,8 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ††> @
 
 ††) *
-††. /î
-zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\LoginController.cs
+††. /û
+ÉC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\LoginController.cs
 
 
 
@@ -852,8 +1018,69 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 7 > #v }!!) 011 #44 <
   !! ##> B$$> B&& 
 : ;? @
-[ ^b e›
-|C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SubjectController.cs
+[ ^b eÃ
+ÜC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SessionsController.cs
+
+ # 
+& .  % -!! &&&  (?? @@ II &NN  (ff gg "|| &
+ÅÅ  (
+êê 
+îî  (
+óó 
+öö 
+†† 
+/ 6 
+
+) .
+
+) 0
+6 8!! ''9 ;
+&& (( -- 
+''% &''* +
+
+11 #
+
+;;) / 
+
+;;ô †?? $CC 
+
+GG) -
+GG3 5II NN; =
+NN OO SS 
+
+[[) -
+[[2 4]] 4
+
+[[ü ¶]] ff$ +kk' .vv 
+
+zz) / 
+zz5 7|| 
+ÇÇ9 ;$
+
+ÅÅ 
+ÉÉ 
+àà 
+
+ÇÇ% &
+ÇÇ* +
+
+éé) 8
+
+éé= ?
+îî; =$
+
+îî 
+ïï 
+óó( /
+
+ûû "kk &
+
+ûû' )
+††< >
+
+††( )
+††- .Á
+ÖC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\SubjectController.cs
 
  "Í
 & .  '   &%%  (332 :@@ AA DD2 :KK &PP  (UU2 :ii jj "yy2 :
@@ -921,36 +1148,139 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 ••> @
 
 ••( )
-••- .ê
-ÉC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserCurriculumController.cs
+••- .µ
+áC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserComboController.cs
+
+ $<
+
+
+& .  ' $ $ &
+0 7 
+
+) 2
+8 :Y [g i
+  "
+B CG H
+  !
+3 48 9
+L OS V
+
+) 4
+: <L N	 Å
+  &
+: ;? @
+  #
+= >B C
+U VZ [
+i lp s≠
+åC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserCurriculumController.cs
 
  )<
 
 
-& .  # %)) '** $
+& .  #   %++ ',, $
 5 < 
 
  "
 
-) .
-6 < *
-E Ki oh n
-Å á2
- '     $$ "
-7 8: ;
-L MO P
-9 :> ?
-P QV Wq r
+) .
+6 <4 : 4
+E K4 :i o  h n
+  Å á2
+ '    "" && "
+7 8: ;
+L MO P
+  9 :  > ?
+  P Q  V W  q r
 
-'' #
-''( *))n p**q s
-)) ,, 00 
-)); <))@ A
-))[ \))^ _
-** ++  )
-**@ A**E F
-**V Y**] `’
-}C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserHomeController.cs
+)) #
+))( *++n p,,q s
+++ .. 22 
+++; <++@ A
+++[ \++^ _
+,, --  )
+,,@ A,,E F
+,,V Y,,] `ù
+äC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserDecisionController.cs
+
+ '
+& .  #
+		3 : 
+
+ "
+* ,J L
+   
+3 46 7⁄
+ãC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserFeedbacksController.cs
+
+ (Ù
+& .  # +"" &''! )554 <BB CC FF4 <MM &RR! )WW4 <kk ll "{{4 <
+ÇÇ &
+áá! )
+óó 
+õõ! )
+ûû 
+°° 
+ßß 
+4 ; 
+
+) .
+
+  ) 0
+  6 8"" )): <
+'' ** //  
+(( (( 
+))% &))* +
+
+33 #
+
+33+ -
+
+>>) /)
+	>> áBB %FF^ fGG  
+
+KK) -
+KK3 5MM RR= ?(
+RR SS WW^ fXX  
+
+``) -
+``2 4bb >
+
+``Ö çbb kk$ ,pp( 0{{^ f||  
+
+ÄÄ) /$
+
+ÄÄ5 7
+ÇÇ 
+ââ: <$
+
+áá 
+ää 
+èè  
+
+àà 
+àà 
+
+ââ% &
+ââ* +
+
+ïï) 8
+
+ïï= ?
+õõ= ?$
+
+õõ 
+úú 
+ûû) 1
+
+•• #pp '
+
+••( *
+ßß@ B
+
+ßß+ ,
+ßß0 1ﬂ
+ÜC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserHomeController.cs
 		 #! 3* <<
 & .    "44  (FF GG 
 . 7  '
@@ -977,8 +1307,133 @@ zC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 449 :44> ?
 44U X44\ _
 
-MM "∫
-pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\AppDbContext.cs
+MM "ä
+îC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserMaterialOfTeachersController.cs
+
+ 1˛
+& .  ""% -&&% ---% -55! )>>9 A??5 =JJ !MM NN "XX &]]* 2pp !vv  ww &
+çç &
+íí* 2
+££ 
+ßß* 2
+™™ 
+≠≠ 
+≥≥ 
+. 7  '
+= D 
+[ c  
+
+) .@
+6 <& , + 1
+""ã ë
+&&ã ëL
+E M  . 6
+""∂ æ++. 6
+--í ö33* 2
+55é ñ
+ 
+Ü é<
+ "" && -- 55 88 
+: ;? @
+R SW X
+h im n
+""H I""M N
+""` a""e f
+""v w""{ |
+
+""ö õ
+""ü †
+&&H I&&M N
+&&` a&&e f
+&&v w&&{ |
+--H I--M N
+--` a--e f
+--v w--{ |
+55D E55I J
+55\ ]55a b
+55r s55w x
+
+<< #
+
+HH) /*
+
+HHÇ ìJJn MM! 2RR )
+JJ KK 
+JJ2 3JJ7 8
+JJP SJJW Z
+
+VV) -
+VV3 5XX ]]O Q
+]] !^^ !bb )
+
+jj) -
+jj2 4ll J
+
+jjà ôll 'ppn uu )vv( 9{{5 F
+áá )
+pp qq 
+pp2 3pp7 8
+ppP SppW Z
+
+ãã) /$
+
+ãã5 7
+çç 
+ïï2 4$
+
+íí !
+ññ !
+õõ )
+
+ìì 
+ìì 
+
+îî 
+îî 
+
+ïï% &
+ïï* +
+
+°°) 8
+
+°°= ?
+ßßO Q$
+
+ßß !
+®® !
+™™2 C
+
+±± ,{{ 4
+
+±±1 3
+≥≥? A
+
+≥≥2 3
+≥≥7 8Û
+äC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Controllers\UserSyllabusController.cs
+
+ '2
+		& .   ! )''! )@@! )
+3 : 
+
+) .
+
+) .
+6 <4 : 2
+E K4 :""7 =)): @))] c2
+ #   '' -- 22  
+!! !!" #
+"" ""  !
+(( ((" #
+)) ))  !))E F
+
+99) 0
+996 8;; CC: <
+@@ DD II  
+AA AA 
+BB BB 
+CC% &CC* +€
+yC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\AppDbContext.cs
  		- 9
 		; B		K R
 
@@ -1006,8 +1461,12 @@ pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 "") 3
 
-$$' /®
-vC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\CloudinarySettings.cs
+$$' /
+
+%%' /
+
+''1 8±
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\CloudinarySettings.cs
 
  #
 
@@ -1015,8 +1474,8 @@ vC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- ç
-oC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\EditAccount.cs
+ ñ
+xC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\EditAccount.cs
 
  
 
@@ -1042,8 +1501,8 @@ oC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  !
 
- Ø
-qC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\IPhotoService.cs
+ ∏
+zC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\IPhotoService.cs
 
  "
 
@@ -1053,8 +1512,8 @@ qC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 		 -
 
-		5 =∏
-pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\PhotoService.cs
+		5 =¡
+yC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Data\PhotoService.cs
 
  (
 		$ / # .'' ((
@@ -1072,8 +1531,37 @@ pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 $$* :
 $$B J&&0 8
 && ''6 B
-'' (( ã
-mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Account.cs
+'' (( ä
+vC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\FlmContext.cs
+ ' 1
+3 : 
+
+ )
+B P 
+
+ +
+9 E +
+ ' 
+
+5 A…
+sC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\flm\Session.cs
+
+ 
+
+ 
+
+
+
+ 
+
+ '
+
+ #
+
+ '
+
+ î
+vC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Account.cs
 
  
 
@@ -1099,8 +1587,8 @@ mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 ## 
 
-%% ≤
-pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Assessment.cs
+%% ª
+yC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Assessment.cs
 
  
 
@@ -1132,8 +1620,8 @@ pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 %% 
 
-&& %Õ
-kC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Combo.cs
+&& %÷
+tC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Combo.cs
 
  
 
@@ -1149,8 +1637,8 @@ kC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- )º
-rC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ComboSubject.cs
+ )≈
+{C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ComboSubject.cs
 
  !
 
@@ -1162,8 +1650,8 @@ rC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- “
-pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Curriculum.cs
+ €
+yC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Curriculum.cs
 
  
 
@@ -1179,8 +1667,8 @@ pC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- %Õ
-wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\CurriculumSubject.cs
+ %◊
+ÄC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\CurriculumSubject.cs
 
  &
 
@@ -1194,8 +1682,8 @@ wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  "
 
- ¨
-nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Decision.cs
+ µ
+wC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Decision.cs
 
  
 
@@ -1207,14 +1695,14 @@ nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- §
-tC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ErrorViewModel.cs
+ ≠
+}C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\ErrorViewModel.cs
 
  
   ; D
 
- !–
-nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Feedback.cs
+ !Ÿ
+wC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Feedback.cs
 
  !
 
@@ -1231,7 +1719,35 @@ nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
  
 
  #Â
-wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialOfTeacher.cs
+wC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Material.cs
+
+ 
+
+ 
+
+ )
+
+		 
+
+
+
+ 
+
+ #
+
+ 
+
+ !
+
+ &©
+ÇC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialFilterModel.cs
+
+ $
+
+  
+
+ %Ô
+ÄC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\MaterialOfTeacher.cs
 
  &
 
@@ -1249,8 +1765,8 @@ wC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- ú
-jC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Role.cs
+ •
+sC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Role.cs
 
  
 
@@ -1260,8 +1776,25 @@ jC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
-( 0í
-lC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Status.cs
+( 0ÿ
+vC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Session.cs
+
+ 
+
+ 
+
+ 
+
+ '
+
+ #
+
+ '
+
+ 
+
+ #õ
+uC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Status.cs
 
  
 
@@ -1269,8 +1802,8 @@ lC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
- √
-mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Subject.cs
+ Ã
+vC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Subject.cs
 
  
 
@@ -1284,8 +1817,8 @@ mC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
  
 
-  Ï
-nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Syllabus.cs
+  ı
+wC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Models\Syllabus.cs
 
  
 
@@ -1327,8 +1860,8 @@ nC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProjec
 
 00 
 
-22+ 6‡
-fC:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\LMMProject\Program.csh
+22+ 6È
+oC:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\Program.csh
  		 
 
  

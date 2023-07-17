@@ -1,6 +1,6 @@
-projectKey=LMMProject
+projectKey=LMM
 serverUrl=http://localhost:9000
 serverVersion=10.1.0.73491
-dashboardUrl=http://localhost:9000/dashboard?id=LMMProject
-ceTaskId=AYkb_5KPJ9yTFA_MX0hR
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYkb_5KPJ9yTFA_MX0hR
+dashboardUrl=http://localhost:9000/dashboard?id=LMM
+ceTaskId=AYljbt6cKZdtKWlk-SL4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYljbt6cKZdtKWlk-SL4

@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LMMProject",
+    "\\LMMProject\\LMMProject",
+    "\\LMMProject\\LMMProject\\Controllers",
+    "\\LMMProject\\LMMProject\\Views",
+    "\\LMMProject\\LMMProject\\Views\\ADMIN",
+    "\\LMMProject\\LMMProject\\Views\\UserHome"
   ],
-  "SelectedNode": "\\LMMProject.sln",
+  "SelectedNode": "\\LMMProject\\LMMProject\\Controllers\\UserSyllabusController.cs",
   "PreviewInSolutionExplorer": false
 }

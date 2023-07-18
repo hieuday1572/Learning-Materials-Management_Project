@@ -54,7 +54,7 @@ namespace LMMProject.Controllers
 
 
         // GET: Syllabus/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id, string? iid)
         {
             if (id == null)
             {
@@ -64,13 +64,16 @@ namespace LMMProject.Controllers
             var syllabus = await _context.Syllabus
                 .Include(s => s.Decision)
                 .Include(s => s.Assessments)
+                .Include(e => e.Subject)
                 .FirstOrDefaultAsync(m => m.SyllabusId == id);
             if (syllabus == null)
             {
                 return NotFound();
             }
-
+            var mate = _context.Material.Include(p => p.Subject).Where(p => p.MaterialId == id).ToList();
+            ViewBag.matte = mate;
             return View(syllabus);
+
         }
 
     }

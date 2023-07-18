@@ -35,7 +35,7 @@
     <form asp-action="DeleteSubject">
         <input type="hidden" asp-for="id" />
         <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model?.id" /> |
-            <a asp-action="Index" asp-route-id="@Model?.ComboId">Back to List</a>
+            <a asp-action="Details" asp-route-id="@Model?.ComboId">Back to List</a>
     </form>
 </div>
 </body>

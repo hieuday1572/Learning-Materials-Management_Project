@@ -11257,24 +11257,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bangc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\huyph\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj",
+      "projectUniqueName": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj",
       "projectName": "LMMProject",
-      "projectPath": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj",
-      "packagesPath": "C:\\Users\\bangc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\",
+      "projectPath": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj",
+      "packagesPath": "C:\\Users\\huyph\\.nuget\\packages\\",
+      "outputPath": "D:\\GITHUB\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bangc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\huyph\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11282,8 +11277,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11358,7 +11352,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

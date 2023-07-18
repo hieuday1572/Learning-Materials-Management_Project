@@ -119,12 +119,24 @@
         text-align: center;
         background: #009688;
         color: white;
+        
     }
 
     .table-2 td {
         max-height: 100px;
         background-color: white;
     }
-
+.table-2 th:nth-child(9),
+.table-2 td:nth-child(9) {
+    width: 10%;
+}
+        .table-2 th:nth-child(10),
+        .table-2 td:nth-child(10) {
+            width: 10%;
+        }
+        .table-2 th:nth-child(11),
+        .table-2 td:nth-child(11) {
+            width: 8%;
+        }
 
 

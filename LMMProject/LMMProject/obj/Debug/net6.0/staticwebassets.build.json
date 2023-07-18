@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Iynj08mhxIGRtmPg62fHR/Wsds2sEL43Vf2+qqATkuU=",
+  "Hash": "Ot1SJ539ca5wQ7u2BXmiXG9LjaMZ6MiQ2T7wpj3hGD0=",
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -85,23 +85,6 @@
       "OriginalItemSpec": "wwwroot\\css\\.rescache"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
-      "SourceId": "LMMProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
-      "BasePath": "_content/LMMProject",
-      "RelativePath": "css/combo - Copy.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\combo - Copy.css"
-    },
-    {
       "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
@@ -134,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curriculum.css",
-      "SourceId": "LMMProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
-      "BasePath": "_content/LMMProject",
-      "RelativePath": "css/curriculum.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\curriculum.css"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
@@ -253,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\search.css",
+      "SourceId": "LMMProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "BasePath": "_content/LMMProject",
+      "RelativePath": "css/search.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\search.css"
     },
     {
       "Identity": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",

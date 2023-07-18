@@ -36,6 +36,8 @@
     <None Include="Views\ADMINSyllabus\Details.cshtml" />
     <None Include="Views\ADMINSyllabus\Edit.cshtml" />
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
+    <None Include="Views\SearchSession\Index.cshtml" />
+    <None Include="Views\SearchSession\Search.cshtml" />
     <None Include="wwwroot\css\decision.css" />
     <None Include="wwwroot\css\crud-syllabus.css" />
     <None Include="wwwroot\css\delete.css" />

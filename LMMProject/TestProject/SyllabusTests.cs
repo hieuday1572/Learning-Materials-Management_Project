@@ -43,12 +43,11 @@ namespace TestProject
                    Description = "1",
                    StudentTask = "1",
                    Tool = "1",
-                   ScoringScale = "1",
-                   DecisionNo = "1189/QÐ-ÐHFPT",
-                   IsApproved = 1,
+                   ScoringScale = 1,
+                   DecisionNo = "1189/QÐ-ÐHFPT",                
                    Note = "1",
                    MinAvgMarkToPass = 1,
-                   IsActive = 1
+                   
                },
                new Syllabus
                {
@@ -68,12 +67,11 @@ namespace TestProject
                    Description = "2",
                    StudentTask = "2",
                    Tool = "2",
-                   ScoringScale = "2",
-                   DecisionNo = "1189/QÐ-ÐHFPT",
-                   IsApproved = 1,
+                   ScoringScale = 1,
+                   DecisionNo = "1189/QÐ-ÐHFPT",                   
                    Note = "1",
                    MinAvgMarkToPass = 1,
-                   IsActive = 1
+                   
                });
             _context.SaveChanges();
         }
@@ -99,12 +97,11 @@ namespace TestProject
                 Description = "3",
                 StudentTask = "3",
                 Tool = "3",
-                ScoringScale = "3",
-                DecisionNo = "1189/QÐ-ÐHFPT",
-                IsApproved = 1,
+                ScoringScale = 3,
+                DecisionNo = "1189/QÐ-ÐHFPT",         
                 Note = "3",
                 MinAvgMarkToPass = 3,
-                IsActive = 1
+               
             };
             _context.Add(syllabus);
             var result = _context.SaveChanges();

@@ -12,7 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="~/css/feedback.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/curri-listing.css">
 </head>
 <body>
     <div class="curri-details">
@@ -29,8 +30,8 @@
                 <p>FEEDBACK</p>
             </b>
         </div>
-        <table class="table table-bordered table-hover">
-            <thead class="thead-dark">
+        <table class="table">
+            <thead>
                 <tr>
                     <th>
                         @Html.DisplayNameFor(model => model.FeedbackId)
@@ -76,9 +77,9 @@
                             @Html.DisplayFor(modelItem => item.CreateDate)
                         </td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.FeedbackId">Response</a> |
-                            <a asp-action="Details" asp-route-id="@item.FeedbackId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.FeedbackId">Delete</a>
+                            <a asp-action="Edit" asp-route-id="@item.FeedbackId" class="btn btn-primary">Response</a> |
+                            <a asp-action="Details" asp-route-id="@item.FeedbackId" class="btn btn-primary">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.FeedbackId" class="btn btn-primary">Delete</a>
                         </td>
                     </tr>
                 }

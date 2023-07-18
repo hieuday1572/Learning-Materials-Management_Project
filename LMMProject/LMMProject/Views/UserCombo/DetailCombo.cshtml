@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="~/css/combo.css">
+    <link rel="stylesheet" href="~/css/user-details.css">
     <title>ListCombo</title>
 </head>
 
@@ -18,7 +18,7 @@
 
     <div class="curri-details">
         <div class="navbar">
-            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
                 <li><a asp-action="ListCombo" asp-route-id="@ViewBag.Combosub.CurriculumId">Back</a></li>
@@ -26,12 +26,11 @@
         </div>
         <div class="content">
             <b>
-                <h1>Learning Materials Management</h>
+                <h1>Learning Materials Management</h1>
+                <p>Combo Details</p>
             </b>
-            <h3>     View Combo Detail</h3>
         </div>
-        &ensp;
-        &ensp;
+       
         <table class="table">
             <thead>
                 <tr>

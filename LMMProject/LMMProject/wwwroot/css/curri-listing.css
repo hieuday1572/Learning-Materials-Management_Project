@@ -135,20 +135,10 @@ button:hover {
         max-height: 100px;
         background-color: white;
     }
-        .form-container{
-            background-color:white;
-        }
 
-        .table th:nth-child(1),
-        .table td:nth-child(1) {
-            width: 15%;
-        }
-        .table th:nth-child(5),
-        .table td:nth-child(5) {
-            width: 20%;
-        }
+.form-container {
+    background-color: white;
+}
 
-        .table th:nth-child(6),
-        .table td:nth-child(6) {
-            width: 12%;
-        }
+
+

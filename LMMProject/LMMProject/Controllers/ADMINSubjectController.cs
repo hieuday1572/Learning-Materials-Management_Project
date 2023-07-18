@@ -158,6 +158,7 @@ namespace LMMProject.Controllers
                 var assessment = await _context.Assessment.Where(a => a.SyllabusId == syllabus.SyllabusId).ToListAsync();
                 _context.Assessment.RemoveRange(assessment);
             }
+
             _context.Syllabus.RemoveRange(sys);
             _context.Session.RemoveRange(ses);
             _context.Material.RemoveRange(ma);

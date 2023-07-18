@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\.rescache"
     },
     {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
-      "PackagePath": "staticwebassets\\css\\combo - Copy.css"
-    },
-    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
       "PackagePath": "staticwebassets\\css\\combo.css"
     },
@@ -33,10 +29,6 @@
       "PackagePath": "staticwebassets\\css\\curri-listing.css"
     },
     {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curriculum.css",
-      "PackagePath": "staticwebassets\\css\\curriculum.css"
-    },
-    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
@@ -51,6 +43,10 @@
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",

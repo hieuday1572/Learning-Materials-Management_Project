@@ -137,12 +137,9 @@ button:hover {
         background-color: white;
     }
 
-
-
-
-
-
-
-
+        .table th:nth-child(6),
+        .table td:nth-child(6) {
+            width: 19%;
+        }
 
 

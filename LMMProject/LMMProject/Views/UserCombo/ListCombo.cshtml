@@ -10,15 +10,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="~/css/combo.css">
-    <title>ListCombo</title>
+    <link rel="stylesheet" href="~/css/user-details.css">
 </head>
 
 <body>
 
     <div class="curri-details">
         <div class="navbar">
-            <img src="../image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
             </ul>
@@ -28,7 +27,6 @@
                 <h1>Learning Materials Management</h1>
                 <p>List Combos</p>
             </b>
-
         </div>
 
         <table class="table">
@@ -46,7 +44,7 @@
                 <th>CurriCulum Name</th>
                 <td>@ViewBag.Currii.NameEn</td>
             </tr>
-        </table>
+        </table class="table-2">
         <div class="table-container">
             <table class="table-2">
                 <thead>

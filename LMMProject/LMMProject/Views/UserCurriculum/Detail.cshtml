@@ -13,16 +13,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="~/css/curri-details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/user-details.css">
     <title>Details</title>
 </head>
 <body>
 
     <div class="curri-details">
-        <div class="navbar">
+        <div class="navbar-1">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+                <li><a asp-action="Index">Back</a></li>
             </ul>
         </div>
         <div class="content">
@@ -62,7 +64,7 @@
                 <th></th>
                 <td>
                     <div>
-                        <a asp-controller="UserCombo" asp-action="ListCombo" asp-route-id="@Model?.CurriculumId"><button type="button"><span></span> View Combo</button></a>
+                        <a asp-controller="UserCombo" asp-action="ListCombo" asp-route-id="@Model?.CurriculumId"><button type="button" class="btn btn-primary"><span></span> View Combo</button></a>
                     </div>
                 </td>
             </tr>
@@ -93,7 +95,7 @@
             </table>
         </div>
         <div>
-            <a asp-action="Index">Back</a>
+           
         </div>
     </div>
 

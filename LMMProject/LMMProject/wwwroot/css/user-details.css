@@ -11,10 +11,17 @@
     background-position: center;
     background-color: antiquewhite;
 }
+.curri-details-1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: antiquewhite;
+}
 
 .navbar {
     width: 100%;
-    height: 150px;
+    height: 100px;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -24,8 +31,8 @@
 }
 
 .logo {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     cursor: pointer;
     margin-top: -20px;
     margin-left: 100px;
@@ -55,9 +62,48 @@
         transition: 0.5s;
     }
 
-.navbar ul li:hover::after {
+    .navbar ul li:hover::after {
+        width: 100%;
+    }
+
+.navbar-1 {
     width: 100%;
+    height: 150px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #009688;
 }
+
+.navbar-1 ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+    .navbar-1 ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .navbar-1 ul li::after {
+        content: '';
+        height: 3px;
+        width: 0;
+        background: aqua;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+    }
+
+    .navbar-1 ul li:hover::after {
+        width: 100%;
+    }
 
 .content h1 {
     width: 1000px;
@@ -78,46 +124,11 @@
     transform: translateY(-200%);
 }
 
-
-button {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    color: black;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-
-span {
-    background: #009688;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-
-button:hover span {
-    width: 100%;
-}
-
-button:hover {
-    border: none;
-}
-
 .table {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     margin-top: -80px;
+    border-collapse: collapse;
 }
 
     .table th, .table td {
@@ -130,16 +141,39 @@ button:hover {
         text-align: center;
         background: #009688;
         color: white;
+        width: 10%;
     }
 
     .table td {
         max-height: 100px;
         background-color: white;
+        width: 90%;
     }
 
-        .table th:nth-child(6),
-        .table td:nth-child(6) {
-            width: 19%;
-        }
+.table-2 {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -20px;
+    border-collapse: collapse;
+}
 
+    .table-2 th, .table-2 td {
+        border: 1px solid black;
+        padding: 8px 8px;
+        word-break: break-word;
+    }
 
+    .table-2 th {
+        text-align: center;
+        background: #009688;
+        color: white;
+    }
+
+    .table-2 td {
+        max-height: 100px;
+        background-color: white;
+    }
+
+.table-container {
+    margin-top: 50px;
+}

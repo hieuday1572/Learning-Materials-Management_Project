@@ -13,7 +13,6 @@
     <Content Remove="wwwroot\css\delete-detail.css" />
     <Content Remove="wwwroot\css\delete.css" />
     <Content Remove="wwwroot\css\feedback.css" />
-    <Content Remove="wwwroot\css\user-details.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,16 +36,18 @@
     <None Include="Views\ADMINSyllabus\Details.cshtml" />
     <None Include="Views\ADMINSyllabus\Edit.cshtml" />
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
-    <None Include="wwwroot\css\user-details.css" />
+    <None Include="Views\SearchSession\Index.cshtml" />
+    <None Include="Views\SearchSession\Search.cshtml" />
     <None Include="wwwroot\css\decision.css" />
     <None Include="wwwroot\css\crud-syllabus.css" />
     <None Include="wwwroot\css\delete.css" />
+    <None Include="wwwroot\css\combo - Copy.css" />
     <None Include="wwwroot\css\combo.css" />
     <None Include="wwwroot\css\contact.css" />
     <None Include="wwwroot\css\curri-details.css" />
     <None Include="wwwroot\css\feedback.css" />
     <None Include="wwwroot\css\curri-listing.css" />
-    <None Include="wwwroot\css\search.css" />
+    <None Include="wwwroot\css\curriculum.css" />
     <None Include="wwwroot\css\home.css" />
     <None Include="wwwroot\css\learning-part.css" />
     <None Include="wwwroot\css\learning.css" />

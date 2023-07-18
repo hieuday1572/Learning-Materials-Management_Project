@@ -8,22 +8,22 @@
 
 <html>
 <head>
-<<<<<<< Updated upstream
+    <<<<<<< Updated upstream
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="~/css/learning.css">
-=======
+    =======
     <meta name="viewport" content="width=device-width" />
->>>>>>> Stashed changes
+    >>>>>>> Stashed changes
     <title>Details</title>
 </head>
 <body>
 
-<div>
-    <h4>Subject</h4>
-<<<<<<< Updated upstream
+    <div>
+        <h4>Subject</h4>
+        <<<<<<< Updated upstream
         <div class="curri-details">
             <div class="navbar">
                 <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
@@ -53,7 +53,7 @@
                     <th>English Name:</th>
                     <td>@Model.SubjectNameEn</td>
                 </tr>
-                
+
                 <tr>
                     <th>PreRequisite</th>
                     <td>
@@ -86,7 +86,7 @@
                             <th>Semester</th>
                             <th>PreRequisite </th>
                             <th>StatusId</th>
-                            
+
                         </tr>
                     </thead>
                     <tbody>
@@ -99,7 +99,7 @@
                                 <td>@item.Semester</td>
                                 <td>@item.Subject.PreRequisite </td>
                                 <td>@item.Subject.StatusId</td>
-                      
+
                             </tr>
                         }
                     </tbody>
@@ -112,39 +112,39 @@
         </div>
 
 
-=======
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SubjectNameVn)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SubjectNameVn)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SubjectNameEn)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.SubjectNameEn)
-        </dd>       
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PreRequisite)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.PreRequisite)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Status.StatusId)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.SubjectCode">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
->>>>>>> Stashed changes
+        =======
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.SubjectNameVn)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.SubjectNameVn)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.SubjectNameEn)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.SubjectNameEn)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PreRequisite)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PreRequisite)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Status)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Status.StatusId)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.SubjectCode">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+    >>>>>>> Stashed changes
 </body>
 </html>

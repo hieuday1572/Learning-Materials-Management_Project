@@ -142,6 +142,39 @@
                     }
                 </tbody>
             </table>
+            <p>Additional Material By Teacher:</p>
+            <table class="table-2">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Subject Code</th>
+                        <th>Material URL</th>
+                        <th>Description</th>
+                        <th>Teacher Username</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @{
+                        var index_add_material = 1;
+                    }
+                    @foreach (var item in ViewBag.add_material)
+                    {
+                        <tr>
+                            <td>@index</td>
+                            <td>
+                                @item.SubjectCode
+                            </td>
+                            <td><a target="_blank" href="@item.URL">@item.URL</a></td>
+                            <td>@item.Description</td>
+                            <td>@item.TeacherUsername</td>
+                            <td>@item.Status</td>
+                        </tr>
+                        index_add_material++;
+                    }
+                </tbody>
+            </table>
         </div>
         <div class="table-container">
             <table class="table-2">

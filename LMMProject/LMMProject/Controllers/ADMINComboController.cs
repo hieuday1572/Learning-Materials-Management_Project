@@ -32,7 +32,7 @@ namespace LMMProject.Controllers
         //public async Task<IActionResult> Details(int? id)
         public IActionResult Details(int? id)
         {
-            Combo? combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
+            Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
             ViewBag.Combosub = combsub;
             var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.ComboId == id).ToList();
             return View(listSubject);
@@ -228,21 +228,15 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteSubjectConfirmed(int id)
         {
+            int comboId = Convert.ToInt32(Request.Form["comId"]);
             if (_context.Combo_Subject == null)
             {
                 return Problem("Entity set 'AppDbContext.Combo_Subject'  is null.");
             }
             var comboSubject = await _context.Combo_Subject.FindAsync(id);
-            if (comboSubject != null)
-            {
                 _context.Combo_Subject.Remove(comboSubject);
                 await _context.SaveChangesAsync();
-                return new RedirectResult(url: "/ADMINCombo/Details/" + comboSubject.id, permanent: true, preserveMethod: true);
-            }
-            else
-            {
-                return RedirectToAction("Error");
-            }
+                return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
 
             
         }

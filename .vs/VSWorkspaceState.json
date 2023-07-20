@@ -6,8 +6,8 @@
     "\\LMMProject\\LMMProject\\Controllers",
     "\\LMMProject\\LMMProject\\Views",
     "\\LMMProject\\LMMProject\\Views\\ADMIN",
+    "\\LMMProject\\LMMProject\\Views\\UserCurriculum",
     "\\LMMProject\\LMMProject\\Views\\UserHome"
   ],
-  "SelectedNode": "\\LMMProject\\LMMProject\\Controllers\\UserSyllabusController.cs",
   "PreviewInSolutionExplorer": false
 }

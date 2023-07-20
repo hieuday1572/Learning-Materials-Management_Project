@@ -232,6 +232,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQURNSU5cTGlzdE9mQ29tYm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Assessments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzZXNzbWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Comboes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tYm9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -276,24 +296,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Sessions/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/SearchSession/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoU2Vzc2lvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Sessions/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Sessions/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Sessions/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Sessions/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vzc2lvbnNcSW5kZXguY3NodG1s
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/SearchSession/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoU2Vzc2lvblxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/Shared/Error.cshtml]
@@ -324,6 +332,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserCombo/DetailCombo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbWJvXERldGFpbENvbWJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserCombo/ListCombo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbWJvXExpc3RDb21iby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserCurriculum/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckN1cnJpY3VsdW1cRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -334,6 +350,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserDecision/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckRlY2lzaW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserFeedbacks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZlZWRiYWNrc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserFeedbacks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZlZWRiYWNrc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserFeedbacks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZlZWRiYWNrc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserFeedbacks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZlZWRiYWNrc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserFeedbacks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckZlZWRiYWNrc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserHome/Dashboard.cshtml]
@@ -358,6 +394,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserMaterialOfTeachers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserMaterialOfTeachers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hdGVyaWFsT2ZUZWFjaGVyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/SWP/Learning-Materials-Management_Project/LMMProject/LMMProject/Views/UserMaterialOfTeachers/Edit.cshtml]

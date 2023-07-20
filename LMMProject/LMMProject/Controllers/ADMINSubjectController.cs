@@ -167,13 +167,14 @@ namespace LMMProject.Controllers
             var subject = await _context.Subject.FindAsync(id);
             var sys = _context.Syllabus.Where(s => s.SubjectCode == id).ToList();
             var ses = _context.Session.Where(s =>s.SubjectCode == id).ToList();
-            var ma = _context.Material.Where(s => s.SubjectCode != id).ToList();
+            var ma = _context.Material.Where(s => s.SubjectCode == id).ToList();
             var mot = _context.MaterialOfTeacher.Where(s => s.SubjectCode == id).ToList();
             foreach (var syllabus in sys)
             {
                 var assessment = await _context.Assessment.Where(a => a.SyllabusId == syllabus.SyllabusId).ToListAsync();
                 _context.Assessment.RemoveRange(assessment);
             }
+
             _context.Syllabus.RemoveRange(sys);
             _context.Session.RemoveRange(ses);
             _context.Material.RemoveRange(ma);

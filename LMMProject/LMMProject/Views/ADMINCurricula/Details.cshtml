@@ -78,7 +78,7 @@
                 
                 <thead>
                     <tr>
-                        <td colspan="5">
+                        <td colspan="6">
                             <div class="form-container">
                                 <form asp-controller="ADMINCurricula" asp-action="AddSubject">
                                     <div class="form-group mb-3">
@@ -100,7 +100,7 @@
                         <th>Semester</th>
                         <th>Status</th>
                         <th>PreRequisite </th>
-                        
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -112,7 +112,7 @@
                             <td>@item.Semester</td>
                             <td>@item.Subject.StatusId</td>
                             <td>@item.Subject.PreRequisite </td>
-                            <td><a asp-controller="ADMINCurricula" asp-action="DeleteSubject" asp-route-id="@Model?.CurriculumId" asp-route-cu_sub_ID="@item.id"><button type="button"><span></span> DELETE</button></a></td>
+                            <td><a asp-controller="ADMINCurricula" asp-action="DeleteSubject" asp-route-id="@Model?.CurriculumId" asp-route-cu_sub_ID="@item.id"><button type="button" class="btn btn-primary"><span></span> DELETE</button></a></td>
                 </tr>
                     }
                 </tbody>

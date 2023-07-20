@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<LMMProject.Models.ComboSubject>
+@inject IHttpContextAccessor Accessor
 @{
     Layout = null;
 }
@@ -30,7 +31,7 @@
                 <p>Combo Details</p>
             </b>
         </div>
-       
+
         <table class="table">
             <thead>
                 <tr>

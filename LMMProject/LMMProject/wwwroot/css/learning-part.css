@@ -136,6 +136,13 @@ button:hover {
         max-height: 100px;
         background-color: white;
     }
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-100px;
+    right:50px;
+}
 
         .table th:nth-child(6),
         .table td:nth-child(6) {

@@ -124,11 +124,34 @@ button:hover {
         max-height: 100px;
         background-color: white;
     }
-
-
-
-        
-
+.table th:nth-child(15),
+.table td:nth-child(15) {
+    width: 11%;
+}
+        .table th:nth-child(8),
+        .table td:nth-child(8) {
+            width: 6.5%;
+        }
+        .table th:nth-child(9),
+        .table td:nth-child(9) {
+            width: 8%;
+        }
+        .table th:nth-child(10),
+        .table td:nth-child(10) {
+            width: 7.5%;
+        }
+        .table th:nth-child(12),
+        .table td:nth-child(12) {
+            width: 6%;
+        }
+        .table th:nth-child(5),
+        .table td:nth-child(5) {
+            width: 8%;
+        }
+        .table th:nth-child(1),
+        .table td:nth-child(1) {
+            width: 6.5%;
+        }
 
 
 

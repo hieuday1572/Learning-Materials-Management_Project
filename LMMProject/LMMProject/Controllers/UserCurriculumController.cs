@@ -20,22 +20,27 @@ namespace LMMProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(string option, string search)
         {
-            HttpContext.Session.SetString("option", option);
-            HttpContext.Session.SetString("search", search);
+            //HttpContext.Session.SetString("option", option);
+            //HttpContext.Session.SetString("search", search);
             List<Curriculum> curriculum;
-            if (option.Equals("code"))
+            if(search!=null)
             {
-                curriculum=_context.Curriculum.Include(p=>p.Decision).Where(p=>p.CurriculumCode.Contains(search.Trim())).ToList();
+                if (option.Equals("code"))
+                {
+                    curriculum = _context.Curriculum.Include(p => p.Decision).Where(p => p.CurriculumCode.Contains(search.Trim())).ToList();
+                }
+                else
+                {
+                    curriculum = _context.Curriculum.Include(p => p.Decision).Where(p => (p.NameEn.Contains(search) || p.NameVn.Equals(search.Trim()))).ToList();
+                }
+                if (curriculum.Count() == 0)
+                {
+                    TempData["error"] = "Sorry: Curriculum not found !";
+                }
+                return View(curriculum);
             }
-            else
-            {
-                curriculum = _context.Curriculum.Include(p => p.Decision).Where(p => (p.NameEn.Contains(search)||p.NameVn.Equals(search.Trim()))).ToList();
-            }
-            if (curriculum.Count()==0)
-            {
-                TempData["error"] = "Sorry: Curriculum not found !";
-            }
-            return View(curriculum);
+            TempData["error"] = "Sorry: Curriculum not found !";
+            return View();
         }
 
         public IActionResult Detail(int id)

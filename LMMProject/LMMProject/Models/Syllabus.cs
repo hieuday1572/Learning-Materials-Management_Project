@@ -44,7 +44,7 @@ public partial class Syllabus
 
     public int? MinAvgMarkToPass { get; set; }
 
-    [Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the active")]
+    //[Required(AllowEmptyStrings = false, ErrorMessage = "Please enter the active")]
     public sbyte? IsActive { get; set; }
 
     public virtual ICollection<Assessment> Assessments { get; set; }

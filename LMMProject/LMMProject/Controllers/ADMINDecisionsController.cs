@@ -58,7 +58,7 @@ namespace LMMProject.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("DecisionNo,DecisionName,Note,CreateDate")] Decision decision)
         {
-            var check = _context.Decision.FirstOrDefault(p=>p.DecisionNo.Equals(decision.DecisionNo));
+            var check = _context.Decision.FirstOrDefault(p=>p.DecisionNo.Trim().Equals(decision.DecisionNo.Trim()));
             if (check == null)
             {
                 if (ModelState.IsValid)

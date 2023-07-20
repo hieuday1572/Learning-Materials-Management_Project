@@ -55,7 +55,6 @@ C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
@@ -1393,3 +1392,4 @@ C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\L
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\TestProject.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\refint\TestProject.dll
 C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\TestProject\obj\Debug\net6.0\TestProject.pdb
+C:\Users\ADMIN\OneDrive\Desktop\Learning-Materials-Management_Project\LMMProject\TestProject\bin\Debug\net6.0\CloudinaryDotNet.dll

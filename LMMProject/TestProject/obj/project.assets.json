@@ -2538,6 +2538,12 @@
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
         }
       },
+      "OpenCover/4.7.1221": {
+        "type": "package",
+        "build": {
+          "build/OpenCover.targets": {}
+        }
+      },
       "Portable.BouncyCastle/1.9.0": {
         "type": "package",
         "compile": {
@@ -7438,6 +7444,75 @@
         "nunit3testadapter.nuspec"
       ]
     },
+    "OpenCover/4.7.1221": {
+      "sha512": "XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "type": "package",
+      "path": "opencover/4.7.1221",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.rtf",
+        "build/OpenCover.MSBuild.dll",
+        "build/OpenCover.targets",
+        "docs/ReleaseNotes.txt",
+        "docs/Usage.rtf",
+        "opencover.4.7.1221.nupkg.sha512",
+        "opencover.nuspec",
+        "readme_with_releasenotes.txt",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/Gendarme.Framework.dll",
+        "tools/Gendarme.Rules.Maintainability.dll",
+        "tools/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/Microsoft.Extensions.Configuration.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/OpenCover.Console.exe",
+        "tools/OpenCover.Console.exe.config",
+        "tools/OpenCover.Console.pdb",
+        "tools/OpenCover.Extensions.dll",
+        "tools/OpenCover.Extensions.pdb",
+        "tools/OpenCover.Framework.dll",
+        "tools/OpenCover.Framework.pdb",
+        "tools/SampleSln/SampleSln.zip",
+        "tools/Samples/x64/OpenCover.Simple.Target.exe",
+        "tools/Samples/x64/OpenCover.Simple.Target.pdb",
+        "tools/Samples/x86/OpenCover.Simple.Target.exe",
+        "tools/Samples/x86/OpenCover.Simple.Target.pdb",
+        "tools/Sentry.PlatformAbstractions.dll",
+        "tools/Sentry.Protocol.dll",
+        "tools/Sentry.dll",
+        "tools/System.Buffers.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.Memory.dll",
+        "tools/System.Numerics.Vectors.dll",
+        "tools/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/System.Text.Encodings.Web.dll",
+        "tools/System.Text.Json.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/autofac.json",
+        "tools/log4net.config",
+        "tools/log4net.dll",
+        "tools/transform/simple_report.xslt",
+        "tools/transform/transform.ps1",
+        "tools/x64/OpenCover.Profiler.dll",
+        "tools/x86/OpenCover.Profiler.dll"
+      ]
+    },
     "Portable.BouncyCastle/1.9.0": {
       "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
       "type": "package",
@@ -9833,43 +9908,28 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
+      "OpenCover >= 4.7.1221",
       "coverlet.collector >= 3.1.2"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\khact\\.nuget\\packages\\": {},
->>>>>>> a21fa0a6cc8f1ade2460d0d243af88cb5c11c650
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
       "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
-      "projectName": "TestProject",
-      "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\khact\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
->>>>>>> a21fa0a6cc8f1ade2460d0d243af88cb5c11c650
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\khact\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> a21fa0a6cc8f1ade2460d0d243af88cb5c11c650
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9885,13 +9945,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
               "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
-=======
-            "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
-              "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
->>>>>>> a21fa0a6cc8f1ade2460d0d243af88cb5c11c650
             }
           }
         }
@@ -9929,6 +9984,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[4.2.1, )"
+          },
+          "OpenCover": {
+            "target": "Package",
+            "version": "[4.7.1221, )"
           },
           "coverlet.collector": {
             "target": "Package",

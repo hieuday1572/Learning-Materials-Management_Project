@@ -15,6 +15,7 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
+          "OpenCover": "4.7.1221",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -1250,22 +1251,22 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.2": {
+      "Microsoft.EntityFrameworkCore.Relational/6.0.18": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.7",
-          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "7.0.2.0",
-            "fileVersion": "7.0.222.58006"
+            "assemblyVersion": "6.0.18.0",
+            "fileVersion": "6.0.1823.25207"
           }
         }
       },
       "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.2"
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.18"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
@@ -1300,15 +1301,9 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
-          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/7.0.0": {
@@ -1880,16 +1875,16 @@
           }
         }
       },
-      "MySql.EntityFrameworkCore/7.0.2": {
+      "MySql.EntityFrameworkCore/6.0.13": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.7",
-          "Microsoft.EntityFrameworkCore.Relational": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.18",
           "MySql.Data": "8.0.33"
         },
         "runtime": {
           "lib/net6.0/MySql.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.2.0",
-            "fileVersion": "7.0.2.0"
+            "assemblyVersion": "6.0.13.0",
+            "fileVersion": "6.0.13.0"
           }
         }
       },
@@ -2020,6 +2015,7 @@
       },
       "NUnit.Analyzers/3.3.0": {},
       "NUnit3TestAdapter/4.2.1": {},
+      "OpenCover/4.7.1221": {},
       "Portable.BouncyCastle/1.9.0": {
         "runtime": {
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
@@ -2508,7 +2504,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.18",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.14",
           "MySql.Data": "8.0.33",
-          "MySql.EntityFrameworkCore": "7.0.2"
+          "MySql.EntityFrameworkCore": "6.0.13"
         },
         "runtime": {
           "LMMProject.dll": {}
@@ -3131,12 +3127,12 @@
       "path": "microsoft.entityframeworkcore.inmemory/7.0.7",
       "hashPath": "microsoft.entityframeworkcore.inmemory.7.0.7.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.2": {
+    "Microsoft.EntityFrameworkCore.Relational/6.0.18": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TbTGOdaGtjps3GP7rLWXEXzmP+EXhV8AwPE/ov0QYhs5i5vKZX5ZpVLMnco2MeMtiPgLyxE7DhQT8s1wlu190g==",
-      "path": "microsoft.entityframeworkcore.relational/7.0.2",
-      "hashPath": "microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512"
+      "sha512": "sha512-lCEvmkKips9cn77uc5umOF4VtU/O5hDSHbMQXDsKwUeEc2pIMdGI+IrwM0Wk8mGTartdPAqNmNd1QD3vsqn6TQ==",
+      "path": "microsoft.entityframeworkcore.relational/6.0.18",
+      "hashPath": "microsoft.entityframeworkcore.relational.6.0.18.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.SqlServer/6.0.18": {
       "type": "package",
@@ -3159,12 +3155,12 @@
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
-      "path": "microsoft.extensions.configuration.abstractions/7.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512"
+      "sha512": "sha512-qWzV9o+ZRWq+pGm+1dF+R7qTgTYoXvbyowRoBxQJGfqTpqDun2eteerjRQhq5PQ/14S+lqto3Ft4gYaRyl4rdQ==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/7.0.0": {
       "type": "package",
@@ -3369,12 +3365,12 @@
       "path": "mysql.data/8.0.33",
       "hashPath": "mysql.data.8.0.33.nupkg.sha512"
     },
-    "MySql.EntityFrameworkCore/7.0.2": {
+    "MySql.EntityFrameworkCore/6.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ySIsMm7VqZTc685eGT9FAMkS73qbRwx80L/3/cAsnfTOqRNQc+pBj8OO9k275wBfcE2DRJTgPC5LJcPF/58KMw==",
-      "path": "mysql.entityframeworkcore/7.0.2",
-      "hashPath": "mysql.entityframeworkcore.7.0.2.nupkg.sha512"
+      "sha512": "sha512-qtBb5I7BdpPplqnhtUCK1z0reBRyoNxACMM6pnFrpHFawIBlOLQqASXzbfTLzQh2IZuHlG9fR5J9W5gyfnq7bA==",
+      "path": "mysql.entityframeworkcore/6.0.13",
+      "hashPath": "mysql.entityframeworkcore.6.0.13.nupkg.sha512"
     },
     "NETStandard.Library/2.0.0": {
       "type": "package",
@@ -3473,6 +3469,13 @@
       "sha512": "sha512-kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "path": "nunit3testadapter/4.2.1",
       "hashPath": "nunit3testadapter.4.2.1.nupkg.sha512"
+    },
+    "OpenCover/4.7.1221": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XZsMfTpbGnqLWCQjOeLlbDUU0lazJHbyEX52d7oRSuQX7Ve+23nfk4TF/F61hS382IEHB8WvUwkPB2IIA9WqEQ==",
+      "path": "opencover/4.7.1221",
+      "hashPath": "opencover.4.7.1221.nupkg.sha512"
     },
     "Portable.BouncyCastle/1.9.0": {
       "type": "package",

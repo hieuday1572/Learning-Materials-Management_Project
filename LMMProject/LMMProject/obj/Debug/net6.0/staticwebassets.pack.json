@@ -13,8 +13,8 @@
       "PackagePath": "staticwebassets\\css\\.rescache"
     },
     {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
-      "PackagePath": "staticwebassets\\css\\combo.css"
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
+      "PackagePath": "staticwebassets\\css\\combo-index.css"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
@@ -25,8 +25,8 @@
       "PackagePath": "staticwebassets\\css\\curri-details.css"
     },
     {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
-      "PackagePath": "staticwebassets\\css\\curri-listing.css"
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
+      "PackagePath": "staticwebassets\\css\\feedback-user.css"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
@@ -35,10 +35,6 @@
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
       "PackagePath": "staticwebassets\\css\\learning-part.css"
-    },
-    {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
-      "PackagePath": "staticwebassets\\css\\learning.css"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
@@ -53,12 +49,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\subject-user.css",
+      "PackagePath": "staticwebassets\\css\\subject-user.css"
+    },
+    {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-details.css",
       "PackagePath": "staticwebassets\\css\\syllabus-details.css"
     },
     {
-      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
-      "PackagePath": "staticwebassets\\css\\syllabus-management.css"
+      "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
+      "PackagePath": "staticwebassets\\css\\syllabus-index.css"
     },
     {
       "Id": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",

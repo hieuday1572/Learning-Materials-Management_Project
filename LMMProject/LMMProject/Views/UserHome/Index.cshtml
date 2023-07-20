@@ -35,7 +35,6 @@
             <div>
                 <a asp-controller="UserCurriculum" asp-action="Index"><button type="button"><span></span>View Curriculum</button></a>
                 <a asp-controller="UserSyllabus" asp-action="Index"><button type="button"><span></span>View Syllabus</button></a>
-                <a href="~/html/learning.html"><button type="button"><span></span>Show Learning Path of a Subject</button></a>
                 @if (Accessor.HttpContext.Session.GetInt32("role")==2)
                 {
                     <a asp-controller="UserMaterialOfTeachers" asp-action="Index"><button type="button"><span></span>View Your Additional Materials</button></a>

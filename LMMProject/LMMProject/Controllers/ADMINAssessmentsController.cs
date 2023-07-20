@@ -53,11 +53,9 @@ namespace LMMProject.Controllers
         }
 
         // POST: Assessments/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("AssessmentId,Category,Type,Part,Weight,CompletionCriteria,Duration,Clo,QuestionType,NoQuestion,KnowledgeSkill,GradingGuide,Note,SyllabusId")] Assessment assessment)
+        public async Task<IActionResult> Create([Bind("Category,Type,Part,Weight,CompletionCriteria,Duration,Clo,QuestionType,NoQuestion,KnowledgeSkill,GradingGuide,Note,SyllabusId")] Assessment assessment)
         {
             if (ModelState.IsValid)
             {
@@ -73,6 +71,7 @@ namespace LMMProject.Controllers
                     ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
                     return View(assessment);
                 }
+
                 if (assessment.Part < 0)
                 {
                     ModelState.AddModelError("Part", "The Part field must be a non-negative number.");
@@ -104,6 +103,11 @@ namespace LMMProject.Controllers
                     ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
                     return View(assessment);
                 }
+
+                // Generate new AssessmentId
+                var maxAssessmentId = _context.Assessment.Max(a => a.AssessmentId);
+                assessment.AssessmentId = maxAssessmentId + 1;
+
                 _context.Add(assessment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -111,6 +115,7 @@ namespace LMMProject.Controllers
             ViewData["SyllabusId"] = new SelectList(_context.Syllabus, "SyllabusId", "SyllabusId", assessment.SyllabusId);
             return View(assessment);
         }
+
 
         // GET: Assessments/Edit/5
         public async Task<IActionResult> Edit(int? id)

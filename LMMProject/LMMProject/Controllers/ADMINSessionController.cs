@@ -48,6 +48,7 @@ namespace LMMProject.Controllers
             {
                 if (SessionExists(session.SessionId))
                 {
+                    ModelState.AddModelError("SessionId", "The SessionId field is required.");
                     return View(session);
                 }
                 Models.Session ses = new Models.Session();

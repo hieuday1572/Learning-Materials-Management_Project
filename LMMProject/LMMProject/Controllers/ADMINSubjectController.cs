@@ -43,8 +43,24 @@ namespace LMMProject.Controllers
         {
             try
             {
+                if (string.IsNullOrWhiteSpace(subject.SubjectNameVn))
+                {
+                    ModelState.AddModelError("SubjectNameVn", "The SubjectNameVn field is required.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["StatusId"] = new SelectList(_context.Decision, "StatusId", "StatusId", subject.StatusId);
+                    return View(subject);
+                }
+
                 if (SubjectExists(subject.SubjectCode))
                 {
+                    ModelState.AddModelError("SubjectCode", "SubjectCode you entered already exists.");
+                    return View(subject);
+                }
+                if (string.IsNullOrWhiteSpace(subject.SubjectCode))
+                {
+                    ModelState.AddModelError("SubjectCode", "The SubjectCode field is required.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["StatusId"] = new SelectList(_context.Decision, "StatusId", "StatusId", subject.StatusId);
                     return View(subject);
                 }
                 Subject sub = new Subject();

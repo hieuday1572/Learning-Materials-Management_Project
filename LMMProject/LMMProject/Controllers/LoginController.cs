@@ -52,5 +52,10 @@ namespace LMMProject.Controllers
             return View(account);
 
         }
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

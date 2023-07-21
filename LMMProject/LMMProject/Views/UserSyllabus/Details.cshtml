@@ -130,26 +130,26 @@
                     </tr>
                 </thead>
 
-                <tbody>
-                    @{
-                        var index = 1;
-                    }
-                    @foreach (var item in ViewBag.matte)
-                    {
-                        <tr>
-                            <td>@index</td>
-                            <td>
-                                @item.SubjectCode
-                            </td>
-                            <td><a target="_blank" href="@item.Url">@item.Url</a></td>
-                            <td>@item.MaterialDescription</td>
-                            <td>@item.Author</td>
-                            <td>@item.Publisher</td>
-                            <td>@item.PublishedDate</td>
-                        </tr>
-                        index++;
-                    }
-                </tbody>
+                @*<tbody>
+                @{
+                    var index = 1;
+                }
+                @foreach (var item in ViewBag.matte)
+                {
+                            <tr>
+                                <td>@index</td>
+                                <td>
+                            @item.SubjectCode
+                                </td>
+                                <td><a target="_blank" href="@item.Url">@item.Url</a></td>
+                                <td>@item.MaterialDescription</td>
+                                <td>@item.Author</td>
+                                <td>@item.Publisher</td>
+                                <td>@item.PublishedDate</td>
+                            </tr>
+                    index++;
+                }
+                </tbody>*@
             </table>
             <p>Additional Material By Teacher:</p>
             <table class="table-2">
@@ -171,7 +171,7 @@
                     @foreach (var item in ViewBag.add_material)
                     {
                         <tr>
-                            <td>@index</td>
+                            <td>@index_add_material</td>
                             <td>
                                 @item.SubjectCode
                             </td>

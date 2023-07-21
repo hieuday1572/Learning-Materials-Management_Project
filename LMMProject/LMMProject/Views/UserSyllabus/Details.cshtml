@@ -20,20 +20,11 @@
 
     <div class="curri-details-1">
         <div class="navbar-1">
-            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
-            <ul>
-                @if (Accessor.HttpContext.Session.GetString("Username") != null)
-                {
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">        
                     <ul>
                         <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
-                    </ul>
-                }
-                else
-                {
-
-                }
                 <li><a asp-action="Index">Back</a></li>
-            </ul>
+                    </ul>        
         </div>
         <div class="content">
             <b>
@@ -151,17 +142,20 @@
                     }
                 </tbody>
             </table>
-            <p>Additional Material By Teacher:</p>
+
             <table class="table-2">
                 <thead>
-                    <tr>
-                        <th>No.</th>
-                        <th>Subject Code</th>
-                        <th>Material URL</th>
-                        <th>Description</th>
-                        <th>Teacher Username</th>
-                        <th>Status</th>
-                    </tr>
+                <td colspan="2" class="additional-material">
+                    <p>Additional Material By Teacher</p>
+                </td>
+                <tr>
+                    <th>No.</th>
+                    <th>Subject Code</th>
+                    <th>Material URL</th>
+                    <th>Description</th>
+                    <th>Teacher Username</th>
+                    <th>Status</th>
+                </tr>
                 </thead>
 
                 <tbody>
@@ -186,7 +180,7 @@
             </table>
         </div>
         <div class="table-container">
-            <table class="table-2">
+            <table class="table-3">
                 <thead>
                     <tr>
                         <th>AssessmentID</th>

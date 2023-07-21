@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
 }
 
 .curri-details {
@@ -39,26 +38,26 @@
     position: relative;
 }
 
-    .navbar ul li a {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-    }
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
 
-    .navbar ul li::after {
-        content: '';
-        height: 3px;
-        width: 0;
-        background: aqua;
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        transition: 0.5s;
-    }
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: aqua;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
 
-    .navbar ul li:hover::after {
-        width: 100%;
-    }
+.navbar ul li:hover::after {
+    width: 100%;
+}
 
 .content h1 {
     width: 1000px;
@@ -85,24 +84,24 @@
     margin-top: -80px;
 }
 
-    .table th, .table td {
-        border: 1px solid black;
-        padding: 8px 8px;
-        word-break: break-word;
-    }
+.table th, .table td {
+    border: 1px solid black;
+    padding: 8px 8px;
+    word-break: break-word;
+}
 
-    .table th {
-        text-align: center;
-        background: #009688;
-        color: white;
-        width: 10%;
-    }
+.table th {
+    text-align: center;
+    background: #009688;
+    color: white;
+    width: 10%;
+}
 
-    .table td {
-        max-height: 100px;
-        background-color: white;
-        width: 90%;
-    }
+.table td {
+    max-height: 100px;
+    background-color: white;
+    width: 90%;
+}
 
 .table-2 {
     width: 95%;
@@ -110,24 +109,23 @@
     margin-top: -20px;
 }
 
-    .table-2 th, .table-2 td {
-        border: 1px solid black;
-        padding: 8px 8px;
-        word-break: break-word;
-    }
+ .table-2 th, .table-2 td {
+    border: 1px solid black;
+    padding: 8px 8px;
+    word-break: break-word;
+ }
 
-    .table-2 th {
-        text-align: center;
-        background: #009688;
-        color: white;
-    }
+.table-2 th {
+    text-align: center;
+    background: #009688;
+    color: white;
+}
 
-    .table-2 td {
-        max-height: 100px;
-        background-color: white;
-    }
+.table-2 td {
+    max-height: 100px;
+    background-color: white;
+}
 
 .table-container {
     margin-top: 50px;
 }
-

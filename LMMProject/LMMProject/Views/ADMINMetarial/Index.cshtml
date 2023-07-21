@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/learning-part.css">
+    <link rel="stylesheet" href="~/css/material-index.css">
 </head>
 <body>
     <div class="curri-details">
@@ -34,7 +34,7 @@
             <thead class="thead-dark">
                 <tr>
                     <th>
-                        No.
+                        No
                     </th>
                     <th>
                         Subject Code
@@ -87,7 +87,7 @@
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.MaterialId" class="btn btn-primary">Edit</a> |
-                            <button data-val="@item.MaterialId" class="btn btn-primary btn-delete">Delete</button>
+                            <a data-val="@item.MaterialId" class="btn btn-primary btn-delete">Delete</a>
                             @*<a asp-controller="ADMINSession" asp-action = "Index" asp-route-id="@item.SubjectCode">Session</a>*@
                         </td>
                     </tr>

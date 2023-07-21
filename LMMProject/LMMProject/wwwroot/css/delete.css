@@ -58,6 +58,13 @@
     line-height: 100px;
     color:white;
 }
+.error-message {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
 .table th:nth-child(1),
 .table td:nth-child(1) {
     width: 8%;

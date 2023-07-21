@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y4G6qVwc0J8yuLrVIQskptR5tVVBE9iNbU8L0FYT51Q=",
+  "Hash": "tCY/x/d5ikuqxDako0FR9g172WeSvP7UqDlDb2cg4lc=",
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\css\\.rescache"
     },
     {
-      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
+      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/combo.css",
+      "RelativePath": "css/combo-index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\combo.css"
+      "OriginalItemSpec": "wwwroot\\css\\combo-index.css"
     },
     {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
@@ -136,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\css\\curri-details.css"
     },
     {
-      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
+      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/curri-listing.css",
+      "RelativePath": "css/feedback-user.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\curri-listing.css"
+      "OriginalItemSpec": "wwwroot\\css\\feedback-user.css"
     },
     {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
@@ -168,23 +168,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
-    },
-    {
-      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
-      "SourceId": "LMMProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
-      "BasePath": "_content/LMMProject",
-      "RelativePath": "css/learning.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\learning.css"
     },
     {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
@@ -255,6 +238,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\subject-user.css",
+      "SourceId": "LMMProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "BasePath": "_content/LMMProject",
+      "RelativePath": "css/subject-user.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\subject-user.css"
+    },
+    {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
@@ -289,12 +289,12 @@
       "OriginalItemSpec": "wwwroot\\css\\syllabus-details.css"
     },
     {
-      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
+      "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/syllabus-management.css",
+      "RelativePath": "css/syllabus-index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,7 +303,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\syllabus-management.css"
+      "OriginalItemSpec": "wwwroot\\css\\syllabus-index.css"
     },
     {
       "Identity": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\user-details.css",

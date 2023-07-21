@@ -8,12 +8,14 @@ using Microsoft.EntityFrameworkCore;
 using LMMProject.Data;
 using LMMProject.Models;
 using static Microsoft.AspNetCore.Razor.Language.TagHelperMetadata;
+using CloudinaryDotNet;
 
 namespace LMMProject.Controllers
 {
     public class UserFeedbacksController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IHttpContextAccessor _Accessor;
 
         public UserFeedbacksController(AppDbContext context)
         {
@@ -23,9 +25,21 @@ namespace LMMProject.Controllers
         // GET: UserFeedbacks
         public async Task<IActionResult> Index()
         {
-            return _context.feedback != null ?
-                        View(await _context.feedback.ToListAsync()) :
-                        Problem("Entity set 'AppDbContext.feedback'  is null.");
+            string loggedInUserName = HttpContext.Session.GetString("Username");
+
+            if (loggedInUserName == null)
+            {
+                // Redirect to login page or handle unauthorized access.
+                // For simplicity, I will redirect to the login page.
+                return RedirectToAction("Index", "Login");
+            }
+
+            // Filter feedbacks by UserNameFrom
+            var userFeedbacks = await _context.feedback
+                .Where(f => f.UserNameFrom == loggedInUserName)
+                .ToListAsync();
+
+            return View(userFeedbacks);
         }
 
         // GET: UserFeedbacks/Details/5
@@ -50,7 +64,9 @@ namespace LMMProject.Controllers
         // GET: UserFeedbacks/Create
         public IActionResult Create(string id)
         {
+            string loggedInUserName = HttpContext.Session.GetString("Username");
             ViewData["UserNameTo"] = new SelectList(_context.Account, "UserName", "UserName");
+            ViewData["UserNameFrom"] = loggedInUserName; // Lưu giá trị UserName vào ViewData
             return View();
         }
 
@@ -60,7 +76,7 @@ namespace LMMProject.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FeedbackId,Content,UserNameTo,UserNameFrom,Title,CreateDate")] Feedback feedback)
-        {
+        {    
             if (ModelState.IsValid)
             {
                 _context.Add(feedback);

@@ -24,8 +24,11 @@
         <div class="navbar-1">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">       
                     <ul>
-                        <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
-                        <li><a asp-action="Index">Back</a></li>
+                        @if (Accessor.HttpContext.Session.GetString("Username") != null)
+                 {
+                    <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+                }
+                <li><a asp-action="Index">Back</a></li>
                     </ul>
         </div>
         <div class="content">

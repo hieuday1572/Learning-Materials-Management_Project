@@ -38,6 +38,7 @@ namespace LMMProject.Controllers
             accountChange.Birthday=account.Birthday;
            _context.Account.Update(accountChange);
            _context.SaveChanges();
+            TempData["Error"] = "Change information successful !";
             return RedirectToAction("Infor");
         }
 

@@ -37,6 +37,7 @@
     width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
+    margin-top:1px;
 }
 
     .table-1 th, .table-1 td {

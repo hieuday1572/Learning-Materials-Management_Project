@@ -8,11 +8,21 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\css\assessment.css" />
+    <Content Remove="wwwroot\css\combo-detail.css" />
     <Content Remove="wwwroot\css\crud-syllabus.css" />
-    <Content Remove="wwwroot\css\decision.css" />
+    <Content Remove="wwwroot\css\curri-index.css" />
+    <Content Remove="wwwroot\css\decision-detail.css" />
+    <Content Remove="wwwroot\css\decision-index.css" />
     <Content Remove="wwwroot\css\delete-detail.css" />
     <Content Remove="wwwroot\css\delete.css" />
     <Content Remove="wwwroot\css\feedback.css" />
+    <Content Remove="wwwroot\css\material-detail.css" />
+    <Content Remove="wwwroot\css\material-index.css" />
+    <Content Remove="wwwroot\css\material-user.css" />
+    <Content Remove="wwwroot\css\materialteacher-index.css" />
+    <Content Remove="wwwroot\css\session-index.css" />
+    <Content Remove="wwwroot\css\subject-detail.css" />
+    <Content Remove="wwwroot\css\subject-index.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,24 +48,32 @@
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
     <None Include="Views\SearchSession\Index.cshtml" />
     <None Include="Views\SearchSession\Search.cshtml" />
-    <None Include="wwwroot\css\decision.css" />
+    <None Include="wwwroot\css\combo-detail.css" />
+    <None Include="wwwroot\css\material-detail.css" />
+    <None Include="wwwroot\css\subject-detail.css" />
+    <None Include="wwwroot\css\material-user.css" />
+    <None Include="wwwroot\css\decision-index.css" />
+    <None Include="wwwroot\css\material-index.css" />
+    <None Include="wwwroot\css\materialteacher-index.css" />
+    <None Include="wwwroot\css\session-index.css" />
+    <None Include="wwwroot\css\decision-detail.css" />
     <None Include="wwwroot\css\crud-syllabus.css" />
     <None Include="wwwroot\css\delete.css" />
-    <None Include="wwwroot\css\combo - Copy.css" />
-    <None Include="wwwroot\css\combo.css" />
+    <None Include="wwwroot\css\combo-index.css" />
     <None Include="wwwroot\css\contact.css" />
     <None Include="wwwroot\css\curri-details.css" />
     <None Include="wwwroot\css\feedback.css" />
-    <None Include="wwwroot\css\curri-listing.css" />
-    <None Include="wwwroot\css\curriculum.css" />
+    <None Include="wwwroot\css\feedback-user.css" />
     <None Include="wwwroot\css\home.css" />
+    <None Include="wwwroot\css\curri-index.css" />
+    <None Include="wwwroot\css\subject-index.css" />
     <None Include="wwwroot\css\learning-part.css" />
-    <None Include="wwwroot\css\learning.css" />
+    <None Include="wwwroot\css\subject-user.css" />
     <None Include="wwwroot\css\login.css" />
     <None Include="wwwroot\css\delete-detail.css" />
     <None Include="wwwroot\css\syllabus-details.css" />
     <None Include="wwwroot\css\assessment.css" />
-    <None Include="wwwroot\css\syllabus-management.css" />
+    <None Include="wwwroot\css\syllabus-index.css" />
     <None Include="wwwroot\css\syllabus.css" />
     <None Include="wwwroot\html\combo.html" />
     <None Include="wwwroot\html\contact.html" />

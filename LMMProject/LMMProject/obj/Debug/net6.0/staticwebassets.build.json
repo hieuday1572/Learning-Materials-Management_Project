@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "MgkEnljCzR+6IHocNonQYZWA+9l8rtSZPI6nJaCWBII=",
+=======
+  "Hash": "594yzvGx3myXv3YIU9WxJWw+7Ul0jvNZ1WfP7WV/rTg=",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
   "Source": "LMMProject",
   "BasePath": "_content/LMMProject",
   "Mode": "Default",
@@ -85,12 +89,16 @@
       "OriginalItemSpec": "wwwroot\\css\\.rescache"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
+=======
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/combo.css",
+      "RelativePath": "css/combo-index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +107,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\combo.css"
+      "OriginalItemSpec": "wwwroot\\css\\combo-index.css"
     },
     {
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
@@ -136,12 +144,16 @@
       "OriginalItemSpec": "wwwroot\\css\\curri-details.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
+=======
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/curri-listing.css",
+      "RelativePath": "css/feedback-user.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +162,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\curri-listing.css"
+      "OriginalItemSpec": "wwwroot\\css\\feedback-user.css"
     },
     {
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
@@ -170,6 +182,7 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
@@ -188,6 +201,9 @@
     },
     {
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
+=======
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
@@ -255,7 +271,28 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
+=======
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\subject-user.css",
+      "SourceId": "LMMProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
+      "BasePath": "_content/LMMProject",
+      "RelativePath": "css/subject-user.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\subject-user.css"
+    },
+    {
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
@@ -289,12 +326,16 @@
       "OriginalItemSpec": "wwwroot\\css\\syllabus-details.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
+=======
+      "Identity": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
+>>>>>>> c79d27ac38ebfbe7ec263834fb38975c03e11596
       "SourceId": "LMMProject",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\",
       "BasePath": "_content/LMMProject",
-      "RelativePath": "css/syllabus-management.css",
+      "RelativePath": "css/syllabus-index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,7 +344,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\syllabus-management.css"
+      "OriginalItemSpec": "wwwroot\\css\\syllabus-index.css"
     },
     {
       "Identity": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\user-details.css",

@@ -1,5 +1,5 @@
 ﻿@model List<LMMProject.Models.Session>
-
+@inject IHttpContextAccessor Accessor
 @{
     Layout = null;
 }
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/learning-part.css">
+    <link rel="stylesheet" href="~/css/session-index.css">
 </head>
 <body>
 <div class="curri-details">
@@ -21,9 +21,18 @@
         <div class="navbar">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
-                <li>
-                    <a asp-controller="UserHome" asp-action="Index">Home</a>
-                </li>
+                    @if (Accessor.HttpContext.Session.GetString("Username") != null)
+                    {
+                        <ul>
+                            <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <ul>
+                            <li><a asp-controller="Login" asp-action="Index">Back</a></li>
+                        </ul>
+                    }
             </ul>
         </div>
         <div class="content">
@@ -33,15 +42,23 @@
             </b>
             <div class="center-screen">
                                 <form method="get" action="/SearchSession/Search">
-                                    <div class="form-group">
+                                    <div class="form-group mb-3">
                                         <input class="form-control" name="subjectCode" placeholder="Enter Subject Code"/>
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group mb-3">
                                         <button class="btn btn-success">Search</button>
                                     </div>
                                 </form>
                             </div>
-        </div>       
+        </div>
+        <style>
+                    /* Add this CSS */
+                    .center-screen {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                </style>
         <div class="row" style="margin: 73px !important;">
             <div class="col-12">
                 <table class="table table-bordered table-hover">

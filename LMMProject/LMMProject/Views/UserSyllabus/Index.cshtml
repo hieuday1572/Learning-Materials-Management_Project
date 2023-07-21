@@ -79,7 +79,10 @@
                                 </th>
                                 <th>
                                     @Html.DisplayNameFor(model => model.Decision)
-                                    </th>                              
+                                    </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.IsActive)
+                                    </th>
                                 <th></th>
                             </tr>
                         </thead>
@@ -91,8 +94,8 @@
                                     <td>@Html.DisplayFor(modelItem => item.SyllabusNameVn)</td>
                                     <td>@Html.DisplayFor(modelItem => item.SyllabusNameEn)</td>
                                     <td>@Html.DisplayFor(modelItem => item.SubjectCode)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Decision.DecisionNo)</td>
-                                   
+                                    <td><a asp-controller="UserDecision" asp-action="Index" asp-route-id="@item.DecisionNo">@Html.DisplayFor(modelItem => item.DecisionNo)</a></td>
+                                    <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
                                     <td>
                                         <a asp-action="Details" asp-route-id="@item.SyllabusId" class="btn btn-primary">Details</a>
                                     </td>

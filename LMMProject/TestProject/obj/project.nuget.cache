@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "T89lHe/sxbIGiw6HZ7mDJ+Oxajm1t0BausteUc888ETkbXF77kIBqznwhgl18tGrNmDYnrXYCIu3Ds+A5utEAg==",
+  "dgSpecHash": "oSEuL4mWATUe6vh4Q1Xhrmcuzytn8W9Bp6FYrcfUqpACyixyMRhrmvknR7IlHJC6uIqjPgd1ypoA51Vxk/mYEg==",
   "success": true,
   "projectFilePath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
@@ -140,6 +140,7 @@
     "C:\\Users\\rikak\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\rikak\\.nuget\\packages\\opencover\\4.7.1221\\opencover.4.7.1221.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -195,5 +196,12 @@
     "C:\\Users\\rikak\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\rikak\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

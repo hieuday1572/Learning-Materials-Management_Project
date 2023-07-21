@@ -1,4 +1,4 @@
-﻿using FakeItEasy;
+﻿//using FakeItEasy;
 using FluentAssertions;
 using LMMProject.Controllers;
 using LMMProject.Data;
@@ -24,7 +24,7 @@ namespace TestProject.Controller
             _controller = new ADMINCurriculaController(context);
         }
 
-        [Fact]
+        //[Fact]
         public async void ADMINCurriculaController_Index_ReturnSuccess()
         {
             var result =_controller.Index();

@@ -22,32 +22,31 @@ namespace LMMProject.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(string option, string search)
         {
-            HttpContext.Session.SetString("option", option);
-            HttpContext.Session.SetString("search", search);
+           // HttpContext.Session.SetString("option", option);
+            //HttpContext.Session.SetString("search", search);
 
             List<Syllabus> syllabus;
-
-            if (option.Equals("code"))
+            if (search != null)
             {
-                syllabus = await _context.Syllabus
-                    .Include(p => p.Assessments)
-                    .Where(p => p.SubjectCode.Contains(search.Trim()))
-                    .ToListAsync();
-            }
-            else
-            {
-                syllabus = await _context.Syllabus
-                    .Include(p => p.Assessments)
-                    .Where(p => p.SyllabusNameEn.Contains(search) || p.SyllabusNameVn.Equals(search.Trim()))
-                    .ToListAsync();
-            }
+                if (option.Equals("code"))
+                {
+                    syllabus = await _context.Syllabus.Where(p => p.SubjectCode.Contains(search.Trim())).ToListAsync();
+                }
+                else
+                {
+                    syllabus = await _context.Syllabus
+                        .Where(p => p.SyllabusNameEn.Contains(search) || p.SyllabusNameVn.Equals(search.Trim()))
+                        .ToListAsync();
+                }
 
-            if (syllabus.Count() == 0)
-            {
-                TempData["error"] = "Sorry: Syllabus not found!";
+                if (syllabus.Count() == 0)
+                {
+                    TempData["error"] = "Sorry: Syllabus not found!";
+                }
+                return View(syllabus);
             }
-
-            return View(syllabus);
+            TempData["error"] = "Sorry: Syllabus not found!";
+            return View();
         }
 
 

@@ -105,8 +105,8 @@ namespace LMMProject.Controllers
                 }
 
                 // Generate new AssessmentId
-                var maxAssessmentId = _context.Assessment.Max(a => a.AssessmentId);
-                assessment.AssessmentId = maxAssessmentId + 1;
+                //var maxAssessmentId = _context.Assessment.Max(a => a.AssessmentId);
+                //assessment.AssessmentId = maxAssessmentId + 1;
 
                 _context.Add(assessment);
                 await _context.SaveChangesAsync();

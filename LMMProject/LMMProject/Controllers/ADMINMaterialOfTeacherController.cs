@@ -70,7 +70,14 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-            materialOfTeacher.Status = "approved";
+            if (materialOfTeacher.Status.Equals("waiting"))
+            {
+                materialOfTeacher.Status = "approved";
+            }
+            else
+            {
+                materialOfTeacher.Status = "waiting";
+            }
             _context.Update(materialOfTeacher);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));

@@ -8,9 +8,11 @@ namespace LMMProject.Controllers
     public class UserCurriculumController : Controller
     {
         private readonly AppDbContext _context;
-        public UserCurriculumController(AppDbContext context)
+        private readonly IHttpContextAccessor _Accessor;
+        public UserCurriculumController(AppDbContext context, IHttpContextAccessor accessor)
         {
             _context = context;
+            _Accessor = accessor;
         }
         public IActionResult Index()
         {

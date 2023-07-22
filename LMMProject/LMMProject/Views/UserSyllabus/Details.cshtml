@@ -22,7 +22,10 @@
         <div class="navbar-1">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">        
                     <ul>
-                        <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+                @if (Accessor.HttpContext.Session.GetString("Username") != null)
+                {
+                    <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
+                }
                 <li><a asp-action="Index">Back</a></li>
                     </ul>        
         </div>
@@ -122,24 +125,24 @@
                 </thead>
 
                 <tbody>
-                    @{
-                        var index = 1;
-                    }
-                    @foreach (var item in ViewBag.matte)
-                    {
-                        <tr>
-                            <td>@index</td>
-                            <td>
-                                @item.SubjectCode
-                            </td>
-                            <td><a target="_blank" href="@item.Url">@item.Url</a></td>
-                            <td>@item.MaterialDescription</td>
-                            <td>@item.Author</td>
-                            <td>@item.Publisher</td>
-                            <td>@item.PublishedDate</td>
-                        </tr>
-                        index++;
-                    }
+                @{
+                    var index = 1;
+                }
+                @foreach (var item in ViewBag.matte)
+                {
+                            <tr>
+                                <td>@index</td>
+                                <td>
+                            @item.SubjectCode
+                                </td>
+                                <td><a target="_blank" href="@item.Url">@item.Url</a></td>
+                                <td>@item.MaterialDescription</td>
+                                <td>@item.Author</td>
+                                <td>@item.Publisher</td>
+                                <td>@item.PublishedDate</td>
+                            </tr>
+                    index++;
+                }
                 </tbody>
             </table>
 
@@ -165,7 +168,7 @@
                     @foreach (var item in ViewBag.add_material)
                     {
                         <tr>
-                            <td>@index</td>
+                            <td>@index_add_material</td>
                             <td>
                                 @item.SubjectCode
                             </td>

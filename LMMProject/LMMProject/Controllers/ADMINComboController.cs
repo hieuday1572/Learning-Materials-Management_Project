@@ -194,14 +194,17 @@ namespace LMMProject.Controllers
                     }
                     else
                     {
+                        TempData["error"] = "Subject already exists in the Curriculum.";
                         return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
                     }
                 }
                 else
                 {
+                    TempData["error"] = "Subject not found. Please enter a valid subject code.";
                     return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
                 }
             }
+            TempData["error"] = "Sorry: Subject not found, please enter valid subject code !";
             return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
         }
         public async Task<IActionResult> DeleteSubject(int? id)

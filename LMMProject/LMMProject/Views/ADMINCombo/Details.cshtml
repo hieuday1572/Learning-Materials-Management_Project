@@ -44,8 +44,11 @@
             </tr>
         </table>
         <div class="table-container">
-            
-           
+
+            @if (TempData["error"] != null)
+            {
+                <p><b>@TempData["error"]</b></p>
+            }
             <table class="table-2">
                 <thead>
                     <tr>

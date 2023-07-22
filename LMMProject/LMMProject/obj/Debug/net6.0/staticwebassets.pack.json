@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\css\\.rescache"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo - Copy.css",
+      "PackagePath": "staticwebassets\\css\\combo - Copy.css"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
       "PackagePath": "staticwebassets\\css\\combo-index.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo.css",
+      "PackagePath": "staticwebassets\\css\\combo.css"
     },
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
@@ -23,6 +31,18 @@
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
       "PackagePath": "staticwebassets\\css\\curri-details.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-listing.css",
+      "PackagePath": "staticwebassets\\css\\curri-listing.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curriculum.css",
+      "PackagePath": "staticwebassets\\css\\curriculum.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\decision.css",
+      "PackagePath": "staticwebassets\\css\\decision.css"
     },
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
@@ -35,6 +55,10 @@
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
       "PackagePath": "staticwebassets\\css\\learning-part.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning.css",
+      "PackagePath": "staticwebassets\\css\\learning.css"
     },
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
@@ -59,6 +83,10 @@
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
       "PackagePath": "staticwebassets\\css\\syllabus-index.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-management.css",
+      "PackagePath": "staticwebassets\\css\\syllabus-management.css"
     },
     {
       "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",

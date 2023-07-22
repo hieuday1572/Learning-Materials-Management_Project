@@ -1,435 +1,435 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\LMMProject.bundle.scp.css",
       "PackagePath": "staticwebassets\\LMMProject.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\.rescache",
       "PackagePath": "staticwebassets\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\.rescache",
       "PackagePath": "staticwebassets\\css\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\combo-index.css",
       "PackagePath": "staticwebassets\\css\\combo-index.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\contact.css",
       "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\curri-details.css",
       "PackagePath": "staticwebassets\\css\\curri-details.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\feedback-user.css",
       "PackagePath": "staticwebassets\\css\\feedback-user.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\learning-part.css",
       "PackagePath": "staticwebassets\\css\\learning-part.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\search.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\search.css",
       "PackagePath": "staticwebassets\\css\\search.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\subject-user.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\subject-user.css",
       "PackagePath": "staticwebassets\\css\\subject-user.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-details.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-details.css",
       "PackagePath": "staticwebassets\\css\\syllabus-details.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus-index.css",
       "PackagePath": "staticwebassets\\css\\syllabus-index.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\syllabus.css",
       "PackagePath": "staticwebassets\\css\\syllabus.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\user-details.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\css\\user-details.css",
       "PackagePath": "staticwebassets\\css\\user-details.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\.rescache",
       "PackagePath": "staticwebassets\\html\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\combo.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\combo.html",
       "PackagePath": "staticwebassets\\html\\combo.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\contact.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\contact.html",
       "PackagePath": "staticwebassets\\html\\contact.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-details.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-details.html",
       "PackagePath": "staticwebassets\\html\\curri-details.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-listing.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curri-listing.html",
       "PackagePath": "staticwebassets\\html\\curri-listing.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curriculum.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\curriculum.html",
       "PackagePath": "staticwebassets\\html\\curriculum.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\home.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\home.html",
       "PackagePath": "staticwebassets\\html\\home.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning-part.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning-part.html",
       "PackagePath": "staticwebassets\\html\\learning-part.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\learning.html",
       "PackagePath": "staticwebassets\\html\\learning.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\login.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\login.html",
       "PackagePath": "staticwebassets\\html\\login.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-details.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-details.html",
       "PackagePath": "staticwebassets\\html\\syllabus-details.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-management.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus-management.html",
       "PackagePath": "staticwebassets\\html\\syllabus-management.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus.html",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\html\\syllabus.html",
       "PackagePath": "staticwebassets\\html\\syllabus.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\.rescache",
       "PackagePath": "staticwebassets\\image\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\Background-sach-mo-dep-nhat.jpg",
       "PackagePath": "staticwebassets\\image\\Background-sach-mo-dep-nhat.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\background-cuc-dep_110341249.jpg",
       "PackagePath": "staticwebassets\\image\\background-cuc-dep_110341249.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\istockphoto-1138089745-170667a.jpg",
       "PackagePath": "staticwebassets\\image\\istockphoto-1138089745-170667a.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signin.svg",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signin.svg",
       "PackagePath": "staticwebassets\\image\\signin.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signup.svg",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\image\\signup.svg",
       "PackagePath": "staticwebassets\\image\\signup.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\.rescache",
       "PackagePath": "staticwebassets\\js\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\curriculum.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\curriculum.js",
       "PackagePath": "staticwebassets\\js\\curriculum.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\login.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\.rescache",
       "PackagePath": "staticwebassets\\lib\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\.rescache",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\.rescache",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\.rescache"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Desktop\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\bangc\\OneDrive\\Documents\\GitHub\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

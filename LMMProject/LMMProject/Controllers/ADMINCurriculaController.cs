@@ -39,6 +39,7 @@ namespace LMMProject.Controllers
                 .FirstOrDefaultAsync(m => m.CurriculumId == id);
             var curri_sub= _context.Curriculum_Subject.Include(p => p.Subject).Where(pro => pro.CurriculumId==id).OrderBy(p=>p.Semester).ToList();
             ViewBag.Curri_sub=curri_sub;
+            ViewBag.Sub = _context.Subject.OrderBy(p=>p.SubjectCode).ToList();
             if (curriculum == null)
             {
                 return NotFound();

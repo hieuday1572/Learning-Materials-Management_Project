@@ -49,6 +49,7 @@
         text-decoration: none;
         color: white;
         text-transform: uppercase;
+        
     }
 
     .navbar ul li::after {

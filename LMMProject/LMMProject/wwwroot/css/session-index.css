@@ -104,6 +104,51 @@ span {
     z-index: -1;
     transition: 0.5s;
 }
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+    .search-box .input-box {
+        outline: none;
+        position: relative;
+        background: #009688;
+        padding: 15px;
+        border: 2px solid #009688;
+        border-radius: 15px;
+        height: 60px;
+        width: 250px;
+        color: white;
+    }
+
+        .search-box .input-box input {
+            width: 100%;
+            background: transparent;
+            padding-right: 50px;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 40px;
+        }
+
+    .search-box .select {
+        background: #009688;
+        border-radius: 25%;
+        padding: 20px 0;
+        cursor: pointer;
+        border: 2px solid #009688;
+        color: #fff;
+    }
+
+    .search-box .search {
+        background: #009688;
+        border-radius: 25%;
+        padding: 18px 20px;
+        cursor: pointer;
+        border: 2px solid #009688;
+    }
 
 button:hover span {
     width: 100%;

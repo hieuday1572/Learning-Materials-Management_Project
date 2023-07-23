@@ -82,13 +82,21 @@
                             <div class="form-container">
                                 <form asp-controller="ADMINCurricula" asp-action="AddSubject">
                                     <div class="form-group mb-3">
-                                        <label for="subject-code">Enter Subject code:</label>
+                                        <label for="subject-code">Choose Subject code:</label>
                                         <input type="hidden" name="curriId" value="@Model?.CurriculumId" />
-                                        <input type="text" id="subject-code" name="add" />
+                                       @* <input type="text" id="subject-code" name="add" /> *@
+                                        <select class="form-control" id="subject-code" name="add">
+                                            @foreach (var item in ViewBag.Sub)
+                                            {
+                                                <option value="@item.SubjectCode">
+                                                    @item.SubjectCode
+                                                </option>
+                                            }
+                                        </select>
                                     </div>
                                     <div class="form-group mb-3">
                                         <label for="semester">Enter semester:</label>
-                                        <input type="number" id="semester" name="semester" />
+                                        <input type="number" id="semester" name="semester" min="0" />
                                     </div>                                  
                                         <button type="submit" class="btn btn-primary">ADD SUBJECT</button>                             
                             </form>

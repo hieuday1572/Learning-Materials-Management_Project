@@ -69,8 +69,8 @@ namespace LMMProject.Controllers
             {
                 return NotFound();
             }
-            //var mate = _context.Material.Include(p => p.Subject).Where(p => p.SubjectCode.Equals(syllabus.SubjectCode)).ToList();
-            //ViewBag.matte = mate;
+            var mate = _context.Material.Include(p => p.Subject).Where(p => p.SubjectCode.Equals(syllabus.SubjectCode)).ToList();
+            ViewBag.matte = mate;
             var add_material = _context.MaterialOfTeacher.Include(p => p.Account).Include(p => p.Subject).Where(p => p.SubjectCode.Equals(syllabus.SubjectCode)).Where(p=>p.Status.Equals("approved")).ToList();
             ViewBag.add_material = add_material;
             return View(syllabus);

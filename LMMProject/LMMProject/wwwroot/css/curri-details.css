@@ -90,18 +90,20 @@
     word-break: break-word;
 }
 
-.table th {
-    text-align: center;
-    background: #009688;
-    color: white;
-    width: 10%;
-}
+    .table th {
+        text-align: right;
+        background: #009688;
+        color: white;
+        width: 10%;
+        vertical-align: top;
+    }
 
-.table td {
-    max-height: 100px;
-    background-color: white;
-    width: 90%;
-}
+    .table td {
+        max-height: 100px;
+        background-color: white;
+        width: 90%;
+        vertical-align: top;
+    }
 
 .table-2 {
     width: 95%;
@@ -115,17 +117,23 @@
     word-break: break-word;
  }
 
-.table-2 th {
-    text-align: center;
-    background: #009688;
-    color: white;
-}
+    .table-2 th {
+        text-align: left;
+        background: #009688;
+        color: white;
+        vertical-align: top;
+    }
 
-.table-2 td {
-    max-height: 100px;
-    background-color: white;
-}
+    .table-2 td {
+        max-height: 100px;
+        background-color: white;
+        vertical-align: top;
+    }
 
 .table-container {
     margin-top: 50px;
+}
+.error-message {
+    text-align: center;
+    margin-top: 20px;
 }

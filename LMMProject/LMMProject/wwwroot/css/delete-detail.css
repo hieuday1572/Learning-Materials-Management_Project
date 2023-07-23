@@ -25,13 +25,14 @@
         color:white;
     }
 
-.table td {
-    padding: 8px 8px;
-    width: 90%;
-    max-height: 100px;
-    word-break: break-word;
-    background-color:white;
-}
+    .table td {
+        padding: 8px 8px;
+        width: 90%;
+        max-height: 100px;
+        word-break: break-word;
+        background-color: white;
+        vertical-align: top;
+    }
 
 .table-1 {
     width: 100%;
@@ -55,6 +56,7 @@
         max-height: 100px;
         word-break: break-word;
         background-color: white;
+        vertical-align: top;
     }
 .delete-section {
     text-align: center;

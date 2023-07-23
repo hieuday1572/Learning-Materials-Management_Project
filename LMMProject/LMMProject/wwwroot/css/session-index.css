@@ -126,14 +126,16 @@ button:hover {
     }
 
     .table th {
-        text-align: center;
+        text-align: left;
         background: #009688;
         color: white;
+        vertical-align: top;
     }
 
     .table td {
         max-height: 100px;
         background-color: white;
+        vertical-align: top;
     }
 
 .form-container {

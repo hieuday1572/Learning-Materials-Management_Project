@@ -111,29 +111,31 @@
             </tr>
         </table>
         <div class="table-container">
-            <table class="table-2">
-                <thead>
-                    <tr>
-                        <th>No.</th>
-                        <th>Subject Code</th>
-                        <th>Material URL</th>
-                        <th>Description</th>
-                        <th>Author</th>
-                        <th>Publisher</th>
-                        <th>Published Date</th>
-                    </tr>
-                </thead>
+            @if (Accessor.HttpContext.Session.GetString("Username") != null)
+            {
+                <table class="table-2">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Subject Code</th>
+                            <th>Material URL</th>
+                            <th>Description</th>
+                            <th>Author</th>
+                            <th>Publisher</th>
+                            <th>Published Date</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                @{
-                    var index = 1;
-                }
-                @foreach (var item in ViewBag.matte)
-                {
+                    <tbody>
+                        @{
+                            var index = 1;
+                        }
+                        @foreach (var item in ViewBag.matte)
+                        {
                             <tr>
                                 <td>@index</td>
                                 <td>
-                            @item.SubjectCode
+                                    @item.SubjectCode
                                 </td>
                                 <td><a target="_blank" href="@item.Url">@item.Url</a></td>
                                 <td>@item.MaterialDescription</td>
@@ -141,46 +143,47 @@
                                 <td>@item.Publisher</td>
                                 <td>@item.PublishedDate</td>
                             </tr>
-                    index++;
-                }
-                </tbody>
-            </table>
+                            index++;
+                        }
+                    </tbody>
+                </table>
 
-            <table class="table-2">
-                <thead>
-                <td colspan="2" class="additional-material">
-                    <p>Additional Material By Teacher</p>
-                </td>
-                <tr>
-                    <th>No.</th>
-                    <th>Subject Code</th>
-                    <th>Material URL</th>
-                    <th>Description</th>
-                    <th>Teacher Username</th>
-                    <th>Status</th>
-                </tr>
-                </thead>
+                <table class="table-2">
+                    <thead>
+                    <td colspan="2" class="additional-material">
+                        <p>Additional Material By Teacher</p>
+                    </td>
+                    <tr>
+                        <th>No.</th>
+                        <th>Subject Code</th>
+                        <th>Material URL</th>
+                        <th>Description</th>
+                        <th>Teacher Username</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
 
-                <tbody>
-                    @{
-                        var index_add_material = 1;
-                    }
-                    @foreach (var item in ViewBag.add_material)
-                    {
-                        <tr>
-                            <td>@index_add_material</td>
-                            <td>
-                                @item.SubjectCode
-                            </td>
-                            <td><a target="_blank" href="@item.URL">@item.URL</a></td>
-                            <td>@item.Description</td>
-                            <td>@item.TeacherUsername</td>
-                            <td>@item.Status</td>
-                        </tr>
-                        index_add_material++;
-                    }
-                </tbody>
-            </table>
+                    <tbody>
+                        @{
+                            var index_add_material = 1;
+                        }
+                        @foreach (var item in ViewBag.add_material)
+                        {
+                            <tr>
+                                <td>@index_add_material</td>
+                                <td>
+                                    @item.SubjectCode
+                                </td>
+                                <td><a target="_blank" href="@item.URL">@item.URL</a></td>
+                                <td>@item.Description</td>
+                                <td>@item.TeacherUsername</td>
+                                <td>@item.Status</td>
+                            </tr>
+                            index_add_material++;
+                        }
+                    </tbody>
+                </table>
+            }
         </div>
         <div class="table-container">
             <table class="table-3">

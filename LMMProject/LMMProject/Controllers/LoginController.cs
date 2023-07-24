@@ -32,6 +32,11 @@ namespace LMMProject.Controllers
             {
                 if (user.Password.Equals(account.Password))      
                 {
+                    if (user.Active != 1)
+                    {
+                        TempData["Error"] = "This user has been banned ! ";
+                        return View(account);
+                    }
                     HttpContext.Session.SetString("Username", user.UserName);
                     HttpContext.Session.SetInt32("role", (int)user.RoleId);
                     

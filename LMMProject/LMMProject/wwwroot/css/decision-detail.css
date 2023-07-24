@@ -92,7 +92,7 @@
     }
 
     .table th {
-        text-align: center;
+        text-align: right;
         background: #009688;
         color: white;
         width: 10%;

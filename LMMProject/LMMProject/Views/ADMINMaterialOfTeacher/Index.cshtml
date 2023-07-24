@@ -104,12 +104,8 @@
                                 {
                                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn btn-primary">Allow</a>
                                 }
-                                else
-                                {
-                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success btn btn-primary">Adjust to waiting</a>
-                                }
-                                }
-                            | <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
+                            }
+                             <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-primary">Delete</a>
                         </td>
 
                         </tr>

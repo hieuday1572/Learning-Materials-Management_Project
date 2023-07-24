@@ -23,7 +23,7 @@
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
             <ul>
                 <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
-                <li><a asp-action="Index">Back to List</a></li>
+                <li><a asp-action="Index">Back</a></li>
             </ul>
         </div>
         <div class="content">
@@ -48,7 +48,7 @@
                 <td>@Model.NameEn</td>
             </tr>
             <tr>
-                <th>Description</th>
+                <th>Description:</th>
                 <td>
                     @Model.Decription
                 </td>
@@ -69,10 +69,12 @@
             </tr>
         </table>
         <div class="table-container">
+            <div class="error-message">
             @if (TempData["error"] != null)
             {              
                     <p><b>@TempData["error"]</b></p>               
             }
+            </div>
                        
             <table class="table-2">   
                 

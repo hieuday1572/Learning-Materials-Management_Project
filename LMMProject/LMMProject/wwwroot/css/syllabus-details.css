@@ -91,16 +91,16 @@
     }
 
     .table th {
-        text-align: center;
+        text-align: right;
         background: #009688;
         color: white;
-        width: 10%;
+        width: 13%;
     }
 
     .table td {
         max-height: 100px;
         background-color: white;
-        width: 90%;
+        width: 87%;
     }
 
 .table-2 {
@@ -116,27 +116,73 @@
     }
 
     .table-2 th {
-        text-align: center;
+        text-align: left;
         background: #009688;
         color: white;
+        vertical-align: top;
     }
 
     .table-2 td {
         max-height: 100px;
         background-color: white;
+        vertical-align: top;
     }
+
+        .table-2 th:nth-child(1),
+        .table-2 td:nth-child(1) {
+            width: 3%;
+        }
+
+        .table-2 th:nth-child(2),
+        .table-2 td:nth-child(2) {
+            width: 8%;
+        }
+
+        .table-2 th:nth-child(3),
+        .table-2 td:nth-child(3) {
+            width: 5%;
+        }
+
+        .table-2 th:nth-child(4),
+        .table-2 td:nth-child(4) {
+            width: 4%;
+        }
+
+        .table-2 th:nth-child(5),
+        .table-2 td:nth-child(5) {
+            width: 5%;
+        }
+
+        .table-2 th:nth-child(6),
+        .table-2 td:nth-child(6) {
+            width: 8%;
+        }
+
+        .table-2 th:nth-child(7),
+        .table-2 td:nth-child(7) {
+            width: 6%;
+        }
+
+        .table-2 th:nth-child(8),
+        .table-2 td:nth-child(8) {
+            width: 8%;
+        }
 
         .table-2 th:nth-child(9),
         .table-2 td:nth-child(9) {
-            width: 10%;
+            width: 15%;
         }
 
         .table-2 th:nth-child(10),
         .table-2 td:nth-child(10) {
-            width: 10%;
+            width: 15%;
         }
 
         .table-2 th:nth-child(11),
         .table-2 td:nth-child(11) {
-            width: 8%;
+            width: 7.5%;
+        }
+        .table-2 th:nth-child(12),
+        .table-2 td:nth-child(12) {
+            width: 6%;
         }

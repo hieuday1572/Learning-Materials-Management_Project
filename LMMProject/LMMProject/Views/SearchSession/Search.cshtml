@@ -23,15 +23,15 @@
                 <ul>
                     @if (Accessor.HttpContext.Session.GetString("Username") != null)
                     {
-                        <ul>
+
                             <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
-                        </ul>
+                        
                     }
                     else
                     {
-                        <ul>
+                        
                             <li><a asp-controller="Login" asp-action="Index">Back</a></li>
-                        </ul>
+                        
                     }
                 </ul>
             </div>

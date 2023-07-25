@@ -65,6 +65,11 @@
     padding: 10px;
     text-align: center;
 }
+.textarea-wrapper {
+    position: relative;
+    max-height: 100px; 
+    overflow-y: auto;
+}
 
 
 .table th:nth-child(1),

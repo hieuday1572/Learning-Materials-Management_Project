@@ -44,8 +44,13 @@
             </tr>
         </table>
         <div class="table-container">
-            
-           
+            <div class="error-message">
+            @if (TempData["error"] != null)
+            {
+                <p><b>@TempData["error"]</b></p>
+            }
+            </div>
+
             <table class="table-2">
                 <thead>
                     <tr>
@@ -54,6 +59,14 @@
                                 <p>Enter Subject code you want to add: </p>
                                 <input type="hidden" name="comboId" value="@ViewBag.Combosub.ComboId" />
                                 <input type="text" name="add" />
+                                @*<select class="form-control" id="subject-code" name="add">
+                                    @foreach (var item in ViewBag.Subb)
+                                    {
+                                        <option value="@item.SubjectCode">
+                                            @item.SubjectCode
+                                        </option>
+                                    }
+                                </select>*@
                                 <button type="submit" class="btn btn-primary">ADD SUBJECT</button>
                             </form>
                         </td>

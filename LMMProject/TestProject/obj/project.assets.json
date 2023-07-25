@@ -10240,23 +10240,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rikak\\.nuget\\packages\\": {},
+    "C:\\Users\\khact\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\rikak\\.nuget\\packages\\",
-      "outputPath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
+      "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\TestProject.csproj",
+      "packagesPath": "C:\\Users\\khact\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rikak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khact\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -10272,8 +10272,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
-              "projectPath": "D:\\SWP\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
+            "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj": {
+              "projectPath": "C:\\Users\\khact\\OneDrive\\Desktop\\New folder\\Learning-Materials-Management_Project\\LMMProject\\LMMProject\\LMMProject.csproj"
             }
           }
         }
@@ -10337,7 +10337,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

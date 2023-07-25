@@ -26,22 +26,28 @@
                     <input type="hidden" asp-for="CurriculumId" />
                     <div class="form-group mb-3">
                         <label asp-for="CurriculumCode" class="control-label"></label>
-                        <input asp-for="CurriculumCode" class="form-control" readonly />
+                        <input asp-for="CurriculumCode" class="form-control" />
                         <span asp-validation-for="CurriculumCode" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
                         <label asp-for="NameVn" class="control-label"></label>
-                        <textarea asp-for="NameVn" class="form-control"></textarea>
+                        <div class="textarea-wrapper">
+                            <textarea asp-for="NameVn" class="form-control resize-vertical"></textarea>
+                        </div>
                         <span asp-validation-for="NameVn" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
                         <label asp-for="NameEn" class="control-label"></label>
-                        <textarea asp-for="NameEn" class="form-control" ></textarea>
+                        <div class="textarea-wrapper">
+                            <textarea asp-for="NameEn" class="form-control resize-vertical"></textarea>
+                        </div>
                         <span asp-validation-for="NameEn" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
                         <label asp-for="Decription" class="control-label"></label>
-                        <textarea asp-for="Decription" class="form-control" ></textarea>
+                        <div class="textarea-wrapper">
+                            <textarea asp-for="Decription" class="form-control resize-vertical"></textarea>
+                        </div>
                         <span asp-validation-for="Decription" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">

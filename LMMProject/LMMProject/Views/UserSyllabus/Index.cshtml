@@ -21,19 +21,20 @@
     <div class="curriculum">
         <div class="navbar-1">
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
-
+            <ul>
             @if (Accessor.HttpContext.Session.GetString("Username") != null)
             {
-                <ul>
+                
                     <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
-                </ul>
+                
             }
             else
             {
-                <ul>
+                
                     <li><a asp-controller="Login" asp-action="Index">Back</a></li>
-                </ul>
+                
             }
+            </ul>
         </div>
         <div class="content-1">
             <b>

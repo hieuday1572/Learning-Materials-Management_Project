@@ -24,7 +24,7 @@
             <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
            
             <ul>
-                <li><a asp-action="Index" asp-controller="UserCurriculum">Back</a></li>
+                <li><a asp-action="Index" asp-controller="UserHome">Home</a></li>
             </ul>
         </div>
         <div class="content">
@@ -59,8 +59,7 @@
         <div>
             <form asp-controller="UserCurriculum" asp-action="Index" method="post">
                 <input hidden name="option" type="text" value="@Accessor.HttpContext.Session.GetString("option")" />
-                <input hidden name="search" type="text" value="@Accessor.HttpContext.Session.GetString("search")" />
-                
+                <input hidden name="search" type="text" value="@Accessor.HttpContext.Session.GetString("search")" />               
             </form>
         </div>
     </div>

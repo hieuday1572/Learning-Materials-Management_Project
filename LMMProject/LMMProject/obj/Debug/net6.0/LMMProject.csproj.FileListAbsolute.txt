@@ -1645,3 +1645,20 @@ C:\Users\khact\OneDrive\Desktop\New folder\Learning-Materials-Management_Project
 C:\Users\khact\OneDrive\Desktop\New folder\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\khact\OneDrive\Desktop\New folder\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Memory.Data.dll
 C:\Users\khact\OneDrive\Desktop\New folder\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\bangc\OneDrive\Documents\GitHub\Learning-Materials-Management_Project\LMMProject\LMMProject\bin\Debug\net6.0\ZstdSharp.dll

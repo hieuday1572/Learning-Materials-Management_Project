@@ -34,6 +34,12 @@ namespace LMMProject.Controllers
         {
             Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
             ViewBag.Combosub = combsub;
+            var curriculumSubjects = _context.Curriculum_Subject
+                                    .Include(cs => cs.Subject)
+                                    //.Where(cs => cs.CurriculumId == id)
+                                    .OrderBy(cs => cs.SubjectCode)
+                                    .ToList();
+            ViewBag.Subb = curriculumSubjects;
             var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.ComboId == id).ToList();
             return View(listSubject);
         }
@@ -170,7 +176,7 @@ namespace LMMProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject)
+        public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject,int? id)
         {
             string add = Request.Form["add"];
             int comboId = Convert.ToInt32(Request.Form["comboId"]);
@@ -179,24 +185,33 @@ namespace LMMProject.Controllers
                 Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
                 if (sj != null)
                 {
-
-                    var check = _context.Combo_Subject.Where(p => p.ComboId == comboId).ToList();
-                    ComboSubject check_element = (from element in check
-                                                       where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())
-                                                       select element).FirstOrDefault();
-                    if (check_element == null)
+                    var curriculumSubject = _context.Curriculum_Subject
+                                           .FirstOrDefault(cs => cs.CurriculumId == id && cs.SubjectCode == sj.SubjectCode);
+                    if (curriculumSubject != null)
                     {
-                        ComboSubject cu_sub = new ComboSubject();
-                        cu_sub.SubjectCode = sj.SubjectCode;
-                        cu_sub.ComboId = comboId;
-                        _context.Combo_Subject.Add(cu_sub);
-                        _context.SaveChanges();
+                        var check = _context.Combo_Subject.Where(p => p.ComboId == comboId).ToList();
+                        ComboSubject check_element = (from element in check
+                                                      where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())
+                                                      select element).FirstOrDefault();
+                        if (check_element == null)
+                        {
+                            ComboSubject cu_sub = new ComboSubject();
+                            cu_sub.SubjectCode = sj.SubjectCode;
+                            cu_sub.ComboId = comboId;
+                            _context.Combo_Subject.Add(cu_sub);
+                            _context.SaveChanges();
+                        }
+                        else
+                        {
+                            return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
+                        }
                     }
                     else
                     {
-                        TempData["error"] = "Subject already exists in the Curriculum.";
+                        TempData["error"] = "Subject not found in the Curriculum.";
                         return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
                     }
+                       
                 }
                 else
                 {

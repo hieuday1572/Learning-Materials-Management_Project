@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\account.css" />
     <Content Remove="wwwroot\css\assessment.css" />
     <Content Remove="wwwroot\css\combo-detail.css" />
     <Content Remove="wwwroot\css\crud-syllabus.css" />
@@ -48,6 +49,7 @@
     <None Include="Views\ADMINSyllabus\Index.cshtml" />
     <None Include="Views\SearchSession\Index.cshtml" />
     <None Include="Views\SearchSession\Search.cshtml" />
+    <None Include="wwwroot\css\account.css" />
     <None Include="wwwroot\css\combo-detail.css" />
     <None Include="wwwroot\css\material-detail.css" />
     <None Include="wwwroot\css\subject-detail.css" />

@@ -69,7 +69,7 @@
         <h4>Are you sure you want to delete?</h4>
     <form asp-action="Delete">
         <input type="hidden" asp-for="ComboId" />
-            <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model?.ComboId" class="btn btn-primary" /> |
+            <input type="submit" value="Delete" class="btn btn-danger" asp-route-id="@Model?.ComboId" /> |
             <a asp-action="Index" asp-route-id="@Model?.CurriculumId" class="btn btn-primary">Back to List</a>
     </form>
     </div>

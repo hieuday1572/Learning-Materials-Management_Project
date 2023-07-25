@@ -11,6 +11,7 @@ using MySqlX.XDevAPI;
 using CloudinaryDotNet.Actions;
 using static Microsoft.AspNetCore.Razor.Language.TagHelperMetadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Org.BouncyCastle.Asn1.Cmp;
 
 namespace LMMProject.Controllers
 {
@@ -33,7 +34,8 @@ namespace LMMProject.Controllers
         // GET: Subjects/Create
         public IActionResult Create()
         {
-            ViewData["SubjectCode"] = new SelectList(_context.Status, "SubjectCode", "SubjectCode");
+            ViewData["StatusId"] = new SelectList(_context.Decision, "StatusId", "StatusId");
+            ViewBag.Sub = _context.Status.ToList();
             return View();
         }
         //GET: POST:Subject/Create
@@ -110,9 +112,11 @@ namespace LMMProject.Controllers
             try
             {
                 var sub = await _context.Subject.SingleOrDefaultAsync(s => s.SubjectCode.Equals(subject.SubjectCode));
-                if (sub == null)
+                if (subject.StatusId != 1 && subject.StatusId != 2)
                 {
-                    return NotFound();
+                    ModelState.AddModelError("StatusId", "StatusId must be either 1 or 2.");
+                    ViewData["StatusId"] = new SelectList(_context.Status, "StatusId", "StatusName", subject.StatusId);
+                    return View(subject);
                 }
                 sub.SubjectNameVn = subject.SubjectNameVn;
                 sub.SubjectNameEn = subject.SubjectNameEn;

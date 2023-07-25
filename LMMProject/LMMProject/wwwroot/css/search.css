@@ -258,14 +258,16 @@
         word-break: break-word;
     }
 
-    .table th {
-        text-align: center;
-        background: #009688;
-        color: white;
-    }
+        .table th {
+            text-align: left;
+            background: #009688;
+            color: white;
+            vertical-align: top;
+        }
 
-    .table td {
-        max-height: 100px;
-        background-color: white;
-    }
+        .table td {
+            max-height: 100px;
+            background-color: white;
+            vertical-align: top;
+        }
 

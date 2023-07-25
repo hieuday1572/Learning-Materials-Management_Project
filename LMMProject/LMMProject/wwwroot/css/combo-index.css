@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
 }
 
 .curri-details {
@@ -84,7 +83,6 @@
     width: 95%;
     margin: 0 auto;
     margin-top: -80px;
-
 }
 
     .table th, .table td {
@@ -94,7 +92,7 @@
     }
 
     .table th {
-        text-align: center;
+        text-align: right;
         background: #009688;
         color: white;
         width: 10%;
@@ -104,6 +102,7 @@
         max-height: 100px;
         background-color: white;
         width: 90%;
+        vertical-align: top;
     }
 
 .table-2 {
@@ -119,34 +118,27 @@
     }
 
     .table-2 th {
-        text-align: center;
+        text-align: left;
         background: #009688;
         color: white;
+        vertical-align: top;
     }
 
     .table-2 td {
         max-height: 100px;
         background-color: white;
+        vertical-align: top;
     }
+
         .table-2 th:nth-child(1),
         .table-2 td:nth-child(1) {
             width: 10%;
         }
-        .table-2 th:nth-child(2),
+
         .table-2 td:nth-child(2) {
             width: 70%;
         }
-        
 
-
-
-.table-container {
+    .table-container {
     margin-top: 100px;
-}
-
-
-
-
-
-
-
+    }

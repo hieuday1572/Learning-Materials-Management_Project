@@ -25,12 +25,12 @@
                     <input type="hidden" asp-for="DecisionNo" />
                     <div class="form-group mb-3">
                         <label asp-for="DecisionName" class="control-label"></label>
-                        <input asp-for="DecisionName" class="form-control" />
+                        <textarea asp-for="DecisionName" class="form-control" ></textarea>
                         <span asp-validation-for="DecisionName" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
                         <label asp-for="Note" class="control-label"></label>
-                        <input asp-for="Note" class="form-control" />
+                        <textarea asp-for="Note" class="form-control" /></textarea>
                         <span asp-validation-for="Note" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
@@ -39,7 +39,7 @@
                         <span asp-validation-for="CreateDate" class="text-danger"></span>
                     </div>
                     <div class="form-group mb-3">
-                        <input type="submit" value="Save" class="btn btn-success btn btn-primary" /> |
+                        <input type="submit" value="Save" class="btn btn-success" /> |
                         <a asp-action="Index" class="btn btn-primary">Back to List</a>
                     </div>
                 </form>

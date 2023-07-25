@@ -1,0 +1,74 @@
+﻿@model LMMProject.Models.Account
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="~/css/delete.css">
+
+</head>
+<body>
+    <div class="color">
+        <h1> Edit Account</h1>
+    </div>
+    <div class="container-center">
+        <div class="col-md-4">
+            <div class="square-container">
+                <form asp-action="Edit">
+                    <div class="form-group mb-3">
+                        <label asp-for="UserName" class="control-label"></label>
+                        <input type="text" class="form-control" value="@Model.UserName" readonly name="username" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Password" class="control-label"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="RoleId" class="control-label"></label>
+                        <select asp-for="RoleId" class="form-control">
+                            <option value="2">
+                                Teacher
+                            </option>
+                            <option value="3">
+                                Student
+                            </option>
+                        </select>
+                        <span asp-validation-for="RoleId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Active" class="control-label"></label>
+                        <select asp-for="Active" class="form-control">
+                            <option value="1">
+                                Active
+                            </option>
+                            <option value="2">
+                                Banned
+                            </option>
+                        </select>
+                        <span asp-validation-for="Active" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-success" /> |
+                        <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

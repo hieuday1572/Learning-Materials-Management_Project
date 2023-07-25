@@ -22,13 +22,11 @@
             <ul>
                 @if (Accessor.HttpContext.Session.GetString("Username") != null)
                 {
-                    <ul>
+                    
                         <li><a asp-controller="UserHome" asp-action="Index">Home</a></li>
-                    </ul>
+                   
                 }
-                else
-                {
-                }
+               
                 <li><a asp-controller="UserCurriculum"  asp-action="Detail" asp-route-id="@ViewBag.Currii.CurriculumId">Back</a></li>
             </ul>
         </div>

@@ -1,0 +1,119 @@
+﻿@model LMMProject.Models.Account
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/delete-detail.css">
+</head>
+<body>
+
+    <div class="color">
+        <h1> Delete Account</h1>
+    </div>
+        <div class="container-center">
+        <table class="table-1">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gmail)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fullname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Birthday)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Active)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Role)
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.UserName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Password)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Phone)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Address)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Gender)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Gmail)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Fullname)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model.Birthday)
+                </td>
+
+                @if (Model.Active == 1)
+                {
+                    <td>
+                        Active
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Banned
+                    </td>
+                }
+
+                <td>
+                    @Html.DisplayFor(model => model.Role.RoleName)
+                </td>
+            </tr>
+        </table>
+        <div class="delete-section">
+            <h4>Are you sure you want to delete?</h4>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UserName" />
+                <input type="submit" value="Delete" class="btn btn-danger"  /> |
+                <a asp-action="Index" class="btn btn-primary">Back to List</a>
+    </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

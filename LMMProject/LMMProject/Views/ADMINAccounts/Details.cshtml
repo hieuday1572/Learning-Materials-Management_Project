@@ -1,0 +1,136 @@
+﻿@model LMMProject.Models.Account
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/combo-detail.css">
+    <title>ListCombo</title>
+</head>
+<body>
+    <div class="curri-details">
+        <div class="navbar">
+            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+            <ul>
+                <li><a asp-controller="ADMIN" asp-action="Dashboard">Home</a></li>
+                <li><a asp-action="Index">Back</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <b>
+                <h1>Learning Materials Management</h1>
+                <p>Decision Details</p>
+            </b>
+        </div>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.UserName)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Password)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Phone)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Phone)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Address)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Gender)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gmail)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Gmail)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fullname)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Fullname)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Birthday)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Birthday)
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Active)
+                </th>
+                @if (Model.Active == 1)
+                {
+                    <td>
+                        Active
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        Banned
+                    </td>
+                }
+            </tr>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Role)
+                </th>
+                <td>
+                    @Html.DisplayFor(model => model.Role.RoleName)
+                </td>
+            </tr>
+            <tr><th></th>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@Model?.UserName" class="btn btn-primary">Edit</a> |
+                    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+                </td>
+                </tr>
+        </table>
+</div>
+<div>
+       
+</div>
+</body>
+</html>

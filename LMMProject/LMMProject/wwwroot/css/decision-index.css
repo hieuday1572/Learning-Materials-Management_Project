@@ -126,7 +126,7 @@ button:hover {
     }
 
     .table th {
-        text-align: center;
+        text-align: left;
         background: #009688;
         color: white;
     }
@@ -134,11 +134,29 @@ button:hover {
     .table td {
         max-height: 100px;
         background-color: white;
+        vertical-align: top;
     }
-.table th:nth-child(2),
-.table td:nth-child(2) {
-    width: 50%;
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 10%;
 }
+        .table th:nth-child(2),
+        .table td:nth-child(2) {
+            width: 30%;
+        }
+        .table th:nth-child(3),
+        .table td:nth-child(3) {
+            width: 30%;
+        }
+        .table th:nth-child(4),
+        .table td:nth-child(4) {
+            width: 10%;
+        }
+        .table th:nth-child(5),
+        .table td:nth-child(5) {
+            width: 20%;
+        }
+
 
 .form-container {
     background-color: white;

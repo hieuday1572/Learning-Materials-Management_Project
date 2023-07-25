@@ -65,6 +65,13 @@ namespace LMMProject.Controllers
 
             try
             {
+                if (_context.Syllabus.Any(s => s.SubjectCode == syllabus.SubjectCode))
+                {
+                    ModelState.AddModelError("SubjectCode", "The SubjectCode already exists.");
+                    ViewBag.Sub = _context.Subject.ToList();
+                    ViewData["DecisionNo"] = new SelectList(_context.Decision, "DecisionNo", "DecisionNo", syllabus.DecisionNo);
+                    return View(syllabus);
+                }
                 if (SyllabusExists(syllabus.SyllabusId))
                 {
                     return View(syllabus);

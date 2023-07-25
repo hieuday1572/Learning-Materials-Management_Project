@@ -11,15 +11,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/session-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/search-subject.css">
 </head>
 <body>
-<div class="curri-details">
-    <div class="subject">
-        <div class="navbar">
-            <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
+    <div class="curriculum">
+        
+            <div class="navbar">
+                <img src="~/image/istockphoto-1138089745-170667a.jpg" class="logo">
                 @if (Accessor.HttpContext.Session.GetString("Username") != null)
                 {
                     <ul>
@@ -32,30 +32,28 @@
                         <li><a asp-controller="Login" asp-action="Index">Back</a></li>
                     </ul>
                 }
-        </div>
-        <div class="content">
-            <b>
-                <h1>Learning Path by Subject</h1>
-                <p>Search</p>
-            </b>
-        </div>
-        <div class="center-screen">
-            <form method="get" action="/SearchSession/Search">
-                <div class="form-group mb-3">
-                    <input class="form-control" name="subjectCode" placeholder="Enter Subject Code"/>
-                    @if (!string.IsNullOrEmpty(Model.Message))
-                    {
-                        <h5 class="text-danger">@Model.Message</h5>
-                    }
-                </div>
-                <div class="form-group mb-3">
-                    <button class="btn btn-success">Search</button>
-                </div>
-            </form>
-        </div>
+            </div>
+            <div class="content">
+                <b>
+                    <h1>Learning Path by Subject</h1>
+                    <p>Search</p>
+                </b>
+            </div>
+            <div class="search-box">
+                <form  action="/SearchSession/Search">                 
+                        <input class="input-box" name="subjectCode" placeholder="Enter Subject Code" />
+                        @if (!string.IsNullOrEmpty(Model.Message))
+                        {
+                            <h5 class="text-danger">@Model.Message</h5>
+                        }
+                    <button class="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
 
-    </div>
-</div>
+                    
+                </form>
+            </div>
+
+        </div>
+    
 
 </body>
 </html>

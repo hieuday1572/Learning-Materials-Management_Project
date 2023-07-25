@@ -126,7 +126,7 @@ button:hover {
     }
 
     .table th {
-        text-align: center;
+        text-align: left;
         background: #009688;
         color: white;
     }

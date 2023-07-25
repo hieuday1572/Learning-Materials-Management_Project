@@ -188,7 +188,6 @@ namespace LMMProject.Controllers
                 Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
                 if (sj != null)
                 {
-
                     var check = _context.Curriculum_Subject.Where(p => p.CurriculumId == curriId).ToList();
                     CurriculumSubject check_element = (from element in check
                                         where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())

@@ -323,3 +323,22 @@ a {
         width: 90%;
     }
 }
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: -70px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+.input-field {
+    position: relative;
+
+}
+
+.text-danger {
+    position: absolute;
+    top: -20px;
+    margin-left: 20px;
+}

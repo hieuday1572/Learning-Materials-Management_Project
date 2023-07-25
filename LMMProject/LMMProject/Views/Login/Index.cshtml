@@ -25,17 +25,18 @@
 
 <body>
 
-    <div class="container">      
+
+    <div class="container">
         <div class="signin-signup">
             <form asp-action="Index" class="sign-in-form">
-                <h2 class="title">Sign in</h2>
-                @if (TempData["Error"] != null)
-                {
-                    <div class="col-md-12 alert alert-danger">
-                        <span style="color:red"><b>Sorry!</b> - @TempData["Error"]</span>
-                    </div>
-                }
+                <h2 class="title">Sign in</h2><br />
                 <div class="input-field">
+                    @if (TempData["Error"] != null)
+                    {
+                        <label class="error-message">
+                            <b>Sorry!</b> - @TempData["Error"]
+                        </label>
+                    }
                     <i class="fas fa-user"></i>
                     <input type="text" asp-for="UserName" placeholder="Username">
                     <span asp-validation-for="UserName" class="text-danger"></span>
@@ -47,11 +48,7 @@
                 </div>
                 <input type="submit" value="Login" class="btn">
                 
-                <div class="social-media">
-                    <a href="" class="social-icon">
-                        <i class="fab fa-google"></i>
-                    </a>
-                </div>
+               
             </form>
             <form action="" class="sign-up-form">
                 <a asp-controller="UserCurriculum" asp-action="Index"><button type="button" class="learn"> View Curriculum </button></a>

@@ -49,11 +49,16 @@
                 <input asp-for="PreRequisite" class="form-control" />
                 <span asp-validation-for="PreRequisite" class="text-danger"></span>
             </div>
-                <div class="form-group mb-3">
-                    <label asp-for="StatusId" class="control-label"></label>
-                    <input asp-for="StatusId" class="form-control"/>
-                    <span asp-validation-for="StatusId" class="text-danger"></span>
-                </div>
+            <div class="form-group mb-3">
+                <label asp-for="StatusId" class="control-label"></label>
+                <select asp-for="StatusId" class="form-control">
+                    @foreach (var s in ViewBag.Sub){
+                       <option value="@s.StatusId">@s.StatusId</option>
+                    }
+                 <span asp-validation-for="StatusId" class="text-danger"></span>
+
+                </select>              
+            </div>
             <div class="form-group mb-3">
                         <input type="submit" value="Create" class="btn btn-success" /> |
                     <a asp-action="Index" class="btn btn-primary">Back to List</a>

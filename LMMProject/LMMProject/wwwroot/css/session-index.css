@@ -148,6 +148,8 @@ span {
         padding: 18px 20px;
         cursor: pointer;
         border: 2px solid #009688;
+        width:60px;
+      
     }
 
 button:hover span {
@@ -161,7 +163,7 @@ button:hover {
 .table {
     width: 95%;
     margin: 0 auto;
-    margin-top: -80px;
+    margin-top: -50px;
 }
 
     .table th, .table td {
@@ -193,7 +195,30 @@ button:hover {
     margin-top: -100px;
     right: 50px;
 }
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 10%;
+}
 
+.table th:nth-child(2),
+.table td:nth-child(2) {
+    width: 15%;
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 15%;
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    width: 40%;
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    width: 9%;
+}
 
 
 

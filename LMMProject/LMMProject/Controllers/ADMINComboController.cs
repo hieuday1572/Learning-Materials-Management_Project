@@ -32,14 +32,29 @@ namespace LMMProject.Controllers
         //public async Task<IActionResult> Details(int? id)
         public IActionResult Details(int? id)
         {
+            Combo combo = _context.Combo
+         .Include(c => c.Curriculum)
+         .FirstOrDefault(p => p.ComboId == id);
+
+            if (combo == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Combosub = combo;
+
+            // Truy vấn các CurriculumSubject dựa trên CurriculumId, không phải ComboId
+            var curri_sub = _context.Curriculum_Subject
+                .Include(p => p.Subject)
+                .Where(pro => pro.CurriculumId == combo.CurriculumId)
+                .OrderBy(p => p.SubjectCode)
+                .ToList();
+
+            ViewBag.Subb = curri_sub;
+
             Combo combsub = _context.Combo.FirstOrDefault(p => p.ComboId == id);
             ViewBag.Combosub = combsub;
-            var curriculumSubjects = _context.Curriculum_Subject
-                                    .Include(cs => cs.Subject)
-                                    //.Where(cs => cs.CurriculumId == id)
-                                    .OrderBy(cs => cs.SubjectCode)
-                                    .ToList();
-            ViewBag.Subb = curriculumSubjects;
+
             var listSubject = _context.Combo_Subject.Include(a => a.Subject).Include(b => b.Combo).Where(pro => pro.ComboId == id).ToList();
             return View(listSubject);
         }
@@ -176,7 +191,7 @@ namespace LMMProject.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject,int? id)
+        public async Task<IActionResult> AddSubject([Bind("id,ComboId,SubjectCode")] ComboSubject comboSubject, int? id)
         {
             string add = Request.Form["add"];
             int comboId = Convert.ToInt32(Request.Form["comboId"]);
@@ -185,10 +200,10 @@ namespace LMMProject.Controllers
                 Subject sj = _context.Subject.Include(p => p.Status).FirstOrDefault(pro => pro.SubjectCode.Equals(add.Trim()));
                 if (sj != null)
                 {
-                    var curriculumSubject = _context.Curriculum_Subject
-                                           .FirstOrDefault(cs => cs.CurriculumId == id && cs.SubjectCode == sj.SubjectCode);
-                    if (curriculumSubject != null)
-                    {
+                //    var curriculumSubject = await _context.Curriculum_Subject
+                //.FirstOrDefaultAsync(cs => cs.CurriculumId == id && cs.SubjectCode.Equals(add.Trim()));
+                //    if (curriculumSubject != null)
+                //    {
                         var check = _context.Combo_Subject.Where(p => p.ComboId == comboId).ToList();
                         ComboSubject check_element = (from element in check
                                                       where element.SubjectCode.Trim().Equals(sj.SubjectCode.Trim())
@@ -203,14 +218,15 @@ namespace LMMProject.Controllers
                         }
                         else
                         {
-                            return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
-                        }
-                    }
-                    else
-                    {
-                        TempData["error"] = "Subject not found in the Curriculum.";
+                        TempData["error"] = "The subject already exists in the combo.";
                         return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
-                    }
+                        }
+                    //}
+                    //else
+                    //{
+                    //    TempData["error"] = "Subject not found in the Curriculum.";
+                    //    return new RedirectResult(url: "/ADMINCombo/Details/" + comboId, permanent: true, preserveMethod: true);
+                    //}
                        
                 }
                 else

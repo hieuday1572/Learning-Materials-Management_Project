@@ -56,15 +56,15 @@
                             <form asp-controller="ADMINCombo" asp-action="AddSubject">
                                 <p>Enter Subject code you want to add: </p>
                                 <input type="hidden" name="comboId" value="@ViewBag.Combosub.ComboId" />
-                                <input type="text" name="add" />
-                                @*<select class="form-control" id="subject-code" name="add">
+                                @*<input type="text" name="add" />*@
+                                <select class="form-control" name="add">
                                     @foreach (var item in ViewBag.Subb)
                                     {
-                                        <option value="@item.SubjectCode">
-                                            @item.SubjectCode
+                                        <option value="@item.Subject.SubjectCode">
+                                            @item.Subject.SubjectCode
                                         </option>
                                     }
-                                </select>*@
+                                </select>
                                 <button type="submit" class="btn btn-primary">ADD SUBJECT</button>
                             </form>
                         </td>

@@ -1,4 +1,4 @@
-using FluentAssertions;
+Ôªøusing FluentAssertions;
 using LMMProject.Data;
 using LMMProject.Models;
 using Microsoft.EntityFrameworkCore;
@@ -34,7 +34,7 @@ namespace TestProject
                    Decription = "ghghghghghgh",
 
 
-                   DecisionNo = "1095/Q–-–HFPT",
+                   DecisionNo = "1095/Q√ê-√êHFPT",
 
                },
                new Curriculum
@@ -51,7 +51,7 @@ namespace TestProject
                    Decription = "ggggggggggg",
 
 
-                   DecisionNo = "1095/Q–-–HFPT",
+                   DecisionNo = "1095/Q√ê-√êHFPT",
 
                });
             _context.SaveChanges();
@@ -74,7 +74,7 @@ namespace TestProject
                 Decription = "ghghghghghgh",
 
 
-                DecisionNo = "1095/Q–-–HFPT",
+                DecisionNo = "1095/Q√ê-√êHFPT",
 
             };
             _context.Add(curriculum);
